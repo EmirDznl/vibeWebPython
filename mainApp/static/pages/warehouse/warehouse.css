@@ -1,0 +1,96 @@
+        /* ------------------------------------------------------------------- */
+        /* TEMEL CSS DEĞİŞKENLERİ (Sizin Kayıtlı Paletinizden) */
+        /* ------------------------------------------------------------------- */
+        :root {
+            /* Light Mode */
+            --primary-color: #3498db;
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+            --body-bg: #eff1f3;
+            --content-bg: #ffffff;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+        }
+
+        /* Dark Mode Tanımı */
+        .dark-mode {
+            /* Dark Mode Değerleri */
+            --primary-color: #5dade2;
+            --text-dark: #ecf0f1;
+            --text-light: #bdc3c7;
+            --body-bg: #2c3e50;
+            --content-bg: #212b36;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+        }
+
+        /* Sayfa Geneli Stilleri */
+        body {
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+        }
+        h1, h2, h5, h6 {
+            color: var(--text-dark);
+        }
+        i {
+            color: var(--primary-color);
+        }
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white; 
+        }
+        .btn-primary-custom:hover {
+            opacity: 0.9;
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* DARK MODE VE ANİMASYON GEÇİŞ KURALLARI */
+        /* ------------------------------------------------------------------- */
+        .dark-mode .hero-section, 
+        .dark-mode .feature-card,
+        .dark-mode .wms-focus-card {
+            background-color: var(--content-bg) !important; 
+            box-shadow: 0 4px 10px var(--shadow-color) !important; 
+            border: none !important;
+        }
+
+        .dark-mode .feature-card {
+            border-left: 5px solid var(--primary-color) !important;
+        }
+        
+        .dark-mode .feature-card:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 10px 20px var(--shadow-color) !important;
+        }
+
+        .dark-mode h1, .dark-mode h2, .dark-mode h5, .dark-mode h6 {
+            color: var(--text-dark) !important; 
+        }
+
+        /* WMS Odak Kartları (Basit ve Yalın) */
+        .wms-focus-card {
+            background-color: var(--content-bg);
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 4px 8px var(--shadow-color);
+            transition: all 0.3s;
+            border-top: 4px solid var(--primary-color);
+        }
+        .wms-focus-card:hover {
+            transform: scale(1.03);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Dark Mode Switch Stili (Bootstrap 5 Switch) */
+        .theme-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: var(--content-bg);
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            border: 1px solid var(--text-light);
+        }

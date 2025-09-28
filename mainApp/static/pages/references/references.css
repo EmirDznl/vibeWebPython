@@ -1,0 +1,94 @@
+
+    /* -------------------------------------- */
+    /* Light Mode (Varsayılan) Paletiniz */
+    /* -------------------------------------- */
+    :root {
+        --primary-color: #3498db;
+        --text-dark: #2c3e50;
+        --text-light: #7f8c8d;
+        --body-bg: #eff1f3;
+        --content-bg: #ffffff;
+        --shadow-color: rgba(0, 0, 0, 0.08);
+    }
+
+    /* -------------------------------------- */
+    /* Dark Mode Paletiniz */
+    /* -------------------------------------- */
+    .dark-mode {
+        --primary-color: #5dade2;
+        --text-dark: #ecf0f1;
+        --text-light: #bdc3c7;
+        --body-bg: #2c3e50;
+        --content-bg: #212b36;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+
+    /* Genel Sayfa ve Bileşen Stilleri */
+    body {
+        background-color: var(--body-bg);
+        color: var(--text-dark);
+        transition: background-color 0.5s, color 0.5s;
+    }
+    .text-primary-custom {
+        color: var(--primary-color) !important;
+    }
+
+    /* Buton Stili (Tema uyumlu) */
+    .btn-primary-custom {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: #fff;
+        transition: background-color .3s, border-color .3s, transform .2s;
+    }
+    .btn-primary-custom:hover {
+        background-color: #2980b9; 
+        border-color: #2980b9;
+        transform: translateY(-2px);
+    }
+
+    /* Dark Mode Toggle Butonu için basit stil */
+    #darkModeToggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1050;
+        background-color: var(--content-bg);
+        color: var(--text-dark);
+        border: 1px solid var(--text-light);
+        padding: 10px 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px var(--shadow-color);
+        transition: all 0.3s;
+    }
+    #darkModeToggle:hover {
+        background-color: var(--primary-color);
+        color: #fff;
+    }
+
+    /* Referans Kartı Stili (contact-card) */
+    .contact-card {
+        background-color: var(--content-bg);
+        box-shadow: 0 8px 25px var(--shadow-color);
+        border-radius: 12px;
+        transition: all 0.5s ease;
+        border: 1px solid var(--text-light);
+        border-top: 5px solid var(--primary-color); 
+    }
+
+    /* Carousel Okları için Dark Mode Uyumu */
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-image: none;
+        background-color: var(--primary-color);
+        opacity: 0.8;
+    }
+    .carousel-control-prev span,
+    .carousel-control-next span {
+        /* HTML'deki inline stil geçersiz kılındı */
+        filter: none !important;
+    }
+
+    .blockquote p { color: var(--text-dark); }
+    .blockquote-footer strong { color: var(--text-dark); }
+

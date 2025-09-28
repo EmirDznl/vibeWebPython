@@ -1,0 +1,170 @@
+{
+  "tr": {
+    "title": "Servis & API Geliştirme",
+    "hero": {
+      "icon": "bi-diagram-3-fill",
+      "title": "Kesintisiz Akış:",
+      "subtitle": "Kurumsal Servis ve API Geliştirme",
+      "desc1": "İş sistemleriniz arasındaki veri silolarını ortadan kaldırın. <strong>Logo ERP</strong> başta olmak üzere tüm kurumsal yazılımlarınız için <strong>güvenli, ölçeklenebilir RESTful/SOAP API'ler</strong> geliştiriyoruz.",
+      "highlight": "Otomasyon ve Veri Entegrasyonunda Sınır Tanımayın.",
+      "button": "Entegrasyon Danışmanlığı Alın",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "Servis Geliştirme Yaklaşımımızda 3 Temel İlke",
+      "cards": [
+        {
+          "icon": "bi-broadcast-pin",
+          "title": "Logo ERP'ye Özel Uzmanlık",
+          "desc": "Logo ürün ailesinin yapısını derinlemesine bilerek, veri tutarlılığını ve güvenliğini sağlayan <strong>özel entegrasyon servisleri</strong> yazıyoruz."
+        },
+        {
+          "icon": "bi-life-preserver",
+          "title": "Güvenlik ve Performans Odağı",
+          "desc": "Tüm API'lerimizi <strong>OAuth/JWT yetkilendirme</strong> standartlarıyla koruyor, yüksek hacimli işlemlerde minimum gecikme garantisi veriyoruz."
+        },
+        {
+          "icon": "bi-stack",
+          "title": "Dokümantasyon ve Yönetim",
+          "desc": "Geliştirdiğimiz her API'yi <strong>Swagger/OpenAPI</strong> standartlarında dokümante ediyor, kolay yönetim ve sürdürülebilirlik sağlıyoruz."
+        }
+      ]
+    },
+    "scenarios": {
+      "title": "En Çok Uyguladığımız Entegrasyon Senaryoları",
+      "cards": [
+        {
+          "icon": "bi-cart-fill",
+          "title": "E-Ticaret ve Pazar Yeri Entegrasyonları",
+          "items": [
+            "ERP'den E-Ticaret sitesine anlık <strong>Stok ve Fiyat</strong> aktarımı.",
+            "Otomatik siparişlerin ERP'ye <strong>fatura/irsaliye</strong> olarak işlenmesi."
+          ]
+        },
+        {
+          "icon": "bi-bank",
+          "title": "Finansal ve Bankacılık Servisleri",
+          "items": [
+            "Banka hesap hareketlerinin otomatik olarak <strong>muhasebeye aktarımı</strong>.",
+            "Kredi kartı tahsilat sistemleri ve ödeme geçitleri entegrasyonu."
+          ]
+        },
+        {
+          "icon": "bi-file-earmark-code",
+          "title": "E-Dönüşüm Servisleri",
+          "items": [
+            "Özel yazılımlarınızdan <strong>e-fatura / e-arşiv</strong> oluşturma ve gönderme.",
+            "Mutabakat platformları ile çift yönlü veri iletişimi."
+          ]
+        },
+        {
+          "icon": "bi-headset",
+          "title": "CRM ve Yardım Masası Sistemleri",
+          "items": [
+            "Müşteri cari kartlarının CRM'den <strong>ERP'ye otomatik açılması</strong>.",
+            "Teknik destek kayıtlarının ERP'deki servis formlarıyla ilişkilendirilmesi."
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "title": "Altyapı ve Teknoloji Güvencesi",
+      "desc": "Servislerimizi <strong>.NET Core (C#)</strong> kullanarak geliştiriyor, Azure/AWS üzerinde <strong>yüksek erişilebilirlik (HA)</strong> ile konumlandırıyoruz.",
+      "icons": [
+        {"icon": "bi-server", "title": "API Gateway/Load Balancing"},
+        {"icon": "bi-filetype-json", "title": "RESTful JSON"},
+        {"icon": "bi-cloud-check-fill", "title": "High Availability Cloud"}
+      ]
+    },
+    "cta": {
+      "title": "Sistemlerinizin Konuşmasını Sağlayın, Manuel İşlemleri Bitirin.",
+      "desc": "Veri akışınızı otomatikleştirecek ve iş yükünüzü azaltacak servis projenizi başlatmak için hemen bizimle iletişime geçin.",
+      "button": "Çözüm Uzmanıyla Görüşün",
+      "link": "tel:+908502428423"
+    }
+  },
+  "en": {
+    "title": "Service & API Development",
+    "hero": {
+      "icon": "bi-diagram-3-fill",
+      "title": "Seamless Flow:",
+      "subtitle": "Enterprise Service & API Development",
+      "desc1": "Eliminate data silos between your business systems. We develop <strong>secure, scalable RESTful/SOAP APIs</strong> for all your enterprise software, including <strong>Logo ERP</strong>.",
+      "highlight": "Push the Limits of Automation and Data Integration.",
+      "button": "Get Integration Consultation",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "3 Key Principles in Our Service Development Approach",
+      "cards": [
+        {
+          "icon": "bi-broadcast-pin",
+          "title": "Logo ERP Expertise",
+          "desc": "We write <strong>custom integration services</strong> ensuring data consistency and security, knowing the Logo product family structure in depth."
+        },
+        {
+          "icon": "bi-life-preserver",
+          "title": "Security and Performance Focus",
+          "desc": "All our APIs are protected with <strong>OAuth/JWT authorization</strong> standards, guaranteeing minimal latency in high-volume transactions."
+        },
+        {
+          "icon": "bi-stack",
+          "title": "Documentation and Management",
+          "desc": "We document each API according to <strong>Swagger/OpenAPI</strong> standards, ensuring easy management and sustainability."
+        }
+      ]
+    },
+    "scenarios": {
+      "title": "Most Applied Integration Scenarios",
+      "cards": [
+        {
+          "icon": "bi-cart-fill",
+          "title": "E-Commerce & Marketplace Integrations",
+          "items": [
+            "Real-time <strong>Stock & Price</strong> transfer from ERP to e-commerce site.",
+            "Automatic orders processed in ERP as <strong>invoice/shipment</strong>."
+          ]
+        },
+        {
+          "icon": "bi-bank",
+          "title": "Financial & Banking Services",
+          "items": [
+            "Automatic posting of bank account transactions to <strong>ERP accounting</strong>.",
+            "Integration with credit card collection systems and payment gateways."
+          ]
+        },
+        {
+          "icon": "bi-file-earmark-code",
+          "title": "E-Transformation Services",
+          "items": [
+            "Generating and sending <strong>e-invoice / e-archive</strong> from custom software.",
+            "Two-way data communication with reconciliation platforms."
+          ]
+        },
+        {
+          "icon": "bi-headset",
+          "title": "CRM & Help Desk Systems",
+          "items": [
+            "Automatic creation of customer accounts from CRM to <strong>ERP</strong>.",
+            "Linking support tickets with ERP service forms."
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "title": "Infrastructure & Technology Assurance",
+      "desc": "We develop our services using <strong>.NET Core (C#)</strong> and deploy them on Azure/AWS with <strong>High Availability (HA)</strong>.",
+      "icons": [
+        {"icon": "bi-server", "title": "API Gateway/Load Balancing"},
+        {"icon": "bi-filetype-json", "title": "RESTful JSON"},
+        {"icon": "bi-cloud-check-fill", "title": "High Availability Cloud"}
+      ]
+    },
+    "cta": {
+      "title": "Let Your Systems Talk, Stop Manual Work.",
+      "desc": "Contact us now to start your service project that automates data flow and reduces workload.",
+      "button": "Talk to Solution Expert",
+      "link": "tel:+908502428423"
+    }
+  }
+}

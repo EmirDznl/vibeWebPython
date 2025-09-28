@@ -1,0 +1,114 @@
+{
+  "tr": {
+    "hero": {
+      "title": "İşletmenizi Buluta Taşıyın:",
+      "subtitle": "Profesyonel Bulut Sunucu Yönetimi",
+      "desc1": "Logo ve ERP sistemleriniz için özel olarak optimize edilmiş bulut sunucularımızla tanışın. Bakım, güvenlik ve performansı bize bırakın.",
+      "highlight": "Maksimum Esneklik, Sıfır Donanım Derdi.",
+      "desc2": "İster AWS, ister Azure, ister özel veri merkezimiz olsun; altyapınızı yönetiyor, güncelliyor ve 7/24 kesintisiz çalışmasını sağlıyoruz.",
+      "cta": "Ücretsiz Kapasite Analizi Talep Edin"
+    },
+    "advantages": {
+      "title": "Bulut Yönetiminin Temel Avantajları",
+      "items": [
+        {
+          "title": "Yüksek Performans",
+          "text": "Logo/ERP için özel optimize edilmiş sanallaştırma teknolojileri sayesinde hızlı ve akıcı çalışma."
+        },
+        {
+          "title": "Gelişmiş Güvenlik",
+          "text": "Sürekli yedekleme, DDoS koruması ve güvenlik duvarı (Firewall) yönetimi ile verileriniz güvende."
+        },
+        {
+          "title": "Ölçeklenebilirlik",
+          "text": "İş yükünüze göre RAM, CPU ve disk alanınızı anında büyüterek performans kaybını önleyin."
+        }
+      ]
+    },
+    "steps": {
+      "title": "3 Adımda Kesintisiz Bulut Çözümüne Geçiş",
+      "items": [
+        {
+          "step": "Planlama ve Kurulum",
+          "text": "Mevcut sisteminiz analiz edilir, size özel bir bulut mimarisi planlanır ve sunucunuz kurulur."
+        },
+        {
+          "step": "Veri Taşıma (Migration)",
+          "text": "Tüm ERP ve veritabanı dosyalarınız minimum kesintiyle yeni bulut sunucunuza güvenle taşınır."
+        },
+        {
+          "step": "7/24 Yönetim ve Bakım",
+          "text": "Güncellemeler, performans izleme, yedekleme ve güvenlik yönetimi ekibimiz tarafından yapılır."
+        }
+      ],
+      "list_title": "Neleri Yönetiyoruz?",
+      "list_items": [
+        "SQL Performans Ayarları",
+        "Lisans Yönetimi",
+        "Periyodik Yedekleme",
+        "VPN/Uzak Masaüstü Kurulumu"
+      ]
+    },
+    "closing": {
+      "title": "Donanım Yatırımlarından Kurtulun, Abonelik Esnekliğine Geçin.",
+      "desc": "İşletmenizin geleceğini güvence altına alan bulut çözümlerimiz hakkında daha fazla bilgi alın.",
+      "cta": "Bulut Sunucu Danışmanlığı Talep Et"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Move Your Business to the Cloud:",
+      "subtitle": "Professional Cloud Server Management",
+      "desc1": "Discover our cloud servers optimized specifically for Logo and ERP systems. Leave maintenance, security, and performance to us.",
+      "highlight": "Maximum Flexibility, Zero Hardware Hassle.",
+      "desc2": "Whether AWS, Azure, or our private datacenter; we manage, update, and ensure 24/7 uptime.",
+      "cta": "Request Free Capacity Analysis"
+    },
+    "advantages": {
+      "title": "Key Advantages of Cloud Management",
+      "items": [
+        {
+          "title": "High Performance",
+          "text": "Fast and smooth operation with virtualization technologies optimized for ERP systems."
+        },
+        {
+          "title": "Advanced Security",
+          "text": "Continuous backups, DDoS protection, and firewall management keep your data safe."
+        },
+        {
+          "title": "Scalability",
+          "text": "Instantly increase RAM, CPU, and storage according to workload to prevent performance loss."
+        }
+      ]
+    },
+    "steps": {
+      "title": "Seamless Cloud Transition in 3 Steps",
+      "items": [
+        {
+          "step": "Planning and Setup",
+          "text": "Your current system is analyzed, a custom cloud architecture is planned, and your server is deployed."
+        },
+        {
+          "step": "Data Migration",
+          "text": "All ERP and database files are securely migrated to the new cloud server with minimal downtime."
+        },
+        {
+          "step": "24/7 Management and Maintenance",
+          "text": "Updates, monitoring, backups, and security management are handled by our team."
+        }
+      ],
+      "list_title": "What Do We Manage?",
+      "list_items": [
+        "SQL Performance Tuning",
+        "License Management",
+        "Scheduled Backups",
+        "VPN/Remote Desktop Setup"
+      ]
+    },
+    "closing": {
+      "title": "Eliminate Hardware Investments, Switch to Subscription Flexibility.",
+      "desc": "Learn more about our cloud solutions that secure your company’s future.",
+      "cta": "Request Cloud Server Consultancy"
+    }
+  }
+}

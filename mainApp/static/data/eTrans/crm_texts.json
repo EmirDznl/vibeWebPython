@@ -1,0 +1,164 @@
+{
+  "tr": {
+    "title": "Müşteri İlişkileri Yönetimi (CRM) Modülü",
+    "hero": {
+      "icon": "bi-heart-fill",
+      "title": "İlişkileri Gelire Çevirin: Müşteri İlişkileri Yönetimi (CRM) Modülü",
+      "desc": "Satış süreçlerinizi yönetin, müşteri etkileşimlerini kaydedin ve müşteri memnuniyetini en üst düzeye çıkarın. Daha hızlı teklif, daha çok satış.",
+      "sub_title": "Müşteriyi Tanıyın, Satış Kapama Oranını Yükseltin.",
+      "sub_desc": "Tüm müşteri verileri, teklifler, aktiviteler ve destek talepleri tek bir ekranda. Ekibinizin verimliliğini %40 artırın.",
+      "button_text": "Satış Gücünüzü Artırın",
+      "button_link": "/crm-hizli-baslangic/"
+    },
+    "features": {
+      "title": "CRM Modülü ile Neleri Başaracaksınız?",
+      "items": [
+        {
+          "icon": "bi-funnel-fill",
+          "title": "Satış Hattı Yönetimi",
+          "desc": "Fırsatları aşamalara ayırın, darboğazları tespit edin ve satış tahminlerinizi doğru yapın."
+        },
+        {
+          "icon": "bi-person-lines-fill",
+          "title": "360 Derece Müşteri Görünümü",
+          "desc": "Müşterinizin tüm fatura, destek, sipariş geçmişini tek bir kayıtta görerek kişiselleştirilmiş hizmet sunun."
+        },
+        {
+          "icon": "bi-people-fill",
+          "title": "Ekip İçi Koordinasyon",
+          "desc": "Satış, Pazarlama ve Destek ekiplerinizi aynı veri üzerinde buluşturun. Görevleri ve takibi otomatikleştirin."
+        }
+      ]
+    },
+    "sales_flow": {
+      "title": "Otomatik Satış ve Pazarlama Akışları",
+      "desc": "Manuel yapılan tekrar eden görevleri (e-posta takibi, görev atamaları) otomatikleştirerek satış temsilcilerinizi serbest bırakın.",
+      "steps": [
+        {"icon": "bi-person-plus-fill", "title": "Yeni Fırsat"},
+        {"icon": "bi-file-earmark-bar-graph-fill", "title": "Teklif & Sunum"},
+        {"icon": "bi-chat-dots-fill", "title": "Müzakere"},
+        {"icon": "bi-trophy-fill", "title": "Kapandı (Kazanıldı)"}
+      ],
+      "small_text": "Tüm bu aşamalar, sürükle bırak yöntemiyle kolayca yönetilir.",
+      "functions": [
+        {
+          "icon": "bi-kanban-fill",
+          "title": "Özelleştirilebilir Kanban Panosu",
+          "desc": "Satış hattınızı sürükle-bırak arayüzü ile yönetin. Hangi fırsatın hangi aşamada olduğunu anında görün."
+        },
+        {
+          "icon": "bi-calendar-event-fill",
+          "title": "Aktivite ve Toplantı Takibi",
+          "desc": "Müşteriyle yapılan tüm aramalar, toplantılar ve e-postalar otomatik olarak ilgili kayda işlenir."
+        },
+        {
+          "icon": "bi-bar-chart-fill",
+          "title": "Performans Raporlaması",
+          "desc": "Temsilcilerin kapattığı anlaşma sayısı, ortalama anlaşma süresi gibi kritik metrikleri anlık izleyin."
+        }
+      ]
+    },
+    "support": {
+      "title": "Satış Sonrası Memnuniyet: Destek Yönetimi",
+      "items": [
+        {
+          "icon": "bi-ticket-detailed-fill",
+          "title": "Otomatik Destek Bileti Sistemi",
+          "desc": "Gelen tüm e-postaları veya web formu taleplerini otomatik olarak destek biletlerine dönüştürür, kayıp talebi engeller."
+        },
+        {
+          "icon": "bi-shield-lock-fill",
+          "title": "SLA ve Öncelik Yönetimi",
+          "desc": "Hizmet seviyesi anlaşmalarınıza (SLA) uygunluk için talepleri önceliklendirir, geçikme riskini otomatik olarak bildirir."
+        }
+      ]
+    },
+    "cta": {
+      "title": "CRM ile Müşterilerinizi Bağlayın, Gelirinizi Katlayın!",
+      "desc": "CRM modülümüzün işinize özel satış ve pazarlama otomasyonlarını keşfedin.",
+      "button_text": "Ücretsiz 14 Gün Deneme Başlat",
+      "button_link": "#"
+    }
+  },
+  "en": {
+    "title": "Customer Relationship Management (CRM) Module",
+    "hero": {
+      "icon": "bi-heart-fill",
+      "title": "Turn Relationships into Revenue: Customer Relationship Management (CRM) Module",
+      "desc": "Manage your sales processes, track customer interactions, and maximize customer satisfaction. Faster quotes, more sales.",
+      "sub_title": "Know Your Customer, Increase Closing Rate.",
+      "sub_desc": "All customer data, proposals, activities, and support requests in one screen. Increase your team's efficiency by 40%.",
+      "button_text": "Boost Your Sales Power",
+      "button_link": "/crm-quick-start/"
+    },
+    "features": {
+      "title": "What You Will Achieve with CRM Module?",
+      "items": [
+        {
+          "icon": "bi-funnel-fill",
+          "title": "Sales Pipeline Management",
+          "desc": "Divide opportunities into stages, identify bottlenecks, and make accurate sales forecasts."
+        },
+        {
+          "icon": "bi-person-lines-fill",
+          "title": "360 Degree Customer View",
+          "desc": "See all invoice, support, and order history in a single record to provide personalized service."
+        },
+        {
+          "icon": "bi-people-fill",
+          "title": "Team Coordination",
+          "desc": "Bring Sales, Marketing, and Support teams on the same data. Automate tasks and tracking."
+        }
+      ]
+    },
+    "sales_flow": {
+      "title": "Automated Sales and Marketing Flows",
+      "desc": "Automate repetitive manual tasks (email follow-ups, task assignments) and free your sales representatives.",
+      "steps": [
+        {"icon": "bi-person-plus-fill", "title": "New Opportunity"},
+        {"icon": "bi-file-earmark-bar-graph-fill", "title": "Proposal & Presentation"},
+        {"icon": "bi-chat-dots-fill", "title": "Negotiation"},
+        {"icon": "bi-trophy-fill", "title": "Closed (Won)"}
+      ],
+      "small_text": "All these stages can be easily managed with drag-and-drop.",
+      "functions": [
+        {
+          "icon": "bi-kanban-fill",
+          "title": "Customizable Kanban Board",
+          "desc": "Manage your sales pipeline with drag-and-drop interface. See instantly which opportunity is in which stage."
+        },
+        {
+          "icon": "bi-calendar-event-fill",
+          "title": "Activity and Meeting Tracking",
+          "desc": "All calls, meetings, and emails with the customer are automatically recorded in the relevant record."
+        },
+        {
+          "icon": "bi-bar-chart-fill",
+          "title": "Performance Reporting",
+          "desc": "Track key metrics like number of deals closed by reps and average deal duration in real-time."
+        }
+      ]
+    },
+    "support": {
+      "title": "Post-Sales Satisfaction: Support Management",
+      "items": [
+        {
+          "icon": "bi-ticket-detailed-fill",
+          "title": "Automated Support Ticket System",
+          "desc": "Automatically converts all incoming emails or web form requests into support tickets, preventing lost requests."
+        },
+        {
+          "icon": "bi-shield-lock-fill",
+          "title": "SLA & Priority Management",
+          "desc": "Prioritizes requests according to SLA compliance and automatically notifies delay risks."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Engage Your Customers with CRM, Multiply Your Revenue!",
+      "desc": "Discover our CRM module's sales and marketing automations tailored to your business.",
+      "button_text": "Start Free 14-Day Trial",
+      "button_link": "#"
+    }
+  }
+}

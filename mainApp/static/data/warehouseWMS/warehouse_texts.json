@@ -1,0 +1,123 @@
+{
+  "tr": {
+    "title": "Kurumsal WMS - Orta ve Büyük Ölçekli İşletmeler İçin",
+    "meta": {
+      "description": "Orta ve büyük ölçekli işletmeler için gelişmiş WMS çözümleri. Çoklu depo yönetimi, yapay zeka destekli optimizasyon ve ERP entegrasyonu.",
+      "keywords": "Kurumsal WMS, Orta Ölçekli İşletmeler, Büyük İşletmeler, Depo Yönetimi, Yapay Zeka, ERP Entegrasyonu",
+      "author": "Vibe Bilişim"
+    },
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Operasyonel Mükemmeliyet:",
+      "highlight": "Gelişmiş Kurumsal WMS",
+      "desc1": "Çoklu depo, karmaşık stok yapısı ve yüksek hacimli operasyonlar için tasarlanmıştır. Tedarik zincirinizi global standartlarda yönetin.",
+      "sub_title": "Neden Gelişmiş WMS'e Geçmelisiniz?",
+      "desc2": "Büyüyen hacimler, manuel süreçlerle yönetilemez hale gelir. Sistemimiz, depo süreçlerinizi yapay zeka destekli optimizasyonlarla otomasyonun bir sonraki seviyesine taşır.",
+      "cta": "Gelişmiş Çözümü Keşfet"
+    },
+    "benefits": {
+      "title": "Büyük İşletmeler İçin Anahtar Faydalar",
+      "items": [
+        {
+          "icon": "bi-speedometer2",
+          "title": "Yapay Zeka Destekli Optimizasyon",
+          "desc": "Toplama rotası, yerleştirme stratejisi (FİFO, LİFO, vb.) ve işgücü atamaları, sistemimiz tarafından anlık olarak optimize edilir."
+        },
+        {
+          "icon": "bi-buildings-fill",
+          "title": "Çoklu Lokasyon ve Bölge Yönetimi",
+          "desc": "Yurt içi ve yurt dışındaki birden fazla depo ve dağıtım merkezini tek bir ekrandan yönetin, konsolide raporlama ile global görünürlük kazanın."
+        },
+        {
+          "icon": "bi-link-45deg",
+          "title": "Gelişmiş ERP ve Otomasyon Entegrasyonu",
+          "desc": "SAP, Oracle ve diğer kurumsal ERP sistemleri ile tam iki yönlü entegrasyon. Otomatik taşıma sistemleri (AS/RS) ile uyum."
+        }
+      ]
+    },
+    "functions": {
+      "title": "Gelişmiş WMS Fonksiyonları",
+      "items": [
+        {"icon": "bi-qr-code-scan", "title": "Seri/Lot ve Raf Ömrü Takibi"},
+        {"icon": "bi-person-workspace", "title": "Gelişmiş İş Gücü Yönetimi"},
+        {"icon": "bi-bar-chart-fill", "title": "KPI ve Performans Analizi"}
+      ]
+    },
+    "why_us": {
+      "title": "Neden Kurumsal İşletmeler Bizi Seçmeli?",
+      "items": [
+        {
+          "icon": "bi-cpu-fill",
+          "title": "Yüksek Performans ve Güvenilirlik",
+          "desc": "Günde milyonlarca işlemi işleyebilecek şekilde tasarlanmış altyapı. Büyük veri setlerinde bile kesintisiz ve anlık performans garantisi."
+        },
+        {
+          "icon": "bi-headset-fill",
+          "title": "7/24 Özel Kurumsal Destek",
+          "desc": "İşiniz hiç durmamalı. Uzmanlardan oluşan özel bir ekip, kurulumdan uyarlama ve operasyonel desteğe kadar 7 gün 24 saat yanınızda."
+        }
+      ]
+    }
+  },
+
+  "en": {
+    "title": "Corporate WMS - For Medium and Large Enterprises",
+    "meta": {
+      "description": "Advanced WMS solutions for medium and large-scale enterprises. Multi-warehouse management, AI-powered optimization, and ERP integration.",
+      "keywords": "Corporate WMS, Medium Enterprises, Large Enterprises, Warehouse Management, Artificial Intelligence, ERP Integration",
+      "author": "Vibe Information Technologies"
+    },
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Operational Excellence:",
+      "highlight": "Advanced Corporate WMS",
+      "desc1": "Designed for multi-warehouse, complex stock structures, and high-volume operations. Manage your supply chain with global standards.",
+      "sub_title": "Why Should You Switch to Advanced WMS?",
+      "desc2": "Growing volumes can no longer be managed with manual processes. Our system takes your warehouse operations to the next level with AI-powered optimizations.",
+      "cta": "Discover the Advanced Solution"
+    },
+    "benefits": {
+      "title": "Key Benefits for Large Enterprises",
+      "items": [
+        {
+          "icon": "bi-speedometer2",
+          "title": "AI-Powered Optimization",
+          "desc": "Picking routes, placement strategies (FIFO, LIFO, etc.), and workforce assignments are optimized instantly by our system."
+        },
+        {
+          "icon": "bi-buildings-fill",
+          "title": "Multi-location and Regional Management",
+          "desc": "Manage multiple warehouses and distribution centers both domestically and abroad from a single screen, gaining global visibility with consolidated reporting."
+        },
+        {
+          "icon": "bi-link-45deg",
+          "title": "Advanced ERP and Automation Integration",
+          "desc": "Full two-way integration with SAP, Oracle, and other enterprise ERP systems. Compatible with automated material handling systems (AS/RS)."
+        }
+      ]
+    },
+    "functions": {
+      "title": "Advanced WMS Functions",
+      "items": [
+        {"icon": "bi-qr-code-scan", "title": "Serial/Lot and Shelf Life Tracking"},
+        {"icon": "bi-person-workspace", "title": "Advanced Workforce Management"},
+        {"icon": "bi-bar-chart-fill", "title": "KPI and Performance Analysis"}
+      ]
+    },
+    "why_us": {
+      "title": "Why Should Enterprises Choose Us?",
+      "items": [
+        {
+          "icon": "bi-cpu-fill",
+          "title": "High Performance and Reliability",
+          "desc": "An infrastructure designed to process millions of transactions daily. Guaranteed seamless and real-time performance even with large datasets."
+        },
+        {
+          "icon": "bi-person-workspace",
+          "title": "24/7 Dedicated Corporate Support",
+          "desc": "Your business should never stop. A dedicated team of experts is with you 24/7, from installation to customization and operational support."
+        }
+      ]
+    }
+  }
+}

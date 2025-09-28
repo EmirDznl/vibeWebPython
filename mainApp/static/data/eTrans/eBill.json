@@ -1,0 +1,148 @@
+{
+  "tr": {
+    "title": "e-Fatura & e-Arşiv Modülü",
+    "hero": {
+      "icon": "bi-file-earmark-lock-fill",
+      "headline": "%100 Yasal Uyum: e-Fatura ve e-Arşiv Modülü",
+      "desc1": "GİB standartlarına tam uyumlu, hızlı, güvenilir ve kağıtsız faturalama sistemine geçiş yapın. Faturalama süreçlerinizi sıfır hatayla otomatikleştirin.",
+      "desc2": "Kağıt Faturaların Maliyetinden ve Hata Riskinden Kurtulun.",
+      "desc3": "Modülümüz, satıştan tahsilata tüm süreci entegre ederek hem zaman hem de operasyonel maliyet tasarrufu sağlar.",
+      "button": "1 Saatte Entegrasyona Başlayın",
+      "button_link": "/efatura-hizli-entegrasyon/"
+    },
+    "workflow": {
+      "title": "e-Dönüşüm ile İş Akışınız Nasıl Değişir?",
+      "cards": [
+        {
+          "icon": "bi-check2-all",
+          "title": "Kesintisiz GİB Uyum",
+          "desc": "Yasal mevzuatlardaki her değişikliği anında güncelliyoruz. Faturalarınızın geçerliliği konusunda asla endişelenmeyin."
+        },
+        {
+          "icon": "bi-robot",
+          "title": "Tam Otomasyon",
+          "desc": "Sipariş onayı sonrası otomatik fatura kesimi, gönderimi ve muhasebe kaydı. Manuel iş yükünü %80 azaltın."
+        },
+        {
+          "icon": "bi-archive-fill",
+          "title": "10 Yıl Güvenli Arşivleme",
+          "desc": "Tüm belgeleriniz yasal sürelere uygun, şifreli ve erişimi kolay şekilde bulutta saklanır. Denetimlere hazırlıklı olun."
+        }
+      ]
+    },
+    "features": {
+      "headline": "Otomatik Fatura Akışının Gücü",
+      "desc": "Modülümüz, faturalama sürecinizin her adımını basitleştirmek ve hızlandırmak için tasarlandı.",
+      "items": [
+        {
+          "icon": "bi-file-earmark-plus-fill",
+          "title": "1. Oluştur & Onayla",
+          "desc": "Verilerinizi saniyeler içinde GİB'in istediği formata dönüştürür ve portal üzerinden sorunsuz gönderim sağlar."
+        },
+        {
+          "icon": "bi-cloud-arrow-up-fill",
+          "title": "2. GİB'e İletim",
+          "desc": "e-Fatura ya da e-Arşiv ayrımını otomatik yapar ve müşteriye mail/SMS yoluyla teslimat kanıtını sunar."
+        },
+        {
+          "icon": "bi-shield-check-fill",
+          "title": "3. Arşiv & Uyum",
+          "desc": "Temel fatura, ticari fatura, iade ve ihracat faturaları gibi tüm tipler tek modülde desteklenir."
+        }
+      ]
+    },
+    "integration": {
+      "title": "Sisteminize Sorunsuz Entegrasyon ve Üstün Güvenlik",
+      "cards": [
+        {
+          "icon": "bi-hdd-fill",
+          "title": "Mevcut ERP/Muhasebe Yazılımınıza Bağlantı",
+          "desc": "Açık API desteği ve esnek yapısı sayesinde, kullandığınız diğer yazılımlarla saniyeler içinde entegre olur. Veri mükerrerliğine son verin."
+        },
+        {
+          "icon": "bi-fingerprint",
+          "title": "Bankacılık Seviyesinde Veri Güvenliği",
+          "desc": "Tüm faturalarınız ve müşteri verileriniz en yüksek şifreleme protokolleri ile korunur. Yasal ve KVKK uyumlu altyapı garantisi."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Hatasız Faturalama, Endişesiz Denetim!",
+      "desc": "e-Dönüşüm zorunluluklarını bir yüke değil, verimlilik fırsatına çevirin.",
+      "button": "Ücretsiz Danışmanlık ve Demo Çağrısı Planla"
+    }
+  },
+  "en": {
+    "title": "e-Invoice & e-Archive Module",
+    "hero": {
+      "icon": "bi-file-earmark-lock-fill",
+      "headline": "100% Legal Compliance: e-Invoice & e-Archive Module",
+      "desc1": "Switch to a fully compliant, fast, reliable, and paperless invoicing system. Automate your billing processes without errors.",
+      "desc2": "Eliminate Costs and Errors of Paper Invoices.",
+      "desc3": "Our module integrates the entire process from sales to collection, saving both time and operational costs.",
+      "button": "Start Integration in 1 Hour",
+      "button_link": "/efatura-hizli-entegrasyon/"
+    },
+    "workflow": {
+      "title": "How Your Workflow Changes with e-Transformation",
+      "cards": [
+        {
+          "icon": "bi-check2-all",
+          "title": "Continuous Legal Compliance",
+          "desc": "We update every legal regulation instantly. Never worry about your invoices' validity."
+        },
+        {
+          "icon": "bi-robot",
+          "title": "Full Automation",
+          "desc": "Automatic invoice generation, sending, and accounting after order confirmation. Reduce manual workload by 80%."
+        },
+        {
+          "icon": "bi-archive-fill",
+          "title": "10-Year Secure Archiving",
+          "desc": "All your documents are stored securely in the cloud, encrypted, and easily accessible. Be ready for audits."
+        }
+      ]
+    },
+    "features": {
+      "headline": "Power of Automatic Invoice Flow",
+      "desc": "Our module is designed to simplify and speed up every step of your invoicing process.",
+      "items": [
+        {
+          "icon": "bi-file-earmark-plus-fill",
+          "title": "1. Create & Approve",
+          "desc": "Convert your data into the format required by GİB in seconds and send it smoothly via the portal."
+        },
+        {
+          "icon": "bi-cloud-arrow-up-fill",
+          "title": "2. Submit to GİB",
+          "desc": "Automatically distinguish between e-Invoice and e-Archive and provide proof of delivery via email/SMS."
+        },
+        {
+          "icon": "bi-shield-check-fill",
+          "title": "3. Archive & Compliance",
+          "desc": "All types including basic, commercial, return, and export invoices are supported in a single module."
+        }
+      ]
+    },
+    "integration": {
+      "title": "Seamless Integration & Superior Security",
+      "cards": [
+        {
+          "icon": "bi-hdd-fill",
+          "title": "Connect to Your ERP/Accounting Software",
+          "desc": "Thanks to open API support and flexible structure, it integrates with other software you use within seconds. Eliminate duplicate data."
+        },
+        {
+          "icon": "bi-fingerprint",
+          "title": "Bank-Level Data Security",
+          "desc": "All your invoices and customer data are protected with the highest encryption protocols. Legal and KVKK-compliant infrastructure guaranteed."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Error-Free Billing, Audit Ready!",
+      "desc": "Turn e-Transformation obligations into an opportunity for efficiency, not a burden.",
+      "button": "Schedule Free Consultation and Demo"
+    }
+  }
+}

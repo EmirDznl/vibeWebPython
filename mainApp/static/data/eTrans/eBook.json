@@ -1,0 +1,152 @@
+{
+  "tr": {
+    "title": "e-İrsaliye ve e-Defter Çözümleri",
+    "hero": {
+      "icon": "bi-truck-flatbed",
+      "title": "Sevkiyat Hızı ve Muhasebe Disiplini: e-İrsaliye ve e-Defter",
+      "desc": "Lojistik süreçlerinizi anlık takip edin, hatalı sevkiyata son verin. Yasal defterlerinizi kolayca oluşturun, imzalayın ve GİB'e iletin.",
+      "subtitle": "e-Dönüşümde Geri Kalmayın: Hız ve Güvenliği Birleştirin.",
+      "subtitle_desc": "Manuel irsaliye hazırlamanın ve defter onaylama süreçlerinin zaman kaybına son. Tam entegre çözümümüzle operasyonel yükünüzü hafifletin.",
+      "cta_text": "Sevkiyat Akış Demosunu İzle",
+      "cta_link": "/elogistics-demo/"
+    },
+    "benefits": [
+      {
+        "icon": "bi-geo-alt-fill",
+        "title": "Anlık Sevkiyat Takibi",
+        "desc": "İrsaliye ile gönderilen ürünlerin konumunu ve teslimat onayını gerçek zamanlı izleyin. Kayıp/Hata riskini sıfırlayın."
+      },
+      {
+        "icon": "bi-journal-bookmark-fill",
+        "title": "Hata Düzeltme Kolaylığı (e-Defter)",
+        "desc": "e-Defter sürecinde hata tespiti durumunda, yasal süreler içinde hızlı ve doğru düzeltme kayıtlarını oluşturun."
+      },
+      {
+        "icon": "bi-clock-fill",
+        "title": "Yüzde Yüz Zaman Tasarrufu",
+        "desc": "Basım, arşivleme ve kargo/posta maliyetlerinden kurtulun. İrsaliyeleriniz anında alıcıya ulaşsın."
+      }
+    ],
+    "workflow": {
+      "title": "Sevkiyat Evraklarında Tam Kontrol",
+      "desc": "e-İrsaliye modülü, sevk öncesinden teslimat onayına kadar tüm lojistik operasyonunuzu tek bir yerden yönetmenizi sağlar.",
+      "steps": [
+        {"icon": "bi-cart-check-fill", "label": "Sipariş"},
+        {"icon": "bi-file-earmark-text-fill", "label": "İrsaliye Üret"},
+        {"icon": "bi-truck", "label": "Yola Çıkar"},
+        {"icon": "bi-hand-thumbs-up-fill", "label": "Alıcı Onayı"}
+      ],
+      "note": "İrsaliye anında GİB'e bildirilir ve alıcıya elektronik ortamda ulaşır."
+    },
+    "features": [
+      {
+        "icon": "bi-qr-code-scan",
+        "title": "Mobil Barkod Entegrasyonu",
+        "desc": "Depo personeli, mobil cihazlarla okutarak irsaliye içeriğini anlık doğrulayabilir ve sevk sürecini başlatabilir."
+      },
+      {
+        "icon": "bi-envelope-open-fill",
+        "title": "Gelen İrsaliyeleri Otomatik Kabul",
+        "desc": "Tedarikçilerinizden gelen irsaliyeleri sisteminize otomatik olarak alın ve depo girişi ile eşleştirin."
+      },
+      {
+        "icon": "bi-exclamation-triangle-fill",
+        "title": "Kısmi Sevkiyat Kontrolü",
+        "desc": "Kısmi ürün çıkışlarında irsaliyenin doğru düzenlendiğini ve kalan miktarı sistem otomatik olarak yönetir."
+      }
+    ],
+    "edefter": [
+      {
+        "icon": "bi-pencil-square",
+        "title": "Kolay Defter Oluşturma ve İmza",
+        "desc": "Yevmiye ve Kebir defterlerini, elektronik imza ile imzalayarak, GİB'e yüklenmeye hazır halde tek tıkla oluşturun."
+      },
+      {
+        "icon": "bi-file-earmark-code-fill",
+        "title": "Uyumlu XML Formatı",
+        "desc": "Defter dosyalarının GİB tarafından talep edilen XML standartlarına otomatik dönüştürülmesini ve kontrolünü sağlar."
+      }
+    ],
+    "cta_footer": {
+      "title": "Sevkiyatta Hata Yapmayın, Defter Tutmada Yük Almayın!",
+      "desc": "e-İrsaliye ve e-Defter çözümlerimizle yasal süreçlerinizi dijitalleştirin.",
+      "button_text": "Canlı Destek ve Ücretsiz Demo Talep Et",
+      "button_link": "#"
+    }
+  },
+  "en": {
+    "title": "e-Dispatch & e-Ledger Solutions",
+    "hero": {
+      "icon": "bi-truck-flatbed",
+      "title": "Speed in Dispatch and Accounting Discipline: e-Dispatch & e-Ledger",
+      "desc": "Monitor your logistics processes in real-time, eliminate dispatch errors. Create, sign and submit your legal ledgers easily.",
+      "subtitle": "Don't Fall Behind in e-Transformation: Combine Speed and Security.",
+      "subtitle_desc": "Stop wasting time on manual dispatch preparation and ledger approvals. Our fully integrated solution reduces operational workload.",
+      "cta_text": "Watch Dispatch Flow Demo",
+      "cta_link": "/elogistics-demo/"
+    },
+    "benefits": [
+      {
+        "icon": "bi-geo-alt-fill",
+        "title": "Real-Time Dispatch Tracking",
+        "desc": "Track location and delivery confirmation of products sent via dispatch in real-time. Eliminate loss/error risks."
+      },
+      {
+        "icon": "bi-journal-bookmark-fill",
+        "title": "Easy Error Correction (e-Ledger)",
+        "desc": "In case of errors in the e-Ledger process, quickly create accurate correction records within legal deadlines."
+      },
+      {
+        "icon": "bi-clock-fill",
+        "title": "100% Time Saving",
+        "desc": "Avoid printing, archiving and shipping/post costs. Your dispatches reach recipients instantly."
+      }
+    ],
+    "workflow": {
+      "title": "Full Control in Dispatch Documents",
+      "desc": "e-Dispatch module allows you to manage your entire logistics operation from pre-dispatch to delivery confirmation in one place.",
+      "steps": [
+        {"icon": "bi-cart-check-fill", "label": "Order"},
+        {"icon": "bi-file-earmark-text-fill", "label": "Generate Dispatch"},
+        {"icon": "bi-truck", "label": "On the Road"},
+        {"icon": "bi-hand-thumbs-up-fill", "label": "Recipient Approval"}
+      ],
+      "note": "Dispatch is immediately reported to GİB and reaches the recipient electronically."
+    },
+    "features": [
+      {
+        "icon": "bi-qr-code-scan",
+        "title": "Mobile Barcode Integration",
+        "desc": "Warehouse personnel can instantly verify dispatch contents via mobile devices and start the dispatch process."
+      },
+      {
+        "icon": "bi-envelope-open-fill",
+        "title": "Automatic Acceptance of Incoming Dispatches",
+        "desc": "Automatically receive dispatches from your suppliers into the system and match with warehouse entries."
+      },
+      {
+        "icon": "bi-exclamation-triangle-fill",
+        "title": "Partial Dispatch Control",
+        "desc": "In partial product shipments, the system automatically ensures dispatches are correctly managed."
+      }
+    ],
+    "edefter": [
+      {
+        "icon": "bi-pencil-square",
+        "title": "Easy Ledger Creation & Signature",
+        "desc": "Create journal and ledger books ready for GİB submission with a single click using electronic signatures."
+      },
+      {
+        "icon": "bi-file-earmark-code-fill",
+        "title": "Compatible XML Format",
+        "desc": "Automatically converts and validates ledger files according to XML standards required by GİB."
+      }
+    ],
+    "cta_footer": {
+      "title": "Avoid Dispatch Errors, Reduce Ledger Burden!",
+      "desc": "Digitize your legal processes with e-Dispatch and e-Ledger solutions.",
+      "button_text": "Request Live Support & Free Demo",
+      "button_link": "#"
+    }
+  }
+}

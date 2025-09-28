@@ -1,0 +1,16 @@
+{
+  "tr": {
+    "title": "Teşekkürler",
+    "icon": "bi-check-circle-fill",
+    "heading": "Teşekkürler!",
+    "message": "Mesajınız başarıyla alındı. Konunuzla ilgili ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+    "back_btn": "İletişim Sayfasına Geri Dön"
+  },
+  "en": {
+    "title": "Thank You",
+    "icon": "bi-check-circle-fill",
+    "heading": "Thank You!",
+    "message": "Your message has been received successfully. Our team will contact you shortly regarding your inquiry.",
+    "back_btn": "Back to Contact Page"
+  }
+}

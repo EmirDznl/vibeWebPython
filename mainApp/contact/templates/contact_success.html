@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block extra_head %}
+<style>
+    /* ------------------------------------------------------------------- */
+    /* DARK MODE DESTEK TANIMLARI (BAŞLANGIÇ) */
+    /* ------------------------------------------------------------------- */
+    
+    /* Varsayılan: LIGHT MODE */
+    :root {
+        --primary-color: #3498db;
+        --text-dark: #2c3e50;
+        --text-light: #7f8c8d;
+        --body-bg: #eff1f3;
+        --content-bg: #ffffff;
+        --shadow-color: rgba(0, 0, 0, 0.08);
+        --toggle-icon-color: var(--text-dark);
+    }
+
+    /* DARK MODE AKTİF: body'de .dark-mode sınıfı olduğunda çalışır */
+    .dark-mode {
+        --primary-color: #5dade2;
+        --text-dark: #ecf0f1;
+        --text-light: #bdc3c7;
+        --body-bg: #2c3e50;
+        --content-bg: #212b36;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+        --toggle-icon-color: var(--text-light); /* Dark mode'da biraz daha parlak */
+    }
+
+    /* Sayfa arka planını body-bg'ye ayarlıyoruz */
+    body {
+        background-color: var(--body-bg);
+        transition: background-color 0.3s ease;
+    }
+    
+    /* ------------------------------------------------------------------- */
+    /* Renk ve Tema Sınıfları */
+    /* ------------------------------------------------------------------- */
+    .text-dark-mode-aware {
+        color: var(--text-dark) !important;
+    }
+    .text-text-light {
+        color: var(--text-light) !important;
+    }
+    .text-primary-custom {
+        color: var(--primary-color) !important;
+    }
+
+    /* Kart Stili (Contact kartlarına benzer) */
+    .contact-card {
+        background-color: var(--content-bg);
+        border-radius: 12px;
+        /* Gölge rengi temaya göre değişir */
+        box-shadow: 0 8px 15px var(--shadow-color);
+        padding: 4rem;
+        transition: all 0.3s;
+        border-top: 5px solid var(--primary-color); 
+        color: var(--text-dark); 
+        position: relative; /* Toggle için gerekli */
+    }
+    
+    /* Primary Buton */
+    .btn-primary-custom {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: var(--content-bg);
+        transition: all 0.25s ease-in-out;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .btn-primary-custom:hover {
+        transform: translateY(-2px);
+        /* Hover gölgesi primary rengi kullanır */
+        box-shadow: 0 0 15px var(--primary-color), 0 0 5px var(--primary-color); 
+        filter: brightness(1.1);
+    }
+
+    /* Tema Değiştirme Butonu Stili */
+    #page-dark-mode-toggle {
+        color: var(--toggle-icon-color);
+        transition: color 0.3s;
+    }
+    #page-dark-mode-toggle:hover {
+        color: var(--primary-color);
+    }
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+{% endblock %}
+
+
+{% block content %}
+<div class="container py-5 text-center">
+    <div class="col-lg-7 mx-auto">
+        <div class="contact-card p-5 animate__animated animate__fadeIn">
+            <!-- İkon: Primary color ile renklendirildi -->
+            <i class="bi {{ content.icon }} text-primary-custom" style="font-size: 5rem;"></i>
+            
+            <!-- Başlık: Dark mode'a duyarlı metin rengi -->
+            <h2 class="mt-4 display-5 fw-bold text-dark-mode-aware">{{ content.heading }}</h2>
+            
+            <!-- Mesaj: Hafif metin rengi -->
+            <p class="lead mb-4 text-text-light">
+                {{ content.message }}
+            </p>
+            
+            <!-- Buton: Primary custom butonu kullanıldı -->
+            <a href="{% url 'contact' %}" class="btn btn-primary-custom btn-lg mt-3">
+                <i class="bi bi-arrow-left-circle-fill me-2"></i> {{ content.back_btn }}
+            </a>
+            
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

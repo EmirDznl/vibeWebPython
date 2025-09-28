@@ -1,0 +1,71 @@
+{
+  "tr": {
+    "title": "Hakkımızda",
+    "hero_heading": "Hikayemiz: <span class='text-primary-custom'>İşinizi Geleceğe Taşıyan Güç</span>",
+    "hero_text": "Vibe Bilişim, kurulduğu günden itibaren sadece bir yazılım firması değil, müşterilerinin dijital dönüşüm süreçlerinde <b>güvenilir bir stratejik ortak</b> olmayı hedeflemiştir. Bizimle çalıştığınızda, sadece bir ürün değil, ihtiyacınız olan <b>doğru çözümü</b> alırsınız.",
+
+    "mission_title": "Biz Kimiz? Misyonumuz",
+    "mission_text": "<b>Misyonumuz:</b> Her projeye detaylı <b>İhtiyaç Analizi</b> ile başlayarak, müşterilerimizin iş hedeflerine tam uygun, ölçeklenebilir ve sürdürülebilir teknoloji çözümleri sunmaktır. Amacımız, <b>Logo ERP</b> başta olmak üzere, <b>Özel Yazılımlar (Mobil, Web)</b> ve <b>İş Akışı (Logo Flow)</b> çözümleri ile verimliliği maksimuma çıkarmaktır.",
+    "mission_btn": "Tüm Hizmetlerimiz",
+
+    "vision_title": "Vizyonumuz ve Hedeflerimiz",
+    "vision_text": "<b>Vizyonumuz:</b> Yenilikçi ve çözüm odaklı yaklaşımımızla, danışmanlık sektöründe ulusal çapta tanınan, teknoloji ve süreç entegrasyonunda güvenilen, lider bir marka olmaktır. Her zaman en son teknolojileri kullanarak, müşterilerimize bir adım önde olma avantajı sağlamayı taahhüt ediyoruz.",
+    "vision_btn": "Logo Çözümlerimiz",
+
+    "values_title": "Vibe Bilişim Kurumsal Değerleri",
+    "value_1_title": "Sorumluluk ve Şeffaflık",
+    "value_1_text": "Tüm süreçlerde açık iletişim ve tam sorumluluk prensibi.",
+    "value_2_title": "Yenilikçilik",
+    "value_2_text": "Sürekli gelişimi benimser, ileriye dönük teknolojiler sunarız (API, Bulut).",
+    "value_3_title": "Uygulamalı Uzmanlık",
+    "value_3_text": "Yazılım ve ERP <b>Eğitimleri</b> ile yetkinliğinizi artırırız.",
+    "value_4_title": "Zaman Yönetimi",
+    "value_4_text": "Proje teslim tarihlerine ve zaman çizelgelerine kesinlikle uyarız.",
+
+    "team_title": "Uzman Ekibimiz: Fark Yaratan Güç",
+    "team_text": "ERP Danışmanları, Yazılım Geliştiricileri ve Sistem Analistlerinden oluşan çekirdek ekibimizle çalışıyoruz. Her biri, kendi alanında yıllarca deneyim kazanmış, sertifikalı profesyonellerdir. <b>İhtiyaç Analizi</b> sürecinden, son kullanıcı eğitimine kadar tüm aşamalar bizzat uzmanlarımız tarafından yönetilir.",
+    "team_li_1": "Logo Çözümlerinde sertifikalı danışman kadrosu.",
+    "team_li_2": "10+ yıllık sektörel tecrübe.",
+    "team_li_3": "Çözüm odaklı ve sonuç garantili hizmet.",
+    "team_footer": "İnsan Kaynağımız, En Büyük Varlığımızdır.",
+
+    "cta_title": "Dijital Dönüşüm Yolculuğunuzda Yanınızdayız.",
+    "cta_text": "Kurumsal hikayemizin bir parçası olmak için bizimle iletişime geçin.",
+    "cta_btn": "Hemen Danışmanlık Alın"
+  },
+
+  "en": {
+    "title": "About Us",
+    "hero_heading": "Our Story: <span class='text-primary-custom'>The Power That Drives Your Business Forward</span>",
+    "hero_text": "Since its establishment, Vibe Information Technology has aimed not only to be a software company but a <b>trusted strategic partner</b> in the digital transformation of its clients. With us, you don’t just get a product, you get the <b>right solution</b> you need.",
+
+    "mission_title": "Who Are We? Our Mission",
+    "mission_text": "<b>Our Mission:</b> To start every project with a detailed <b>Needs Analysis</b> and provide scalable and sustainable technology solutions tailored to our clients’ business goals. Our aim is to maximize efficiency through <b>Logo ERP</b>, <b>Custom Software (Mobile, Web)</b>, and <b>Workflow (Logo Flow)</b> solutions.",
+    "mission_btn": "All Our Services",
+
+    "vision_title": "Our Vision and Goals",
+    "vision_text": "<b>Our Vision:</b> With our innovative and solution-oriented approach, we aim to be nationally recognized in the consulting industry, trusted in technology and process integration, and to be a leading brand. We are committed to always using the latest technologies to give our clients the advantage of being one step ahead.",
+    "vision_btn": "Our Logo Solutions",
+
+    "values_title": "Vibe IT Corporate Values",
+    "value_1_title": "Responsibility and Transparency",
+    "value_1_text": "Open communication and full accountability in all processes.",
+    "value_2_title": "Innovation",
+    "value_2_text": "We embrace continuous development and deliver forward-looking technologies (API, Cloud).",
+    "value_3_title": "Practical Expertise",
+    "value_3_text": "We enhance your skills with <b>Software and ERP Trainings</b>.",
+    "value_4_title": "Time Management",
+    "value_4_text": "We strictly adhere to project deadlines and schedules.",
+
+    "team_title": "Our Expert Team: The Power That Makes the Difference",
+    "team_text": "We work with a core team of ERP Consultants, Software Developers, and System Analysts. Each member is a certified professional with years of experience in their field. From <b>Needs Analysis</b> to end-user training, all stages are directly managed by our experts.",
+    "team_li_1": "Certified consultant team in Logo Solutions.",
+    "team_li_2": "10+ years of industry experience.",
+    "team_li_3": "Solution-oriented and results-guaranteed service.",
+    "team_footer": "Our People Are Our Greatest Asset.",
+
+    "cta_title": "We Are With You On Your Digital Transformation Journey.",
+    "cta_text": "Contact us to become part of our corporate story.",
+    "cta_btn": "Get Consultancy Now"
+  }
+}

@@ -1,0 +1,208 @@
+/*
+   Genel Renk Değişkenleri (Varsayılan: Açık Mod)
+*/
+:root {
+  --primary-color: #3498db; /* Mavi - Vurgu */
+  --text-dark: #2c3e50;    /* Koyu Gri - Başlık/Önemli Metin */
+  --text-light: #7f8c8d;   /* Açık Gri - İkincil Metin */
+  --body-bg: #eff1f3;      /* Açık Gri - Sayfa Arkaplanı */
+  --content-bg: #ffffff;   /* Beyaz - İçerik/Navbar Arkaplanı */
+  --shadow-color: rgba(0, 0, 0, 0.08); /* Hafif Gölge */
+
+  /* Navbar Linkleri için özel hover renkleri */
+  --nav-link-color: var(--text-dark);
+  --nav-link-hover-color: var(--primary-color);
+  --dropdown-bg: var(--content-bg);
+  --dropdown-header-color: var(--text-light);
+  --dropdown-item-hover-bg: #f5f5f5; /* Hafif Açık Gri */
+}
+
+/*
+   Koyu Mod Renk Değişkenleri (body elementinde dark-mode sınıfı varken)
+*/
+body.dark-mode {
+  --primary-color: #5dade2; /* Açık Mavi - Vurgu */
+  --text-dark: #ecf0f1;    /* Açık Beyaz - Başlık/Önemli Metin */
+  --text-light: #bdc3c7;   /* Orta Gri - İkincil Metin */
+  --body-bg: #2c3e50;      /* Koyu Mavi - Sayfa Arkaplanı */
+  --content-bg: #212b36;   /* Daha Koyu Mavi - İçerik/Navbar Arkaplanı */
+  --shadow-color: rgba(0, 0, 0, 0.3); /* Belirgin Gölge */
+
+  --nav-link-color: var(--text-light);
+  --nav-link-hover-color: var(--primary-color);
+  --dropdown-bg: var(--content-bg);
+  --dropdown-item-hover-bg: #34495e; /* Koyu Mavi Hover */
+}
+
+
+/*
+   Özel Navbar Stilleri
+*/
+.custom-navbar {
+  background-color: var(--content-bg) !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Alt çizgi */
+}
+
+/* Navbar Markası (Logo) */
+.custom-navbar .navbar-brand {
+  color: var(--primary-color) !important;
+  transition: color 0.3s ease;
+}
+
+/* Navbar Linkleri */
+.custom-navbar .nav-link {
+  color: var(--nav-link-color) !important;
+  font-weight: 500;
+  padding: 1rem 0.75rem;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active,
+.custom-navbar .nav-link[aria-expanded="true"] {
+  color: var(--nav-link-hover-color) !important;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: calc(1rem - 3px);
+}
+
+/* Teklif Al Butonu */
+.custom-navbar .btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .btn-primary:hover {
+  filter: brightness(1.1);
+}
+
+/* Dark Mode ve Dil Değiştirme Alanı */
+#dark-mode-toggle {
+    color: var(--text-dark);
+    transition: color 0.3s ease;
+}
+
+/* Dil Switch'i */
+.form-switch .form-check-input {
+    border-color: var(--text-light);
+}
+
+.form-switch .form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.form-check-label {
+    color: var(--text-dark);
+}
+
+/*
+   Mega Menü (Dropdown) Stilleri
+*/
+.mega-menu {
+  background-color: var(--dropdown-bg);
+  border-top: 3px solid var(--primary-color);
+  padding: 20px 30px;
+  /* SABİT GENİŞLİK SİLİNDİ. İÇERİĞE GÖRE BOYUTLANACAK. */
+  /* MERKEZLEME İÇİN GEREKLİ AYARLAR: */
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  white-space: nowrap; /* İçeriğin yan yana kalmasını sağlar */
+}
+
+/* Dropdown başlıkları (Mega Menüdeki Sütun Başlıkları) */
+.mega-menu .dropdown-header {
+  color: var(--primary-color);
+  font-weight: 700;
+  padding: 0;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.mega-menu .dropdown-header i {
+    margin-right: 8px;
+    font-size: 1.3em; /* Başlık İkon Boyutu */
+}
+
+/* Dropdown Menü Ögeleri */
+.mega-menu .dropdown-item {
+  color: var(--text-dark);
+  font-weight: 500;
+  padding: 7px 10px;
+  margin-bottom: 3px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  white-space: nowrap; /* Menü öğelerinin tek satırda kalmasını sağlar */
+}
+
+.mega-menu .dropdown-item:hover,
+.mega-menu .dropdown-item:focus {
+  background-color: var(--dropdown-item-hover-bg);
+  color: var(--primary-color);
+}
+
+.mega-menu .dropdown-item i {
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 1.15em; /* Liste Ögesi İkon Boyutu */
+}
+
+/* Sadece küçük ekranlarda mobil menü toggler ikonu */
+.custom-navbar .navbar-toggler {
+  border-color: var(--primary-color);
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%233498db' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* Koyu Mod Toggler İkonu için */
+body.dark-mode .custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%235dade2' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Mobil Görünümde Navbar Desteği */
+@media (max-width: 991.98px) {
+  .custom-navbar .nav-link {
+    padding: 10px 0;
+    border-bottom: none !important;
+  }
+
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .nav-link.active,
+  .custom-navbar .nav-link[aria-expanded="true"] {
+    color: var(--nav-link-hover-color) !important;
+    padding-bottom: 10px;
+  }
+
+  .mega-menu {
+    position: relative !important;
+    transform: none !important;
+    left: 0 !important;
+    min-width: 100% !important;
+    border-top: none;
+    border-bottom: 3px solid var(--primary-color);
+    margin-top: 10px;
+    white-space: normal; /* Mobil görünümde metinler kaydırılabilir */
+  }
+
+  .mega-menu .row {
+    flex-direction: column;
+    gap: 1.5rem !important;
+  }
+
+  .mega-menu .col-auto {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+}
+.mega-menu .row {
+    /* Varsayılan olarak flex konteyneri olan .row sınıfına uygulayın */
+    display: flex;
+    flex-wrap: nowrap; /* Artık alt satıra inmeyecek */
+    /* Diğer stil kuralları... */
+}

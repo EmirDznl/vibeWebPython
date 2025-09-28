@@ -1,0 +1,170 @@
+{
+  "tr": {
+    "title": "Web Uygulamaları",
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Web'de Güç:",
+      "subtitle": "Özel Kurumsal Web Uygulamaları",
+      "desc1": "İş süreçlerinize özel, <strong>hızlı, güvenilir ve Logo ERP entegrasyonlu</strong> web tabanlı çözümler geliştiriyoruz. Müşteri (B2C), Bayi (B2B) veya İç Raporlama portallarınızla verimliliğinizi katlayın.",
+      "highlight": "Süreçlerinizi Otomatikleştirin, Verilerinizi Anlık Yönetin.",
+      "button": "Proje Teklifi Alın",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "Web Uygulamalarımızda 3 Temel Odak",
+      "cards": [
+        {
+          "icon": "bi-database-fill-lock",
+          "title": "Kurumsal Güvenlik ve Yetkilendirme",
+          "desc": "Uygulamaları geliştirirken <strong>OWASP standartlarına</strong> uygun güvenlik protokolleri uyguluyor ve Logo yetkileriyle entegre çalışıyoruz."
+        },
+        {
+          "icon": "bi-graph-up-arrow",
+          "title": "Gerçek Zamanlı Veri ve Raporlama",
+          "desc": "Web panelleri üzerinden <strong>Logo verilerine anlık erişim</strong> sağlıyor, karmaşık raporları özelleştirilmiş dashboardlar ile sunuyoruz."
+        },
+        {
+          "icon": "bi-code-square",
+          "title": "Ölçeklenebilir Modern Mimari",
+          "desc": "<strong>.NET Core, React/Vue</strong> gibi modern teknolojilerle, gelecekteki iş yükünü kaldırabilecek, bulut tabanlı mimariler kuruyoruz."
+        }
+      ]
+    },
+    "scenarios": {
+      "title": "Yaygın Geliştirdiğimiz Web Uygulamaları",
+      "cards": [
+        {
+          "icon": "bi-shop",
+          "title": "B2B Bayi / Sipariş Portalları",
+          "items": [
+            "Bayilere özel cari fiyat, stok ve risk takibi.",
+            "Anlık sipariş ve irsaliye girişlerinin ERP'ye aktarılması."
+          ]
+        },
+        {
+          "icon": "bi-bar-chart-fill",
+          "title": "Yönetici Bilgi Panoları (Dashboard)",
+          "items": [
+            "Finansal, Satış ve Stok verilerinin tek ekranda görselleştirilmesi.",
+            "Kritik performans göstergelerinin (KPI) mobil ve web uyumlu izlenmesi."
+          ]
+        },
+        {
+          "icon": "bi-people-fill",
+          "title": "Özel Personel Yönetimi Eklentileri",
+          "items": [
+            "Masraf, izin ve avans taleplerinin dijital onayı.",
+            "Proje veya görev takibi için iç iletişim ve yönetim araçları."
+          ]
+        },
+        {
+          "icon": "bi-gear-wide-connected",
+          "title": "Sektörel Özel Çözümler",
+          "items": [
+            "Üretim takibi, kalite kontrol ve barkod etiketleme otomasyonları.",
+            "Tedarikçi portalı ve e-ihale/teklif toplama sistemleri."
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "title": "Veri Güvenliği ve Altyapı",
+      "desc": "Tüm uygulamalarımız <strong>Cloud-Native</strong> (AWS/Azure uyumlu) geliştirilir ve <strong>HTTPS/SSL</strong> ile en yüksek güvenlik standartlarında yayınlanır.",
+      "icons": [
+        {"icon": "bi-windows", "title": ".NET/.NET Core"},
+        {"icon": "bi-filetype-js", "title": "React/Vue/JS"},
+        {"icon": "bi-cloud-fill", "title": "Cloud Hosting / Azure/AWS"}
+      ]
+    },
+    "cta": {
+      "title": "İşletmenizin İhtiyaç Duyduğu Özelleşmiş Yazılımı Geliştirelim.",
+      "desc": "Logo ERP'nizle konuşan, iş akışlarınızı hızlandıran web projeniz için ücretsiz danışmanlık talep edin.",
+      "button": "Çözüm Uzmanıyla Görüşün",
+      "link": "tel:+908502428423"
+    }
+  },
+  "en": {
+    "title": "Web Applications",
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Power on the Web:",
+      "subtitle": "Custom Enterprise Web Applications",
+      "desc1": "We develop <strong>fast, reliable, and Logo ERP-integrated</strong> web-based solutions tailored to your business processes. Multiply your efficiency with customer (B2C), dealer (B2B) or internal reporting portals.",
+      "highlight": "Automate Processes, Manage Your Data Instantly.",
+      "button": "Get Project Proposal",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "3 Key Focus Areas of Our Web Applications",
+      "cards": [
+        {
+          "icon": "bi-database-fill-lock",
+          "title": "Corporate Security & Authorization",
+          "desc": "We implement security protocols according to <strong>OWASP standards</strong> and integrate with Logo permissions while developing applications."
+        },
+        {
+          "icon": "bi-graph-up-arrow",
+          "title": "Real-Time Data & Reporting",
+          "desc": "We provide <strong>real-time access to Logo data</strong> via web panels, and present complex reports with customized dashboards."
+        },
+        {
+          "icon": "bi-code-square",
+          "title": "Scalable Modern Architecture",
+          "desc": "We build cloud-based architectures capable of handling future workloads using modern technologies like <strong>.NET Core, React/Vue</strong>."
+        }
+      ]
+    },
+    "scenarios": {
+      "title": "Commonly Developed Web Applications",
+      "cards": [
+        {
+          "icon": "bi-shop",
+          "title": "B2B Dealer / Order Portals",
+          "items": [
+            "Tracking dealer-specific price, stock, and risk.",
+            "Real-time orders and shipment entries posted to ERP."
+          ]
+        },
+        {
+          "icon": "bi-bar-chart-fill",
+          "title": "Management Dashboards",
+          "items": [
+            "Visualizing financial, sales, and stock data on a single screen.",
+            "Monitoring key performance indicators (KPI) on mobile and web."
+          ]
+        },
+        {
+          "icon": "bi-people-fill",
+          "title": "Custom Personnel Management Plugins",
+          "items": [
+            "Digital approval of expense, leave, and advance requests.",
+            "Internal communication and management tools for project/task tracking."
+          ]
+        },
+        {
+          "icon": "bi-gear-wide-connected",
+          "title": "Sector-Specific Solutions",
+          "items": [
+            "Production tracking, quality control, and barcode labeling automation.",
+            "Supplier portal and e-tender/offer collection systems."
+          ]
+        }
+      ]
+    },
+    "technology": {
+      "title": "Data Security & Infrastructure",
+      "desc": "All our applications are developed <strong>Cloud-Native</strong> (AWS/Azure compatible) and deployed with <strong>HTTPS/SSL</strong> for maximum security standards.",
+      "icons": [
+        {"icon": "bi-windows", "title": ".NET/.NET Core"},
+        {"icon": "bi-filetype-js", "title": "React/Vue/JS"},
+        {"icon": "bi-cloud-fill", "title": "Cloud Hosting / Azure/AWS"}
+      ]
+    },
+    "cta": {
+      "title": "Let's Develop the Customized Software Your Business Needs.",
+      "desc": "Request free consultation for your web project that talks to your Logo ERP and speeds up workflows.",
+      "button": "Talk to Solution Expert",
+      "link": "tel:+908502428423"
+    }
+  }
+}

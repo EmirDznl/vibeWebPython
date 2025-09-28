@@ -1,0 +1,26 @@
+{% extends "base.html" %}s
+{% load i18n %}
+
+
+
+
+{% block title %} {% trans "servisler" %} {% endblock title %}
+
+
+{% block content %}
+
+<div class="container py-5">
+  
+    <h2 class="text-center mb-5 fw-bold text-primary">{% trans "Hizmetlerimiz" %}</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+
+
+    
+            {% include "partials/_servicePartial.html" %}
+
+
+
+        </div>
+</div>
+{% endblock %}

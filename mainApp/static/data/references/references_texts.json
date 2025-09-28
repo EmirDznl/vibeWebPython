@@ -1,0 +1,20 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Başarı Hikayeleri ve Yorumlar",
+      "subtitle": "Müşterilerimizin dijital dönüşüm yolculuklarındaki deneyimleri.",
+      "section_title": "Müşterilerimiz Ne Dedi?",
+      "button": "Siz de Yorumunuzu Yapın",
+      "empty_message": "Henüz onaylanmış yorum bulunmamaktadır."
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Success Stories & Feedback",
+      "subtitle": "Experiences of our customers on their digital transformation journeys.",
+      "section_title": "What Our Customers Said?",
+      "button": "Submit Your Feedback",
+      "empty_message": "No approved comments yet."
+    }
+  }
+}

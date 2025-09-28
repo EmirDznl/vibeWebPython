@@ -1,0 +1,130 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Mikro İşletmeler İçin Başlangıç ERP Çözümü",
+      "subtitle": "İşletmenizi dijitalleştirmenin en hızlı ve ekonomik yolu. Tüm temel süreçlerinizi tek bir platformda, karmaşa olmadan yönetin.",
+      "button": "Hemen Kullanmaya Başlayın"
+    },
+    "features": [
+      {
+        "icon": "bi-speedometer2",
+        "title": "Hızlı Kurulum",
+        "desc": "Çözümünüzü saatler içinde kullanmaya başlayın ve anında verim alın."
+      },
+      {
+        "icon": "bi-currency-dollar",
+        "title": "Uygun Fiyatlandırma",
+        "desc": "Sadece ihtiyacınız olanı ödeyin. Büyük işletme maliyetleri olmadan profesyonel yönetim."
+      },
+      {
+        "icon": "bi-puzzle-fill",
+        "title": "Kolay Ölçekleme",
+        "desc": "İşiniz büyüdükçe yeni modüller ekleyin. Çözümünüz her zaman size uyum sağlar."
+      },
+      {
+        "icon": "bi-phone-fill",
+        "title": "Mobil Erişim",
+        "desc": "İşlerinizi ofis dışında, telefonunuzdan veya tabletinizden kolayca takip edin."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-file-earmark-spreadsheet-fill", "title": "Muhasebe & Finans"},
+      {"icon": "bi-box2-fill", "title": "Stok & Depo"},
+      {"icon": "bi-briefcase-fill", "title": "Müşteri & Tedarikçi"},
+      {"icon": "bi-bag-check-fill", "title": "Sipariş & Satış"},
+      {"icon": "bi-cloud-arrow-up-fill", "title": "e-Dönüşüm Entegrasyonu"}
+    ],
+    "blogs": [
+      {
+        "img": "https://picsum.photos/400/200?random=10",
+        "badge": "#E-Ticaret",
+        "title": "Stok Yönetiminde %90 Hata Azalması",
+        "desc": "Yerel bir e-ticaret firması, sistemimiz sayesinde envanter hatalarını neredeyse sıfırladı ve yıllık sevkiyat sayısını 3 katına çıkardı.",
+        "link": "#"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=11",
+        "badge": "#Üretim",
+        "title": "Fatura Süreçlerinde Ayda 20 Saat Tasarruf",
+        "desc": "Küçük bir atölye, e-dönüşüm çözümlerimizle kâğıt fatura ve arşivleme yükünden kurtularak muhasebe personelinin zamanını verimli kullandı.",
+        "link": "#"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=12",
+        "badge": "#Hizmet",
+        "title": "Mobil Takip ile Satışları %45 Artırdılar",
+        "desc": "Sahada çalışan bir hizmet firması, mobil ERP entegrasyonumuz sayesinde teklif verme hızını artırarak rekabette öne geçti.",
+        "link": "#"
+      }
+    ],
+    "cta": {
+      "title": "Profesyonel Yönetime Hemen Başlayın",
+      "desc": "Sizin de bir başarı hikayeniz olsun. İlk adımı bugün atın.",
+      "button": "Daha Fazla Bilgi"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Starter ERP Solution for Micro Businesses",
+      "subtitle": "The fastest and most cost-effective way to digitalize your business. Manage all basic processes on a single platform without complexity.",
+      "button": "Start Using Now"
+    },
+    "features": [
+      {
+        "icon": "bi-speedometer2",
+        "title": "Fast Setup",
+        "desc": "Start using your solution within hours and get instant results."
+      },
+      {
+        "icon": "bi-currency-dollar",
+        "title": "Affordable Pricing",
+        "desc": "Pay only for what you need. Professional management without large enterprise costs."
+      },
+      {
+        "icon": "bi-puzzle-fill",
+        "title": "Easy Scaling",
+        "desc": "Add new modules as your business grows. Your solution always adapts to you."
+      },
+      {
+        "icon": "bi-phone-fill",
+        "title": "Mobile Access",
+        "desc": "Easily track your business from your phone or tablet outside the office."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-file-earmark-spreadsheet-fill", "title": "Accounting & Finance"},
+      {"icon": "bi-box2-fill", "title": "Inventory & Warehouse"},
+      {"icon": "bi-briefcase-fill", "title": "Customer & Supplier"},
+      {"icon": "bi-bag-check-fill", "title": "Orders & Sales"},
+      {"icon": "bi-cloud-arrow-up-fill", "title": "E-Transformation Integration"}
+    ],
+    "blogs": [
+      {
+        "img": "https://picsum.photos/400/200?random=10",
+        "badge": "#E-Commerce",
+        "title": "90% Reduction in Inventory Errors",
+        "desc": "A local e-commerce company almost eliminated inventory errors and tripled annual shipments thanks to our system.",
+        "link": "#"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=11",
+        "badge": "#Manufacturing",
+        "title": "Save 20 Hours/Month in Invoicing",
+        "desc": "A small workshop saved accounting staff time by automating paper invoice and archiving processes with our e-transformation solutions.",
+        "link": "#"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=12",
+        "badge": "#Service",
+        "title": "Increase Sales 45% with Mobile Tracking",
+        "desc": "A service company in the field improved quoting speed with our mobile ERP integration and gained a competitive advantage.",
+        "link": "#"
+      }
+    ],
+    "cta": {
+      "title": "Start Professional Management Now",
+      "desc": "Make your own success story. Take the first step today.",
+      "button": "Learn More"
+    }
+  }
+}

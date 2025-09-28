@@ -1,0 +1,126 @@
+{
+  "tr": {
+    "title": "Yerinde Destek Hizmetleri",
+    "hero": {
+      "icon": "bi-pc-display-horizontal",
+      "title": "Yerinde Uzman Çözümler:",
+      "subtitle": "Yerinde Destek, Kurulum ve Bakım",
+      "desc1": "Karmaşık donanım, ağ altyapısı ve sunucu sorunlarınız için deneyimli teknik ekibimiz ofisinize gelsin.",
+      "highlight": "Gerektiğinde Yanınızdayız.",
+      "desc2": "ERP sistem kurulumları, sunucu taşıma işlemleri ve büyük ölçekli entegrasyonlar için en güvenli çözüm.",
+      "button": "Yerinde Servis Randevusu Oluşturun"
+    },
+    "scope": {
+      "title": "Yerinde Servis Kapsamı",
+      "cards": [
+        {
+          "icon": "bi-hdd-fill",
+          "title": "Sunucu Kurulum ve Bakımı",
+          "desc": "Yeni sunucu kurulumları, mevcut sunucu bakımı, yedekleme sistemleri ve performans optimizasyonu."
+        },
+        {
+          "icon": "bi-router-fill",
+          "title": "Ağ ve Altyapı Çözümleri",
+          "desc": "Lokal ağ sorunları, kablolama, modem/router konfigürasyonu ve güvenlik duvarı ayarları."
+        },
+        {
+          "icon": "bi-box-seam-fill",
+          "title": "Büyük Ölçekli ERP Kurulumları",
+          "desc": "Yeni ERP sistemi (Logo vb.) için yerinde kurulum, ilk veri aktarımı ve kullanıcı eğitimi."
+        }
+      ]
+    },
+    "process": {
+      "title": "Yerinde Destek Süreci ve Hizmet Garantisi",
+      "steps": [
+        {
+          "num": "1",
+          "title": "Ön Analiz",
+          "desc": "Telefonla sorunun tanımı yapılır ve yerinde servis için ön planlama ve randevu oluşturulur."
+        },
+        {
+          "num": "2",
+          "title": "Yerinde Müdahale",
+          "desc": "Teknik ekibimiz belirlenen saatte adresinizde olur ve soruna yerinde müdahale eder."
+        },
+        {
+          "num": "3",
+          "title": "Test ve Onay",
+          "desc": "Yapılan işlemler sizinle birlikte test edilir, sistemin doğru çalıştığına dair onay alınır."
+        },
+        {
+          "num": "4",
+          "title": "Hizmet Raporu",
+          "desc": "Detaylı teknik rapor ve sonraki adımlar için öneriler size yazılı olarak sunulur."
+        }
+      ]
+    },
+    "cta": {
+      "title": "En Zorlu Sorunlar İçin Uzmanlarımız Ofisinize Gelsin.",
+      "desc": "Yerinde uzmanlık gerektiren her türlü ihtiyacınız için bize güvenebilirsiniz.",
+      "button": "Yerinde Servis Talebi Oluştur"
+    }
+  },
+  "en": {
+    "title": "On-Site Support Services",
+    "hero": {
+      "icon": "bi-pc-display-horizontal",
+      "title": "Expert On-Site Solutions:",
+      "subtitle": "On-Site Support, Installation and Maintenance",
+      "desc1": "Our experienced technical team comes to your office for complex hardware, network infrastructure and server issues.",
+      "highlight": "We Are There When Needed.",
+      "desc2": "The safest solution for ERP system installations, server migrations and large-scale integrations.",
+      "button": "Book an On-Site Service Appointment"
+    },
+    "scope": {
+      "title": "On-Site Service Coverage",
+      "cards": [
+        {
+          "icon": "bi-hdd-fill",
+          "title": "Server Installation and Maintenance",
+          "desc": "New server installations, existing server maintenance, backup systems and performance optimization."
+        },
+        {
+          "icon": "bi-router-fill",
+          "title": "Network and Infrastructure Solutions",
+          "desc": "Local network issues, cabling, modem/router configuration and firewall settings."
+        },
+        {
+          "icon": "bi-box-seam-fill",
+          "title": "Large-Scale ERP Installations",
+          "desc": "On-site installation, initial data migration and user training for new ERP systems (e.g. Logo)."
+        }
+      ]
+    },
+    "process": {
+      "title": "On-Site Support Process and Service Guarantee",
+      "steps": [
+        {
+          "num": "1",
+          "title": "Pre-Analysis",
+          "desc": "The issue is defined over the phone, and preliminary planning and appointment are created for on-site service."
+        },
+        {
+          "num": "2",
+          "title": "On-Site Intervention",
+          "desc": "Our technical team arrives at your address at the scheduled time and intervenes on-site."
+        },
+        {
+          "num": "3",
+          "title": "Testing and Approval",
+          "desc": "The operations are tested with you, and approval is obtained that the system works correctly."
+        },
+        {
+          "num": "4",
+          "title": "Service Report",
+          "desc": "A detailed technical report and recommendations for the next steps are provided to you in writing."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Let Our Experts Come to Your Office for the Most Challenging Issues.",
+      "desc": "You can trust us for any need that requires on-site expertise.",
+      "button": "Request On-Site Service"
+    }
+  }
+}

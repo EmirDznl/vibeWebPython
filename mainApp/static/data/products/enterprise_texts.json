@@ -1,0 +1,112 @@
+{
+  "tr": {
+    "title": "Kurumsal",
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Global Ölçek ve <span style='color: var(--primary-color) !important;'>Dijital Dönüşüm</span> İçin Kurumsal ERP",
+      "desc": "Uluslararası operasyonlarınızı yönetin, Endüstri 4.0 süreçlerinizi entegre edin ve risk yönetimini merkezileştirin. Kuruluşunuzun geleceğini bugünden şekillendirin.",
+      "button": "Kurumsal Demo Talep Edin",
+      "link": "/demotalep/"
+    },
+    "benefits": [
+      {"icon": "bi-translate", "title": "Çoklu Dil ve Para Birimi", "desc": "Farklı ülkelerdeki mevzuatlara ve lokal gereksinimlere tam uyum, merkezden yönetim."},
+      {"icon": "bi-robot", "title": "Akıllı Üretim (Endüstri 4.0)", "desc": "IoT cihazları, robotik ve MES (Üretim Yürütme Sistemi) ile uçtan uca dijitalizasyon."},
+      {"icon": "bi-shield-check", "title": "Kurumsal Risk Yönetimi (GRC)", "desc": "Uyum (Compliance), denetim ve kurumsal risk süreçlerini tek bir çatı altında izleme."},
+      {"icon": "bi-speedometer2", "title": "Limitsiz Ölçeklenebilirlik", "desc": "Yüksek hacimli işlem yüklerini ve yüzlerce eş zamanlı kullanıcıyı destekleyen altyapı."}
+    ],
+    "modules": [
+      {"icon": "bi-pie-chart-fill", "title": "İleri İş Zekası ve BI (Business Intelligence)"},
+      {"icon": "bi-cash-stack", "title": "Kurumsal Performans Yönetimi (EPM)"},
+      {"icon": "bi-truck-flatbed", "title": "Global Lojistik ve Filo Yönetimi"},
+      {"icon": "bi-bank", "title": "Konsolide Finansal Raporlama"},
+      {"icon": "bi-cpu-fill", "title": "Hizmet Olarak Yazılım (SaaS) Platformu"}
+    ],
+    "stories": [
+      {
+        "img": "https://picsum.photos/400/200?random=41",
+        "badge": "#Finans & Uyum",
+        "title": "8 Ülkedeki Finansal Verilerin Tek Tıkla Konsolidasyonu",
+        "desc": "Çok uluslu bir Holding, farklı mevzuatlara sahip 8 ülkedeki operasyonlarını ERP'nin konsolide raporlama modülü ile tek bir merkeze taşıdı.",
+        "link": "https://www.kurumsal-uyum-raporu.com/global-konsolidasyon",
+        "link_text": "Raporu İncele"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=42",
+        "badge": "#Endüstri 4.0 & IoT",
+        "title": "Akıllı Fabrika Entegrasyonu ile Verimlilik %22 Arttı",
+        "desc": "Büyük bir otomotiv yan sanayi şirketi, tüm üretim hattını IoT ve MES ile ERP'ye bağlayarak üretim duruş sürelerini minimuma indirdi.",
+        "link": "https://www.otomasyonhaber.com/akilli-fabrika-vaka-calismasi",
+        "link_text": "Haber Kaynağına Git"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=43",
+        "badge": "#Lojistik & SCM",
+        "title": "Yüksek Hacimli Lojistik Operasyonlarında %10 Hata Azalması",
+        "desc": "Türkiye'nin en büyük perakende zincirlerinden biri, karmaşık lojistik ağını ERP'nin SCM ve depo yönetim modülleri ile hatasız ve hızlı yönetmeye başladı.",
+        "link": "https://www.perakendehaber.com/lojistik-basari-hikayesi",
+        "link_text": "Daha Fazla Oku"
+      }
+    ],
+    "cta": {
+      "title": "Global Rekabet İçin Hazır Olun",
+      "desc": "Uluslararası standartlarda, limitsiz ölçeklenebilir ERP çözümü ile kurumunuzu yarınlara taşıyın.",
+      "button": "Uzman Proje Ekibiyle Görüşün",
+      "link": "/contact/"
+    }
+  },
+  "en": {
+    "title": "Enterprise",
+    "hero": {
+      "icon": "bi-globe-americas",
+      "title": "Enterprise ERP for <span style='color: var(--primary-color) !important;'>Global Scale & Digital Transformation</span>",
+      "desc": "Manage your international operations, integrate Industry 4.0 processes and centralize risk management. Shape your organization's future today.",
+      "button": "Request Enterprise Demo",
+      "link": "/demotalep/"
+    },
+    "benefits": [
+      {"icon": "bi-translate", "title": "Multi-Language & Currency", "desc": "Full compliance with local regulations across countries, centralized management."},
+      {"icon": "bi-robot", "title": "Smart Manufacturing (Industry 4.0)", "desc": "End-to-end digitalization with IoT devices, robotics and MES."},
+      {"icon": "bi-shield-check", "title": "Enterprise Risk Management (GRC)", "desc": "Monitor compliance, audit and corporate risk processes under a single roof."},
+      {"icon": "bi-speedometer2", "title": "Unlimited Scalability", "desc": "Infrastructure supporting high-volume transactions and hundreds of simultaneous users."}
+    ],
+    "modules": [
+      {"icon": "bi-pie-chart-fill", "title": "Advanced Business Intelligence (BI)"},
+      {"icon": "bi-cash-stack", "title": "Enterprise Performance Management (EPM)"},
+      {"icon": "bi-truck-flatbed", "title": "Global Logistics & Fleet Management"},
+      {"icon": "bi-bank", "title": "Consolidated Financial Reporting"},
+      {"icon": "bi-cpu-fill", "title": "Software as a Service (SaaS) Platform"}
+    ],
+    "stories": [
+      {
+        "img": "https://picsum.photos/400/200?random=41",
+        "badge": "#Finance & Compliance",
+        "title": "Consolidation of Financial Data Across 8 Countries with One Click",
+        "desc": "A multinational holding centralized operations in 8 countries with different regulations using ERP's consolidated reporting module.",
+        "link": "https://www.kurumsal-uyum-raporu.com/global-konsolidasyon",
+        "link_text": "View Report"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=42",
+        "badge": "#Industry 4.0 & IoT",
+        "title": "Smart Factory Integration Increased Efficiency by 22%",
+        "desc": "A major automotive supplier connected its entire production line to ERP via IoT and MES, minimizing downtime.",
+        "link": "https://www.otomasyonhaber.com/akilli-fabrika-vaka-calismasi",
+        "link_text": "Go to Article"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=43",
+        "badge": "#Logistics & SCM",
+        "title": "10% Error Reduction in High-Volume Logistics Operations",
+        "desc": "One of Turkey's largest retail chains started managing its complex logistics network accurately and quickly using ERP SCM and warehouse modules.",
+        "link": "https://www.perakendehaber.com/lojistik-basari-hikayesi",
+        "link_text": "Read More"
+      }
+    ],
+    "cta": {
+      "title": "Be Ready for Global Competition",
+      "desc": "Take your organization into the future with an international standard, unlimited scalable ERP solution.",
+      "button": "Consult with Expert Project Team",
+      "link": "/contact/"
+    }
+  }
+}

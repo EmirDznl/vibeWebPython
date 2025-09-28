@@ -1,0 +1,82 @@
+:root {
+  --primary-color: #3498db; 
+  --text-dark: #2c3e50; 
+  --text-light: #7f8c8d;
+  --body-bg: #eff1f3; /* 1. Ton: Açık Mat Gri-Mavi (Ana Arka Plan) */
+  --content-bg: #ffffff; /* 2. Ton: Beyaz (Alternatif Bölüm/Kart Arka Planı) */
+  --shadow-color: rgba(0, 0, 0, 0.08); 
+  --transition-speed: 0.5s;
+}
+
+.dark-mode {
+  --primary-color: #5dade2; 
+  --text-dark: #ecf0f1; 
+  --text-light: #bdc3c7; 
+  
+  --body-bg: #2c3e50; /* 1. Ton: Koyu Mavi-Gri (Ana Arka Plan) */
+  --content-bg: #212b36; /* 2. Ton: DAHA KOYU ARKA PLAN (Alternatif Bölüm/Kart Arka Planı) */
+  
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+body, .hero-section, .service-card, .bg-white, .btn-primary, .btn-secondary, .form-control, .form-label, hr {
+    transition: color var(--transition-speed), background-color var(--transition-speed), box-shadow var(--transition-speed), border-color var(--transition-speed);
+}
+body { background-color: var(--body-bg); color: var(--text-dark); }
+.text-primary { color: var(--primary-color) !important; }
+.text-muted { color: var(--text-light) !important; }
+
+.hero-section, .service-card, .bg-white, #referanslar, .contact-section, #referans-carousel-wrapper { 
+    background-color: var(--content-bg) !important;
+}
+
+
+.bg-section-alt {
+    background-color: var(--content-bg) !important;
+}
+
+.form-control {
+    background-color: var(--body-bg); /* Light Mode: Açık Gri, Dark Mode: Koyu Mavi-Gri (#2c3e50) */
+    color: var(--text-dark);
+    border-color: var(--text-light) !important;
+}
+
+.hero-section {
+    background-color: var(--body-bg) !important;
+}
+.contact-section {
+    background-color: var(--body-bg) !important;
+}
+
+
+hr {
+    border-top: 1px solid var(--text-light) !important;
+    border-color: var(--text-light) !important; 
+    opacity: 0.5; 
+}
+
+.service-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    padding: 30px 20px; 
+    height: 100%;
+    color: var(--text-dark);
+    /* Kartların arka planı content-bg'dir. */
+    background-color: var(--content-bg) !important;
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+.service-icon, .service-card img { color: var(--primary-color); margin-bottom: 15px; }
+
+.btn-primary { 
+    background-color: var(--primary-color); 
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
+    background-color: var(--text-dark); 
+    border-color: var(--text-dark);
+}
+
+.custom-container { max-width: 1500px; margin-left:auto; margin-right:auto; padding-left:10px; padding-right:10px; }

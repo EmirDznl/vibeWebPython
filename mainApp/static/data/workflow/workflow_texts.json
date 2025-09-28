@@ -1,0 +1,152 @@
+{
+  "tr": {
+    "title": "İş Akışı Yönetimi (Workflow)",
+    "hero": {
+      "title": "Süreçlerinizi Akıllandırın: İş Akış Yönetimi (Workflow)",
+      "desc": "Operasyonel süreçlerdeki darboğazları ve manuel adımları ortadan kaldırın. İşleri doğru kişiye, doğru zamanda, otomatik olarak yönlendirin.",
+      "button": "Akışı Denemeye Başla"
+    },
+    "intro": {
+      "title": "Workflow (İş Akışı) Yazılımımız Ne İşe Yarar?",
+      "desc": "Yazılımımız, şirket içi tüm operasyonel süreçlerinizi dijitalleştirerek otomatikleştirir ve merkezileştirir.",
+      "list": [
+        "Temel Amaç: Doğru verinin doğru kişiye, doğru zamanda ulaşmasını garanti etmek.",
+        "Fayda: Süreç süresini %70'e varan oranda kısaltır.",
+        "Sonuç: Çalışanların değer yaratan işlere odaklanmasını sağlar."
+      ]
+    },
+    "steps": {
+      "title": "İş Akışı Otomasyonu Nasıl Çalışır?",
+      "items": [
+        {
+          "badge": "ADIM 1",
+          "icon": "bi-lightning-fill",
+          "title": "Sürecin Başlatılması (Trigger)",
+          "desc": "İzin talebi, sözleşme onayı veya fatura girişi akışı başlatır."
+        },
+        {
+          "badge": "ADIM 2",
+          "icon": "bi-arrow-right-circle-fill",
+          "title": "Akıllı Yönlendirme ve Atama",
+          "desc": "Kurallara göre görevler doğru kişilere iletilir."
+        },
+        {
+          "badge": "ADIM 3",
+          "icon": "bi-check-circle-fill",
+          "title": "Otomatik Tamamlama ve Entegrasyon",
+          "desc": "Onay sonrası bilgiler otomatik olarak sisteme işlenir."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "İş Akışı Otomasyonunun Somut Faydaları",
+      "items": [
+        {
+          "icon": "bi-clock-history",
+          "title": "Zaman Kaybı = 0",
+          "desc": "Manuel işleri ortadan kaldırarak süreçleri %70 hızlandırır."
+        },
+        {
+          "icon": "bi-x-octagon-fill",
+          "title": "Sıfır Hata ve Uyum",
+          "desc": "İnsan kaynaklı hataları önler, tüm süreçleri politikalarla uyumlu hale getirir."
+        },
+        {
+          "icon": "bi-journal-check",
+          "title": "Şeffaflık ve Raporlama",
+          "desc": "Süreç darboğazlarını tespit edin ve iyileştirme yapın."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Neden Bizim İş Akışı Çözümümüz?",
+      "items": [
+        {
+          "icon": "bi-puzzle-fill",
+          "title": "Kodsuz Tasarım (No-Code)",
+          "desc": "Sürükle-bırak arayüzü ile dakikalar içinde yeni akış oluşturun."
+        },
+        {
+          "icon": "bi-infinity",
+          "title": "ERP ile Sonsuz Entegrasyon",
+          "desc": "Mevcut sistemlerinizle API üzerinden tam entegrasyon sağlar."
+        }
+      ]
+    }
+  },
+  "en": {
+    "title": "Workflow Management",
+    "hero": {
+      "title": "Smartify Your Processes: Workflow Management",
+      "desc": "Eliminate bottlenecks and manual steps in operations. Automatically route tasks to the right person at the right time.",
+      "button": "Start the Demo"
+    },
+    "intro": {
+      "title": "What Does Our Workflow Software Do?",
+      "desc": "Our software digitizes, automates, and centralizes all your internal processes.",
+      "list": [
+        "Goal: Ensure the right data reaches the right person at the right time.",
+        "Benefit: Reduce process time by up to 70%.",
+        "Result: Employees focus on value-creating tasks instead of paperwork."
+      ]
+    },
+    "steps": {
+      "title": "How Does Workflow Automation Work?",
+      "items": [
+        {
+          "badge": "STEP 1",
+          "icon": "bi-lightning-fill",
+          "title": "Process Trigger",
+          "desc": "Leave request, contract approval, or invoice entry starts the workflow."
+        },
+        {
+          "badge": "STEP 2",
+          "icon": "bi-arrow-right-circle-fill",
+          "title": "Smart Routing & Assignment",
+          "desc": "Tasks are routed to the right people based on rules."
+        },
+        {
+          "badge": "STEP 3",
+          "icon": "bi-check-circle-fill",
+          "title": "Automatic Completion & Integration",
+          "desc": "After approval, data is automatically processed into the system."
+        }
+      ]
+    },
+    "benefits": {
+      "title": "Tangible Benefits of Workflow Automation",
+      "items": [
+        {
+          "icon": "bi-clock-history",
+          "title": "Zero Time Waste",
+          "desc": "Eliminate manual tasks and accelerate processes by up to 70%."
+        },
+        {
+          "icon": "bi-x-octagon-fill",
+          "title": "Zero Errors & Compliance",
+          "desc": "Prevent human errors and ensure policy compliance."
+        },
+        {
+          "icon": "bi-journal-check",
+          "title": "Transparency & Reporting",
+          "desc": "Identify bottlenecks and improve continuously."
+        }
+      ]
+    },
+    "whyus": {
+      "title": "Why Our Workflow Solution?",
+      "items": [
+        {
+          "icon": "bi-puzzle-fill",
+          "title": "No-Code Design",
+          "desc": "Create new workflows in minutes with drag-and-drop interface."
+        },
+        {
+          "icon": "bi-infinity",
+          "title": "Endless ERP Integration",
+          "desc": "Seamless API integration with all your HR & payroll systems."
+        }
+      ]
+    }
+  }
+}

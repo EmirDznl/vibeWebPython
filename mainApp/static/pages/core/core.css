@@ -1,0 +1,126 @@
+    /* ------------------------------------------------------------------- */
+    /* DARK MODE DESTEK TANIMLARI (BAŞLANGIÇ) - Canvas'tan Alınmıştır */
+    /* ------------------------------------------------------------------- */
+    
+    /* Varsayılan: LIGHT MODE */
+    :root {
+        --primary-color: #3498db;
+        --text-dark: #2c3e50;
+        --text-light: #7f8c8d;
+        --body-bg: #eff1f3;
+        --content-bg: #ffffff;
+        --shadow-color: rgba(0, 0, 0, 0.08);
+        --toggle-icon-color: var(--text-dark);
+    }
+
+    /* DARK MODE AKTİF: body'de .dark-mode sınıfı olduğunda çalışır */
+    .dark-mode {
+        --primary-color: #5dade2;
+        --text-dark: #ecf0f1;
+        --text-light: #bdc3c7;
+        --body-bg: #2c3e50;
+        --content-bg: #212b36;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+        --toggle-icon-color: var(--text-light); 
+    }
+
+    /* Genel Sayfa Stilleri */
+    body { 
+        background-color: var(--body-bg); 
+        transition: background-color 0.3s ease, color 0.3s ease;
+        color: var(--text-dark); /* Varsayılan metin rengini ayarla */
+    }
+
+    /* Özel Container */
+    .custom-container { 
+        max-width: 1500px; 
+        margin: auto; 
+        padding: 0 10px; 
+    }
+
+    /* Hero Section */
+    .hero-section { 
+        padding: 100px 0; 
+    }
+
+    /* Card Stilleri (Service Card) */
+    .service-card { 
+        background: var(--content-bg); /* Dark Mode uyumlu arka plan */
+        border-radius: 12px; 
+        box-shadow: 0 4px 12px var(--shadow-color); /* Dark Mode uyumlu gölge */
+        padding: 30px 20px; 
+        transition: transform .3s, box-shadow .3s, background-color .3s; 
+        height: 100%; 
+        color: var(--text-dark); /* Kart içindeki metin rengi */
+        border: 1px solid transparent;
+    }
+
+    .service-card:hover { 
+        transform: translateY(-5px); 
+        box-shadow: 0 8px 24px rgba(0,0,0,0.15); 
+        border: 1px solid var(--primary-color);
+    }
+    .dark-mode .service-card:hover {
+        box-shadow: 0 8px 24px rgba(0,0,0,0.5); 
+    }
+
+    /* İkon Stilleri */
+    .service-icon { 
+        font-size: 2rem; 
+        color: var(--primary-color); /* Vurgu rengi */
+        margin-bottom: 15px; 
+    }
+
+    /* Buton Stilleri */
+    .btn-primary {
+        background-color: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        color: var(--content-bg) !important;
+        transition: all 0.3s ease;
+    }
+    .btn-outline-primary {
+        color: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        transition: all 0.3s ease;
+    }
+    .btn-outline-primary:hover {
+        background-color: var(--primary-color) !important;
+        color: var(--content-bg) !important;
+    }
+
+    /* Arka Plan Stilleri (Özellikle .bg-white yerine kullanılacak) */
+    .bg-content {
+        background-color: var(--content-bg) !important;
+    }
+
+    /* Metin Renkleri (Tüm sayfa için) */
+    .text-dark-mode-aware {
+        color: var(--text-dark) !important;
+    }
+    .text-text-light {
+        color: var(--text-light) !important;
+    }
+    
+    /* Bootstrap'in text-muted sınıfını temaya uyumlu hale getir */
+    .text-muted {
+        color: var(--text-light) !important;
+    }
+    
+    /* Toggle Butonu Stili */
+    #page-dark-mode-toggle {
+        color: var(--toggle-icon-color);
+        transition: color 0.3s;
+        cursor: pointer;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        font-size: 1.5rem;
+        z-index: 1030;
+        background-color: var(--content-bg);
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 0 4px 8px var(--shadow-color);
+    }
+    #page-dark-mode-toggle:hover {
+        color: var(--primary-color);
+    }

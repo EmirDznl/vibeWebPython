@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block extra_head %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="{% static 'pages/eTransformation/crm.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+
+    <header class="row justify-content-center text-center mb-5 animate__animated animate__fadeInDown hero-section">
+        <div class="col-lg-10">
+            <i class="bi {{ content.hero.icon }} icon-gradient mb-4" style="font-size: 5rem; display: block;"></i>
+            <h1 class="mt-3">{{ content.hero.headline }}</h1>
+            <p class="lead mt-3" style="color: var(--text-light);">{{ content.hero.desc1 }}</p>
+            <h3 class="mt-5 text-primary-custom">{{ content.hero.desc2 }}</h3>
+            <p class="lead mt-3" style="color: var(--text-light);">{{ content.hero.desc3 }}</p>
+            <a href="{{ content.hero.button_link }}" class="btn btn-primary-custom btn-lg mt-4 animate__animated animate__pulse animate__delay-1s">
+                <i class="bi bi-rocket-takeoff-fill me-2"></i> <h5>{{ content.hero.button }}</h5>
+            </a>
+        </div>
+    </header>
+
+    <section class="py-5 text-center">
+        <h2 class="mb-5">{{ content.workflow.title }}</h2>
+        <div class="row g-4 justify-content-center">
+            {% for card in content.workflow.cards %}
+            <div class="col-md-6 col-lg-4 animate__animated animate__fadeInLeft">
+                <div class="bi-focus-card h-100">
+                    <i class="bi {{ card.icon }} icon-gradient mb-3" style="font-size: 2.5rem !important;"></i>
+                    <h5 class="fw-bold">{{ card.title }}</h5>
+                    <p class="small mb-0" style="color: var(--text-light);">{{ card.desc }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section class="py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                <h2 class="fw-bold mb-4">{{ content.features.headline }}</h2>
+                <p class="lead" style="color: var(--text-light);">{{ content.features.desc }}</p>
+                
+                <div class="visual-area mt-4">
+                    <h5 class="fw-bold mb-3" style="color: var(--text-dark) !important;">Fatura Yaşam Döngüsü</h5>
+                    <div class="d-flex justify-content-center align-items-center mb-3">
+                        {% for item in content.features.items %}
+                        <div class="p-3 text-center">
+                            <i class="bi {{ item.icon }}" style="font-size: 2.5rem; color: var(--primary-color);"></i>
+                            <p class="small mt-1 mb-0" style="color: var(--text-light);">{{ item.title }}</p>
+                        </div>
+                        {% if not forloop.last %}
+                        <i class="bi bi-arrow-right-short mx-3" style="font-size: 2rem; color: var(--text-light);"></i>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    <small style="color: var(--text-light);">Tüm süreç, modülümüz üzerinden saniyeler içinde tamamlanır.</small>
+                </div>
+            </div>
+            
+            <div class="col-lg-6 mt-4 mt-lg-0 animate__animated animate__fadeInRight">
+                <h3 class="text-primary-custom mb-4">Temel İşlevler</h3>
+                <ul class="list-unstyled">
+                    {% for item in content.features.items %}
+                    <li class="feature-card p-3 mb-3 d-flex align-items-start">
+                        <i class="bi {{ item.icon }} me-3" style="font-size: 2rem; color: var(--primary-color);"></i>
+                        <div>
+                            <h6 class="fw-bold mb-1">{{ item.title }}</h6>
+                            <p class="small mb-0" style="color: var(--text-light);">{{ item.desc }}</p>
+                        </div>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section class="py-5 text-center">
+        <h2 class="mb-5">{{ content.integration.title }}</h2>
+        <div class="row g-4 justify-content-center">
+            {% for card in content.integration.cards %}
+            <div class="col-md-6 col-lg-6 animate__animated animate__fadeInUpBig {% if forloop.counter == 2 %}animate__delay-0-2s{% endif %}">
+                <div class="feature-card p-4 h-100 {% if forloop.counter == 2 %}border-left{% endif %}" style="{% if forloop.counter == 2 %}border-left: 4px solid var(--primary-color) !important;{% endif %}">
+                    <i class="bi {{ card.icon }}" style="font-size: 3rem; {% if forloop.counter == 2 %}color: var(--primary-color);{% endif %}"></i>
+                    <h5 class="fw-bold mt-3">{{ card.title }}</h5>
+                    <p class="small mb-0" style="color: var(--text-light);">{{ card.desc }}</p>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <hr class="my-5">
+
+    <section class="py-5 text-center">
+        <div class="bi-focus-card p-5 animate__animated animate__fadeInUpBig"
+            style="border-top: 5px solid var(--primary-color);">
+            <h3 class="fw-bold mb-3">{{ content.cta.headline }}</h3>
+            <p class="lead" style="color: var(--text-light);">{{ content.cta.desc }}</p>
+            <a href="#" class="btn btn-primary-custom btn-lg mt-3">
+                <i class="bi bi-phone-vibrate-fill me-2"></i> {{ content.cta.button }}
+            </a>
+        </div>
+    </section>
+
+</div>
+{% endblock %}

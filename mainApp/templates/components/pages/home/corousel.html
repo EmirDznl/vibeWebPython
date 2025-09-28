@@ -1,0 +1,179 @@
+{% load static %}
+
+<div class="mt-4" id="referans-carousel-wrapper" style="overflow:hidden; width:100%; max-width:1000px; margin:0 auto; border-radius:10px; padding:20px; transition: background-color 0.5s;">
+  <div id="carousel-track" style="display:flex; width:max-content; transition: transform 0.1s linear;"></div>
+</div>
+<style>
+/* ======================================= */
+/* 1. RENK PALETİ VE TEMEL STİLLER (MAT & GÖZ YORMAYAN) */
+/* ======================================= */
+:root {
+  /* Aydınlık Mod (Light Mode) */
+  --primary-color: #3498db; /* Mat Mavi Vurgu */
+  --text-dark: #2c3e50; 
+  --text-light: #7f8c8d;
+  --body-bg: #eff1f3; /* Mat Gri-Mavi Ton (Tüm sayfa) */
+  --content-bg: #ffffff; /* Kartlar için beyaz (Hafif kontrast) */
+  --shadow-color: rgba(0, 0, 0, 0.08); 
+  --transition-speed: 0.5s;
+}
+
+/* Karanlık Mod (Dark Mode) */
+.dark-mode {
+  --primary-color: #5dade2; /* Açık Mavi Vurgu */
+  --text-dark: #ecf0f1; 
+  --text-light: #bdc3c7; 
+  --body-bg: #2c3e50; /* Koyu Mavi-Gri (İstenen ton: Tüm sayfa) */
+  --content-bg: #2c3e50; /* YENİ: Karusel dış çerçevesi ve Hero/Contact kısımları da body rengini alsın */
+  --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+/* --- GENEL STİL UYGULAMASI VE GEÇİŞLER --- */
+body, .hero-section, .service-card, .bg-white, .btn-primary, .btn-secondary, .form-control {
+    transition: color var(--transition-speed), background-color var(--transition-speed), box-shadow var(--transition-speed), border-color var(--transition-speed);
+}
+body { background-color: var(--body-bg); color: var(--text-dark); }
+.text-primary { color: var(--primary-color) !important; }
+.text-muted { color: var(--text-light) !important; }
+
+/* KARTLAR VE ARKA PLANLAR */
+/* bg-white ve hero-section, content-bg'yi kullandığı için, Dark Mode'da #2c3e50 olacaktır. */
+.hero-section, .service-card { background-color: var(--content-bg) !important; }
+
+/* Karusel, Contact ve diğer beyaz alanlar content-bg'ye bağlı */
+.bg-white, #referanslar, .contact-section, #referans-carousel-wrapper { 
+    background-color: var(--content-bg) !important;
+}
+
+/* Form alanlarının rengini ayarlama */
+.form-control {
+    background-color: var(--body-bg);
+    color: var(--text-dark);
+    border-color: var(--text-light) !important;
+}
+.dark-mode .form-control {
+    background-color: var(--body-bg);
+    border-color: var(--text-light) !important;
+}
+
+.service-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 12px var(--shadow-color);
+    padding: 30px 20px; 
+    height: 100%;
+    color: var(--text-dark);
+}
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px var(--shadow-color);
+}
+.service-icon, .service-card img { color: var(--primary-color); margin-bottom: 15px; }
+
+/* BUTON VURGUSU */
+.btn-primary { 
+    background-color: var(--primary-color); 
+    border-color: var(--primary-color);
+}
+.btn-primary:hover {
+    background-color: var(--text-dark); 
+    border-color: var(--text-dark);
+}
+
+.custom-container { max-width: 1500px; margin-left:auto; margin-right:auto; padding-left:10px; padding-right:10px; }
+</style>
+<script>
+  // CSS Değişkenlerini JS'ten okuma fonksiyonu
+  const getCssVar = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+  const references = [
+    { id: 1, name: "elemental", logoUrl: "{% static 'public/referenceCompanies/elemental.jpg' %}" },
+    { id: 2, name: "Dailyshot", logoUrl: "{% static 'public/referenceCompanies/dailyshot.jpg' %}" },
+    { id: 3, name: "Idenfit", logoUrl: "{% static 'public/referenceCompanies/idenfit.jpg' %}" },
+    { id: 4, name: "Orvital", logoUrl: "{% static 'public/referenceCompanies/orvital.jpg' %}" },
+    { id: 5, name: "YT Lojistik", logoUrl: "{% static 'public/referenceCompanies/ytlojistik.jpg' %}" },
+    { id: 6, name: "Acun Medya", logoUrl: "{% static 'public/referenceCompanies/acun.jpeg' %}" },
+    { id: 7, name: "Ferre", logoUrl: "https://placehold.co/200x100?text=Ferre" },
+    { id: 8, name: "Çetinkaya", logoUrl: "{% static 'public/referenceCompanies/cetinkaya.jpeg' %}" },
+  ];
+
+  const track = document.getElementById("carousel-track");
+  // Karusel arka planını DOM'dan alalım
+  const wrapper = document.getElementById("referans-carousel-wrapper");
+  
+  // 5 katı referans ile sonsuz döngü (aynen korundu)
+  const allRefs = [...references, ...references, ...references, ...references, ...references]; 
+
+  allRefs.forEach(ref => {
+    const card = document.createElement("div");
+    card.className = "ref-card"; // Yeni sınıf eklendi
+    card.style.minWidth = "250px";
+    card.style.height = "150px";
+    card.style.marginRight = "20px";
+    card.style.display = "flex";
+    card.style.justifyContent = "center";
+    card.style.alignItems = "center";
+    card.style.borderRadius = "12px";
+    card.style.cursor = "pointer";
+    card.style.transition = "transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s, border-color 0.5s";
+
+    // Hover efekti (JS ile renk kontrolü yerine, CSS değişkenlerine güveniyoruz)
+    card.addEventListener("mouseenter", () => {
+      card.style.transform = "scale(1.05)";
+      isPaused = true; 
+    });
+    card.addEventListener("mouseleave", () => {
+      card.style.transform = "scale(1)";
+      isPaused = false; 
+    });
+
+    const img = document.createElement("img");
+    img.src = ref.logoUrl;
+    img.alt = ref.name;
+    img.style.maxWidth = "95%";
+    img.style.maxHeight = "95%";
+    img.style.objectFit = "contain";
+
+    card.appendChild(img);
+    track.appendChild(card);
+  });
+  
+  // CSS Değişkenlerini Uygulayan Fonksiyon
+  function applyCarouselStyles() {
+    // Wrapper (Karusel dış çerçevesi) arka planını body'ye bağlıyoruz (Daha Mat)
+    wrapper.style.backgroundColor = getCssVar('--body-bg');
+    wrapper.style.border = `1px solid ${getCssVar('--text-light')}50`; // Hafif kenarlık
+
+    // Kart içlerini content-bg'ye bağlıyoruz (Hafif Açık)
+    document.querySelectorAll('.ref-card').forEach(card => {
+        card.style.backgroundColor = getCssVar('--content-bg');
+        card.style.border = `1px solid ${getCssVar('--text-light')}40`;
+        card.style.boxShadow = `0 4px 8px ${getCssVar('--shadow-color')}`;
+    });
+  }
+
+  // Tema değiştiğinde veya sayfa yüklendiğinde stili uygula
+  applyCarouselStyles();
+  
+  // Tema değiştiğinde renkleri güncellemek için bir MutationObserver kullanabiliriz.
+  // Bu, body'deki dark-mode sınıfı değiştiğinde çalışır.
+  new MutationObserver(applyCarouselStyles).observe(document.body, { attributes: true, attributeFilter: ['class'] });
+
+
+  let position = 0;
+  let isPaused = false;
+
+  function animate() {
+    if(!isPaused) {
+      position -= 1.8; 
+      // İlk set bittiğinde (track.scrollWidth / 5), sıfırlama noktasına yaklaştık. 
+      // allRefs 5x olduğu için, 5 setten 2.5 seti geçtiğimizde (yarısında) sıfırlıyoruz.
+      if(Math.abs(position) >= track.scrollWidth / 2.5) { // 5 değil 2.5 kullandık
+        position = 0;
+      }
+      track.style.transform = `translateX(${position}px)`;
+    }
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>

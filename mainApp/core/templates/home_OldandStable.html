@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+
+{% block title %}{% trans "Ana Sayfa" %}{% endblock %}
+
+{% block content %}
+
+<h2>{% trans "Web sitemize hoş geldiniz!" %}</h2>
+
+{% include "components/pages/home/corousel.html" %}
+
+{% include "./deneme.html" %}
+
+{% endblock %}

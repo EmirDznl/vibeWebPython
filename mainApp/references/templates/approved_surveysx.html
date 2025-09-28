@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+
+
+
+{% block title %}{% trans "müşteri geribildirimleri" %}{% endblock %}
+
+
+{% block content %}
+
+    <h2>{% trans "Müşterilerimiz ne diyor" %}</h2>
+    {% for survey in surveys %}
+        <div style="border:1px solid #ccc; margin:10px; padding:10px;">
+            <p><strong>{{ survey.customer.name }}</strong> ({{ survey.created_at|date:"Y-m-d" }})</p>
+            <p>{{ survey.comment }}</p>
+        </div>
+    {% empty %}
+        <p>{% trans "henüz clientlerden yorum gelmedi" %}</p>
+    {% endfor %}
+    <a href="{% url 'surveys' %}">{% trans "yorum yap" %}</a></body>
+
+
+
+{% endblock %}

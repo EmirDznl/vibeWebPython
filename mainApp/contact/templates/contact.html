@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block extra_head %}
+<link rel="stylesheet" href="{% static 'pages/contact/contact.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-section-contact text-center animate__animated animate__fadeInDown">
+    <div class="container">
+        <i class="bi {{ content.hero.icon }} text-primary-custom" style="font-size: 4rem;"></i>
+        <h1 class="mt-3 display-4 fw-bold text-dark-mode-aware">{{ content.hero.title }}</h1>
+        <p class="lead text-text-light">{{ content.hero.desc }}</p>
+    </div>
+</section>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row g-5 justify-content-center">
+
+            <div class="col-lg-7 animate__animated animate__fadeInLeft">
+                <div class="contact-card p-5">
+                    <h3 class="card-title text-center fw-bold mb-5 text-primary-custom">{{ content.form.title }}</h3>
+                    <form onsubmit="event.preventDefault(); alert('Mesajınız başarıyla gönderildi (Simülasyon).');">
+                        <div class="mb-4">
+                            <label>{{ content.form.name_label }}</label>
+                            <input type="text" placeholder="{{ content.form.name_label }}" required>
+                        </div>
+                        <div class="mb-4">
+                            <label>{{ content.form.email_label }}</label>
+                            <input type="email" placeholder="{{ content.form.email_label }}" required>
+                        </div>
+                        <div class="mb-4">
+                            <label>{{ content.form.subject_label }}</label>
+                            <select>
+                                <option value="" disabled selected>{{ content.form.subject_label }}</option>
+                                {% for opt in content.form.subject_options %}
+                                <option value="{{ opt.value }}">{{ opt.label }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="mb-4">
+                            <label>{{ content.form.message_label }}</label>
+                            <textarea rows="5" placeholder="{{ content.form.message_label }}" required></textarea>
+                        </div>
+                        <div class="text-center mt-5">
+                            <button type="submit" class="btn btn-primary-custom btn-lg w-75">
+                                <i class="bi bi-send-fill me-2"></i> {{ content.form.submit_btn }}
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-5 animate__animated animate__fadeInRight">
+                <div class="contact-card p-4 h-100">
+                    <h3 class="card-title fw-bold mb-4 text-primary-custom">{{ content.corporate_info.title }}</h3>
+                    <p class="mb-4 text-text-light">{{ content.corporate_info.desc }}</p>
+
+                    <div class="contact-info mb-4">
+                        <h5 class="fw-bold text-dark-mode-aware"><i class="bi bi-geo-alt-fill"></i> </h5>
+                        <p class="mb-0 small text-dark-mode-aware">{{ content.corporate_info.address }}</p>
+                    </div>
+                    <div class="contact-info mb-4">
+                        <h5 class="fw-bold text-dark-mode-aware"><i class="bi bi-telephone-fill"></i> </h5>
+                        <a href="tel:{{ content.corporate_info.phone }}" class="text-decoration-none text-dark-mode-aware">{{ content.corporate_info.phone }}</a>
+                    </div>
+                    <div class="contact-info mb-4">
+                        <h5 class="fw-bold text-dark-mode-aware"><i class="bi bi-envelope-fill"></i></h5>
+                        <a href="mailto:{{ content.corporate_info.email }}" class="text-decoration-none text-dark-mode-aware">{{ content.corporate_info.email }}</a>
+                    </div>
+                    <div class="contact-info mb-4">
+                        <h5 class="fw-bold text-dark-mode-aware"><i class="bi bi-clock-fill"></i></h5>
+                        <p class="mb-0 small text-dark-mode-aware">{{ content.corporate_info.working_hours }}</p>
+                    </div>
+                    <div class="mt-4 pt-3 border-top" style="border-color: var(--text-light) !important;">
+                        <h6 class="fw-bold text-center mt-2 text-primary-custom"></h6>
+                        <div class="map-placeholder">
+                            <iframe src="{{ content.corporate_info.map_iframe }}" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}

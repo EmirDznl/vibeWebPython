@@ -1,0 +1,160 @@
+{
+  "tr": {
+    "title": "e-Mutabakat Modülü",
+    "hero": {
+      "icon": "bi-handshake-fill",
+      "main_title": "Zahmetsiz Mutabakat: e-Mutabakat (BA/BS ve Cari) Modülü",
+      "desc1": "Cari hesap ve BA/BS mutabakat süreçlerini %90 oranında otomatikleştirin. Mutabakat sonuçlarına saniyeler içinde ulaşın.",
+      "desc2": "Otomatik mail gönderimi, anlık cevap takibi ve sistem içi uyuşmazlık analizi ile mutabakatı kolay bir rutin haline getirin.",
+      "cta_btn": "Mutabakatı Rutinleştirin",
+      "cta_link": "/emutabakat-hizli-baslangic/"
+    },
+    "why_section": {
+      "title": "Neden e-Mutabakat Modülü?",
+      "features": [
+        {
+          "icon": "bi-calendar-check-fill",
+          "title": "Yasal Süreye Uyum",
+          "desc": "BA/BS bildirimlerinin yasal süreleri içinde doğru ve eksiksiz bir şekilde tamamlanmasını garanti eder."
+        },
+        {
+          "icon": "bi-bezier2",
+          "title": "Hızlı Cevap Oranı",
+          "desc": "Tüm mutabakat talepleri tek tıkla e-posta ile gönderilir. Karşı tarafın mobil uyumlu arayüzden anlık cevaplamasını sağlar."
+        },
+        {
+          "icon": "bi-graph-up-arrow",
+          "title": "Detaylı Uyuşmazlık Raporu",
+          "desc": "Mutabakat sağlanamayan cariler için fark analizini otomatik yapar ve düzeltme sürecini hızlandırır."
+        }
+      ]
+    },
+    "automation_section": {
+      "title": "Cari Mutabakatın Otomasyonu",
+      "desc": "Manuel yazışmalar, telefon trafiği ve Excel tablolarına elveda deyin. Modül, mutabakat sürecinizi tamamen dijitalleştirir.",
+      "flow_steps": [
+        "Veri Topla",
+        "Talep Gönder",
+        "Cevap Topla",
+        "Raporla"
+      ],
+      "features": [
+        {
+          "icon": "bi-cursor-fill",
+          "title": "Tek Tıkla Toplu Gönderim",
+          "desc": "Yüzlerce, hatta binlerce cariye mutabakat talebini tek bir işlemle, hızlı ve kişiselleştirilmiş bir şekilde gönderin."
+        },
+        {
+          "icon": "bi-bell-fill",
+          "title": "Otomatik Hatırlatmalar",
+          "desc": "Cevap vermeyen carilere belirlenen aralıklarla otomatik hatırlatma mailleri gönderilmesini sağlayın."
+        },
+        {
+          "icon": "bi-check-circle-fill",
+          "title": "Yasal Kabul Belgesi",
+          "desc": "Elektronik ortamda onaylanan mutabakatları yasal kanıt niteliğinde arşivleyin ve denetimlere hazırlıklı olun."
+        }
+      ]
+    },
+    "risk_section": {
+      "title": "BA/BS Bildirimlerinde Sıfır Risk",
+      "features": [
+        {
+          "icon": "bi-file-text-fill",
+          "title": "Otomatik Limit Kontrolü",
+          "desc": "Belirlenen haddi aşan tüm alış/satış işlemlerini otomatik olarak listeler ve BA/BS formuna tek tıkla hazırlar."
+        },
+        {
+          "icon": "bi-box-arrow-up-right",
+          "title": "Hatasız Beyanname Hazırlama",
+          "desc": "Hazırlanan BA/BS formlarını GİB'e iletilmeye uygun XML formatında dışa aktarır, vergi dairesi cezalarından korur."
+        }
+      ]
+    },
+    "closing_section": {
+      "title": "Finansal Kapanış Artık Bir Aylık Kabus Değil, Bir Tıklama Mesafesi!",
+      "desc": "e-Mutabakat ile muhasebe süreçlerinizi modernleştirin.",
+      "cta_btn": "Finansal Verimliliğinizi Artırın",
+      "cta_icon": "bi-lightning-charge-fill"
+    }
+  },
+  "en": {
+    "title": "e-Reconciliation Module",
+    "hero": {
+      "icon": "bi-handshake-fill",
+      "main_title": "Effortless Reconciliation: e-Reconciliation (BA/BS & Account) Module",
+      "desc1": "Automate up to 90% of your account and BA/BS reconciliation processes. Get reconciliation results in seconds.",
+      "desc2": "Make reconciliation an easy routine with automatic email sending, instant response tracking, and in-system discrepancy analysis.",
+      "cta_btn": "Routine Your Reconciliation",
+      "cta_link": "/emutabakat-hizli-baslangic/"
+    },
+    "why_section": {
+      "title": "Why e-Reconciliation Module?",
+      "features": [
+        {
+          "icon": "bi-calendar-check-fill",
+          "title": "Legal Compliance",
+          "desc": "Ensures BA/BS notifications are completed accurately and fully within legal deadlines."
+        },
+        {
+          "icon": "bi-bezier2",
+          "title": "Fast Response Rate",
+          "desc": "All reconciliation requests are sent with one click via email. The counterpart can respond instantly via mobile-compatible interface."
+        },
+        {
+          "icon": "bi-graph-up-arrow",
+          "title": "Detailed Discrepancy Report",
+          "desc": "Automatically performs difference analysis for accounts without reconciliation and speeds up the correction process."
+        }
+      ]
+    },
+    "automation_section": {
+      "title": "Account Reconciliation Automation",
+      "desc": "Say goodbye to manual emails, phone traffic, and Excel sheets. The module fully digitizes your reconciliation process.",
+      "flow_steps": [
+        "Collect Data",
+        "Send Request",
+        "Collect Response",
+        "Report"
+      ],
+      "features": [
+        {
+          "icon": "bi-cursor-fill",
+          "title": "One-Click Bulk Sending",
+          "desc": "Send reconciliation requests to hundreds or thousands of accounts in one quick and personalized operation."
+        },
+        {
+          "icon": "bi-bell-fill",
+          "title": "Automatic Reminders",
+          "desc": "Ensure automatic reminder emails are sent to accounts that have not responded at specified intervals."
+        },
+        {
+          "icon": "bi-check-circle-fill",
+          "title": "Legal Acceptance Document",
+          "desc": "Archive electronically approved reconciliations as legal evidence and be ready for audits."
+        }
+      ]
+    },
+    "risk_section": {
+      "title": "Zero Risk in BA/BS Notifications",
+      "features": [
+        {
+          "icon": "bi-file-text-fill",
+          "title": "Automatic Limit Control",
+          "desc": "Automatically lists all transactions exceeding the set limit and prepares them in BA/BS form with one click."
+        },
+        {
+          "icon": "bi-box-arrow-up-right",
+          "title": "Error-Free Declaration Preparation",
+          "desc": "Exports prepared BA/BS forms in XML format suitable for GIB submission, protecting from tax office penalties."
+        }
+      ]
+    },
+    "closing_section": {
+      "title": "Financial Closing Is No Longer a Monthly Nightmare, Just a Click Away!",
+      "desc": "Modernize your accounting processes with e-Reconciliation.",
+      "cta_btn": "Increase Your Financial Efficiency",
+      "cta_icon": "bi-lightning-charge-fill"
+    }
+  }
+}

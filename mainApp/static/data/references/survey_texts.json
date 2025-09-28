@@ -1,0 +1,20 @@
+{
+  "tr": {
+    "form": {
+      "title": "Hizmet Hakkındaki Yorumunuz",
+      "subtitle": "Lütfen tarafınıza iletilen doğrulama kodu ile giriş yapınız.",
+      "customer_code_label": "Tarafınıza İletilen Kod",
+      "comment_label": "Yorumunuz",
+      "submit_button": "Gönder"
+    }
+  },
+  "en": {
+    "form": {
+      "title": "Your Feedback on Our Service",
+      "subtitle": "Please login with the verification code sent to you.",
+      "customer_code_label": "Verification Code Sent to You",
+      "comment_label": "Your Comment",
+      "submit_button": "Submit"
+    }
+  }
+}

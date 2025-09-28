@@ -1,0 +1,107 @@
+
+:root {
+  /* Aydınlık Mod Renkleri (Varsayılan) */
+  --primary-color: #3498db; 
+  --secondary-color: #1abc9c; 
+  --text-dark: #2c3e50; 
+  --text-light: #7f8c8d; 
+  --body-bg: #f8f9fa; 
+  --content-bg: #fff; 
+  --shadow-color: rgba(0, 0, 0, 0.05); 
+  --hover-bg: rgba(52, 152, 219, 0.1); 
+  --transition-speed: 0.5s;
+}
+
+/* Karanlık Mod Renkleri */
+.dark-mode {
+  --text-dark: #ecf0f1; 
+  --text-light: #bdc3c7; 
+  --body-bg: #2c3e50; 
+  --content-bg: #34495e; 
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hover-bg: rgba(26, 188, 156, 0.1); 
+}
+
+body, .navbar, .hero-section, .feature-card, .scope-item, .cta-section, .blog-card, h1, h2, h3, h5, h6, p, .nav-link, .dropdown-header {
+    transition: color var(--transition-speed), background-color var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+body { background-color: var(--body-bg); color: var(--text-dark); }
+.navbar { background-color: var(--content-bg) !important; }
+.hero-section { background-color: var(--content-bg) !important; box-shadow: 0 4px 20px var(--shadow-color); }
+.mega-menu, .feature-card, .scope-item, .cta-section { background-color: var(--content-bg) !important; }
+h1, h2, h3, h5, h6 { color: var(--text-dark) !important; }
+.lead, .text-muted, .small { color: var(--text-light) !important; }
+
+/* Vurgu Renkleri */
+.hero-section i { color: var(--primary-color) !important; }
+.feature-card i { color: var(--primary-color) !important; }
+.feature-card:hover i { color: var(--secondary-color) !important; }
+.scope-item i { color: var(--primary-color) !important; }
+
+
+
+.hero-section i { font-size: 5rem !important; } 
+.feature-card i { font-size: 3rem !important; }
+.scope-item i { font-size: 1.8rem !important; } 
+
+
+/* Blog/Başarı Hikayeleri Kartları */
+.blog-card {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.4s;
+    box-shadow: 0 4px 10px var(--shadow-color);
+    background-color: var(--content-bg) !important;
+    height: 100%;
+}
+.blog-card:hover {
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.2);
+    transform: translateY(-5px);
+}
+.blog-card img {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+.blog-card-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+.dark-mode .blog-card-footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Diğer Kart Stilleri (Profesyonel Düzen) */
+.feature-card { border: none; border-radius: 12px; }
+.feature-card:hover { box-shadow: 0 8px 30px rgba(52, 152, 219, 0.1); }
+.scope-item { border-left: 4px solid var(--secondary-color); }
+
+/* Dark Mode Toggle */
+#dark-mode-toggle {
+    margin-left: 1rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: color 0.3s;
+}
+
+    /* Dark Mode Kuralları (Yapısal) */
+    .dark-mode .hero-section, 
+    .dark-mode .feature-card {
+        background-color: #212b36 !important; /* content-bg Dark (Zorunlu) */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important; 
+        border: none !important;
+    }
+
+    .dark-mode .feature-card {
+        border-left: 5px solid #5dade2 !important; /* primary-color Dark (Zorunlu) */
+    }
+    
+    .dark-mode .feature-card:hover {
+        /* Dark Mode'da hover gölgesini koyu yap */
+        transform: translateY(-5px) !important;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5) !important;
+    }

@@ -1,0 +1,106 @@
+{
+  "tr": {
+    "title": "İK Yönetimi",
+    "meta": {
+      "description": "Çalışanlarınızın işe alımdan emekliliğe kadar olan tüm yolculuğunu dijitalleştirin. Personel yönetimini, performansı ve kariyer gelişimini tek bir platformda merkezileştirin.",
+      "keywords": "İK Yönetimi, Bordro, İnsan Kaynakları, Performans Yönetimi, Personel Yönetimi, Çalışan Gelişimi, İzin Takibi, Devamsızlık Kontrolü",
+      "author": "Vibe Bilişim"
+    },
+    "hero": {
+      "icon": "bi-people-fill",
+      "title": "Stratejik İnsan Yönetimi: <span style='color: var(--primary-color) !important;'>Entegre İK Çözümleri</span>",
+      "lead": "Çalışanlarınızın işe alımdan emekliliğe kadar olan tüm yolculuğunu dijitalleştirin. Personel yönetimini, performansı ve kariyer gelişimini tek bir platformda merkezileştirin.",
+      "subtitle": "Neden Gelişmiş İK Yönetim Sistemi?",
+      "description": "Manuel İK süreçleri, zaman kaybı ve veri tutarsızlığı yaratır. Sistemimiz, İK ekibinizin operasyonel yükünü azaltarak, <strong>şirket kültürünü ve yetenek gelişimini</strong> odak noktası haline getirmenizi sağlar.",
+      "button": "İK Çözümlerini İncele",
+      "button_link": "/ik-detay/"
+    },
+    "benefits": [
+      {
+        "icon": "bi-graph-up-arrow",
+        "title": "Yetenek Gelişimi ve Performans",
+        "desc": "Çalışanların eğitim ihtiyaçlarını belirleyin, kariyer yollarını çizin ve performans değerlendirmelerini objektif verilerle yaparak <strong>yüksek potansiyelli</strong> çalışanları elde tutun."
+      },
+      {
+        "icon": "bi-briefcase-fill",
+        "title": "İşe Alım Verimliliği",
+        "desc": "Başvuru süreçlerini otomatikleştirin, aday takibini kolaylaştırın ve doğru pozisyona doğru kişiyi yerleştirerek <strong>yeni personel adaptasyon (onboarding) süresini kısaltın</strong>."
+      },
+      {
+        "icon": "bi-calendar-minus",
+        "title": "İzin ve Devamsızlık Kontrolü",
+        "desc": "Tüm birimlerdeki izin ve devamsızlık taleplerini dijitalleştirin. İK ekibinin manuel takibini sıfırlayarak, mevzuata uygunluk ve <strong>doğru personel planlaması</strong> sağlayın."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-person-vcard", "title": "Personel Özlük Yönetimi"},
+      {"icon": "bi-hourglass-split", "title": "Zaman ve Devam Kontrolü"},
+      {"icon": "bi-bar-chart-fill", "title": "Performans ve Kariyer Yönetimi"},
+      {"icon": "bi-mortarboard-fill", "title": "Eğitim ve Gelişim Takibi"}
+    ],
+    "differentiators": [
+      {
+        "icon": "bi-link-45deg",
+        "title": "Bordro ile Kesintisiz Entegrasyon",
+        "desc": "Başka hiçbir sisteme ihtiyaç duymadan, izin, fazla mesai ve prim verilerini <strong>otomatik ve hatasız</strong> şekilde bordro modülüne aktarın. Çift veri girişini ve mutabakat sorunlarını tamamen ortadan kaldırın."
+      },
+      {
+        "icon": "bi-person-badge",
+        "title": "Çalışan Self Servis Portalı",
+        "desc": "Çalışanlarınızın kendi izin taleplerini oluşturmasını, bordrolarını indirmesini ve kişisel bilgilerini güncellemesini sağlayın. Bu sayede İK birimi, <strong>yüzde 30 daha az rutin iş yüküne</strong> sahip olur."
+      }
+    ]
+  },
+    "en": {
+    "title": "HR Management",
+    "meta": {
+      "description": "Digitalize the entire journey of your employees from hiring to retirement. Centralize personnel management, performance, and career development on a single platform.",
+      "keywords": "HR Management, Payroll, Human Resources, Performance Management, Personnel Management, Employee Development, Leave Tracking, Absence Control",
+      "author": "Vibe Bilişim"
+    },
+    "hero": {
+      "icon": "bi-people-fill",
+      "title": "Strategic Human Management: <span style='color: var(--primary-color) !important;'>Integrated HR Solutions</span>",
+      "lead": "Digitalize the entire journey of your employees from hiring to retirement. Centralize personnel management, performance, and career development on a single platform.",
+      "subtitle": "Why Advanced HR Management System?",
+      "description": "Manual HR processes create time loss and data inconsistencies. Our system reduces operational load on your HR team, making <strong>company culture and talent development</strong> the main focus.",
+      "button": "Explore HR Solutions",
+      "button_link": "/ik-detay/"
+    },
+    "benefits": [
+      {
+        "icon": "bi-graph-up-arrow",
+        "title": "Talent Development and Performance",
+        "desc": "Identify training needs of employees, plan career paths, and perform performance evaluations with objective data to retain <strong>high-potential</strong> employees."
+      },
+      {
+        "icon": "bi-briefcase-fill",
+        "title": "Recruitment Efficiency",
+        "desc": "Automate application processes, track candidates easily, and place the right person in the right position to shorten <strong>new employee onboarding time</strong>."
+      },
+      {
+        "icon": "bi-calendar-minus",
+        "title": "Leave and Attendance Control",
+        "desc": "Digitalize leave and absence requests across all units. Eliminate manual tracking, ensure compliance, and provide <strong>accurate personnel planning</strong>."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-person-vcard", "title": "Personnel Record Management"},
+      {"icon": "bi-hourglass-split", "title": "Time and Attendance Control"},
+      {"icon": "bi-bar-chart-fill", "title": "Performance and Career Management"},
+      {"icon": "bi-mortarboard-fill", "title": "Training and Development Tracking"}
+    ],
+    "differentiators": [
+      {
+        "icon": "bi-link-45deg",
+        "title": "Seamless Payroll Integration",
+        "desc": "Transfer leave, overtime, and bonus data <strong>automatically and accurately</strong> to the payroll module without requiring any other system. Eliminate double data entry and reconciliation issues completely."
+      },
+      {
+        "icon": "bi-person-badge",
+        "title": "Employee Self-Service Portal",
+        "desc": "Allow employees to submit leave requests, download payslips, and update personal information. This reduces routine workload of the HR unit by <strong>30%</strong>."
+      }
+    ]
+  }
+}

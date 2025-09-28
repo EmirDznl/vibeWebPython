@@ -1,0 +1,169 @@
+{
+  "tr": {
+    "title": "İhtiyaç Analizi ve Proje Planlama",
+    "hero_title": "Doğru Başlangıç: <span class='text-primary-custom'>İhtiyaç Analizi ve Proje Planlama</span>",
+    "hero_desc": "Her başarılı projenin temeli, doğru bir analize dayanır. İş hedeflerinizi, mevcut zorluklarınızı ve gelecekteki vizyonunuzu anlamak için deneyimli analistlerimizle çalışın.",
+    "hero_subtitle": "Yatırımınızı Riske Atmayın: Çözümü Analizle Başlatın.",
+    "hero_btn": "Detaylı Analiz Talebi Gönderin",
+    
+    "section1_title": "Neden Kapsamlı Bir Analiz Şart?",
+    "section1_features": [
+        {
+            "icon": "bi-map-fill",
+            "title": "Net Yol Haritası",
+            "desc": "Projenizin **kapsamını, süresini ve bütçesini** en başından netleştirir, beklenmedik maliyet risklerini ortadan kaldırır.",
+            "animate": "animate__fadeInLeft"
+        },
+        {
+            "icon": "bi-graph-up-arrow",
+            "title": "Maksimum ROI",
+            "desc": "İşletmenizin en kritik noktalarını tespit ederek, teknoloji yatırımının **en yüksek geri dönüşü** sağlayacağı alanlara odaklanılmasını sağlar.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "icon": "bi-people-fill",
+            "title": "Kullanıcı Benimsemesi",
+            "desc": "Son kullanıcıların gereksinimlerini belirleyerek, geliştirilecek çözümün **kullanıcı dostu** olmasını ve hızla benimsenmesini garanti ederiz.",
+            "animate": "animate__fadeInRight"
+        }
+    ],
+    
+    "section2_title": "4 Adımda Çözüme Odaklı Analiz Süreci",
+    "section2_steps": [
+        {
+            "number": "01",
+            "title": "Keşif ve Görüşmeler",
+            "desc": "Anahtar paydaşlarla derinlemesine görüşmeler ve mevcut sistemlerin incelenmesi.",
+            "animate": "animate__fadeInLeft"
+        },
+        {
+            "number": "02",
+            "title": "Gap Analizi (Boşluk Tespiti)",
+            "desc": "Mevcut durum ile hedeflenen ideal durum arasındaki teknoloji ve süreç boşluklarının tespiti.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "number": "03",
+            "title": "Çözüm Tasarımı ve Planlama",
+            "desc": "Hedef mimarinin, modül seçimlerinin ve kesin proje planının hazırlanması.",
+            "animate": "animate__fadeInDown animate__delay-0-4s"
+        },
+        {
+            "number": "04",
+            "title": "Dokümantasyon ve Teklif",
+            "desc": "Detaylı İş Gereksinimleri Dokümanının (BRD) ve kesinleşmiş proje teklifinin sunulması.",
+            "animate": "animate__fadeInRight animate__delay-0-6s"
+        }
+    ],
+    
+    "section3_title": "Hizmetlerimiz İçin İhtiyaç Analizi",
+    "section3_features": [
+        {
+            "icon": "bi-box-seam-fill",
+            "title": "ERP Analizi",
+            "desc": "Hangi modüllere (Finans, Üretim, Satış vb.) ihtiyacınız var? Özelleştirme gereksinimleri nelerdir?",
+            "animate": "animate__fadeInUp"
+        },
+        {
+            "icon": "bi-code-slash",
+            "title": "Yazılım Analizi",
+            "desc": "Mobil mi, Web mi, Masaüstü mü? Hangi teknolojiler kullanılmalı? Kullanıcı hikayeleri (User Stories) oluşturma.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "icon": "bi-plug-fill",
+            "title": "Entegrasyon Analizi",
+            "desc": "Hangi sistemler arasında (ERP, E-ticaret, CRM) hangi verilerin ve hangi frekansta akması gerekiyor?",
+            "animate": "animate__fadeInUp animate__delay-0-4s"
+        }
+    ],
+    
+    "cta_title": "Mükemmel Çözüm İçin Mükemmel Analiz.",
+    "cta_desc": "Projenizi körü körüne başlatmayın. İş hedeflerinize ve bütçenize tam uyumlu bir yol haritası için bize danışın.",
+    "cta_btn": "Analiz Uzmanıyla İletişime Geçin"
+  },
+
+  "en": {
+    "title": "Requirements Analysis and Project Planning",
+    "hero_title": "Right Start: <span class='text-primary-custom'>Requirements Analysis and Project Planning</span>",
+    "hero_desc": "Every successful project is based on accurate analysis. Work with our experienced analysts to understand your business goals, current challenges, and future vision.",
+    "hero_subtitle": "Don't Risk Your Investment: Start with Analysis.",
+    "hero_btn": "Send Detailed Analysis Request",
+    
+    "section1_title": "Why Comprehensive Analysis is Required?",
+    "section1_features": [
+        {
+            "icon": "bi-map-fill",
+            "title": "Clear Roadmap",
+            "desc": "Clarify your project's **scope, timeline, and budget** from the start, eliminating unexpected cost risks.",
+            "animate": "animate__fadeInLeft"
+        },
+        {
+            "icon": "bi-graph-up-arrow",
+            "title": "Maximum ROI",
+            "desc": "Identify your business's most critical points and focus on areas where technology investment will deliver **highest returns**.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "icon": "bi-people-fill",
+            "title": "User Adoption",
+            "desc": "Determine end-user requirements to ensure the solution is **user-friendly** and quickly adopted.",
+            "animate": "animate__fadeInRight"
+        }
+    ],
+    
+    "section2_title": "Solution-Focused Analysis in 4 Steps",
+    "section2_steps": [
+        {
+            "number": "01",
+            "title": "Discovery & Meetings",
+            "desc": "In-depth meetings with key stakeholders and review of current systems.",
+            "animate": "animate__fadeInLeft"
+        },
+        {
+            "number": "02",
+            "title": "Gap Analysis",
+            "desc": "Identify technology and process gaps between current and ideal states.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "number": "03",
+            "title": "Solution Design & Planning",
+            "desc": "Prepare the target architecture, module selection, and final project plan.",
+            "animate": "animate__fadeInDown animate__delay-0-4s"
+        },
+        {
+            "number": "04",
+            "title": "Documentation & Proposal",
+            "desc": "Provide detailed Business Requirements Document (BRD) and finalized project proposal.",
+            "animate": "animate__fadeInRight animate__delay-0-6s"
+        }
+    ],
+    
+    "section3_title": "Requirements Analysis for Our Services",
+    "section3_features": [
+        {
+            "icon": "bi-box-seam-fill",
+            "title": "ERP Analysis",
+            "desc": "Which modules (Finance, Production, Sales, etc.) are needed? What are the customization requirements?",
+            "animate": "animate__fadeInUp"
+        },
+        {
+            "icon": "bi-code-slash",
+            "title": "Software Analysis",
+            "desc": "Mobile, Web, or Desktop? Which technologies to use? Create user stories.",
+            "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+            "icon": "bi-plug-fill",
+            "title": "Integration Analysis",
+            "desc": "Which systems (ERP, e-commerce, CRM) should exchange which data and at what frequency?",
+            "animate": "animate__fadeInUp animate__delay-0-4s"
+        }
+    ],
+    
+    "cta_title": "Perfect Analysis for Perfect Solution.",
+    "cta_desc": "Don't start your project blindly. Consult us for a roadmap fully aligned with your goals and budget.",
+    "cta_btn": "Contact an Analysis Expert"
+  }
+}

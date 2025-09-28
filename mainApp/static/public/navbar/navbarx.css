@@ -1,0 +1,201 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+            background-color: var(--body-bg);
+        }
+
+        /* ========================================================================
+           1. Kullanıcı Tanımlı Renk Paletleri (Light & Dark Mod) - TALEP EDİLEN RENKLER
+           ======================================================================== */
+
+        :root {
+            /* Light Mode Paleti */
+            --primary-color: #3498db; /* Mavi - Vurgu */
+            --text-dark: #2c3e50;    /* Koyu Metin */
+            --text-light: #7f8c8d;   /* Açık Metin/İkincil Metin */
+            --body-bg: #eff1f3;      /* Genel Sayfa Arka Planı */
+            --content-bg: #ffffff;   /* İçerik Kutusu/Navbar Arka Planı */
+            --shadow-color: rgba(0, 0, 0, 0.08); /* Hafif Gölge */
+
+
+
+            /* Navbar Özel Renkler (Light Mode) */
+            --navbar-bg: var(--content-bg);
+            --navbar-link-color: var(--text-dark);
+            --navbar-link-hover-color: var(--primary-color);
+            --navbar-shadow: 0 0.125rem 0.25rem var(--shadow-color);
+            --mega-menu-bg: var(--content-bg);
+            --mega-menu-shadow: 0 0.5rem 1rem var(--shadow-color);
+            --mega-menu-header-color: var(--text-light);
+            --mega-menu-link-hover-bg: #f8f9fa; /* Hafif gri hover */
+        }
+
+        /* Dark Mode Paleti (body.dark-mode sınıfı ile etkinleşir) */
+        .dark-mode {
+            --primary-color: #5dade2; /* Açık Mavi - Vurgu */
+            --text-dark: #ecf0f1;    /* Açık Metin */
+            --text-light: #bdc3c7;   /* İkincil Açık Metin */
+            --body-bg: #2c3e50;      /* Genel Sayfa Arka Planı */
+            --content-bg: #212b36;   /* İçerik Kutusu/Navbar Arka Planı */
+            --shadow-color: rgba(0, 0, 0, 0.3); /* Koyu Gölge */
+            
+            /* Navbar Özel Renkler (Dark Mode) */
+            --navbar-bg: var(--content-bg);
+            --navbar-link-color: var(--text-dark);
+            --navbar-link-hover-color: var(--primary-color);
+            --navbar-shadow: 0 0.125rem 0.25rem var(--shadow-color);
+            --mega-menu-bg: var(--content-bg);
+            --mega-menu-shadow: 0 0.5rem 1rem var(--shadow-color);
+            --mega-menu-header-color: var(--text-light);
+            --mega-menu-link-hover-bg: #2c3e50; /* Koyu gri hover */
+        }
+
+        /* ========================================================================
+           2. Navbar ve Mega Menu Stilleri (Genel)
+           ======================================================================== */
+
+        .custom-navbar {
+            background-color: var(--navbar-bg) !important;
+            transition: background-color 0.3s, box-shadow 0.3s;
+            box-shadow: var(--navbar-shadow) !important;
+        }
+
+        .navbar-brand .text-primary {
+            color: var(--primary-color) !important;
+        }
+
+        .custom-navbar .nav-link {
+            color: var(--navbar-link-color);
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border-radius: 0.25rem;
+            transition: all 0.2s ease-in-out;
+        }
+
+        .custom-navbar .nav-link:hover,
+        .custom-navbar .nav-link.active,
+        .custom-navbar .dropdown-toggle[aria-expanded="true"] {
+            color: var(--navbar-link-hover-color);
+            background-color: transparent;
+        }
+
+        /* Navbar Toggler İkonları */
+        .navbar-toggler { border-color: var(--text-light) !important; }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(127, 140, 141)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+        }
+        .dark-mode .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb(189, 195, 199)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+        }
+
+        /* Vurgu Butonu Stili */
+        .btn-primary {
+            background-color: var(--primary-color) !important; /* Solid Primary Renk */
+            border: none !important;
+            color: var(--content-bg) !important;
+            font-weight: 600;
+            padding: 0.5rem 1.25rem;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+            background: linear-gradient(90deg, var(--accent-end) 0%, var(--accent-start) 100%) !important;
+            box-shadow: 0 0 10px rgba(241, 196, 15, 0.5) !important;
+        }
+
+        /* Dark Mode Toggle İkonu */
+        #dark-mode-toggle {
+            color: var(--navbar-link-color);
+            transition: color 0.3s;
+        }
+        #dark-mode-toggle:hover {
+            color: var(--primary-color);
+        }
+
+        /* ========================================================================
+           3. Mega Menu Özel Ayarları (Genişlik, Konum ve Boşluk Düzenlemeleri)
+           ======================================================================== */
+
+        .mega-menu {
+            border-radius: 0.5rem;
+            background-color: var(--mega-menu-bg);
+            box-shadow: var(--mega-menu-shadow);
+            margin-top: 0.5rem; 
+
+            /* Genişlik ve Ortalamayı İçeriğe Göre Ayarlama (Fit-Content) */
+            width: fit-content !important; 
+            min-width: 600px; /* Çok dar kalmaması için min genişlik */
+            left: 50% !important; 
+            transform: translateX(-50%);
+            top: 100%; 
+            
+            /* Yanlardaki gereksiz padding'i azaltma */
+            padding: 1.5rem 1rem; /* Üst/Alt: 1.5rem, Sol/Sağ: 1rem */
+        }
+
+        /* Mobil Cihazlar İçin Geri Dönüş */
+        @media (max-width: 991.98px) {
+            .mega-menu {
+                width: auto !important;
+                left: 0 !important;
+                transform: none;
+                min-width: unset; 
+            }
+        }
+
+        /* Sütunlar Arasındaki Boşluğu Azaltma */
+        .mega-menu .row {
+            --bs-gutter-x: 1.5rem; /* Sütunlar arası yatay boşluk */
+            --bs-gutter-y: 1.5rem; /* Sütunlar arası dikey boşluk */
+            margin-right: calc(var(--bs-gutter-x) * -.5);
+            margin-left: calc(var(--bs-gutter-x) * -.5);
+        }
+
+        /* Sütun Öğelerinin Yan Boşluğunu Azaltma (col-auto) */
+        .mega-menu .col-auto {
+            padding-left: calc(var(--bs-gutter-x) * .5) !important;
+            padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        }
+
+        /* Mega Menu Başlıkları (H6 Etiketi - Sol Kaydırma ve Vurgu) */
+        .mega-menu .dropdown-header {
+            font-weight: 700;
+            color: var(--primary-color); 
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            
+            /* Sola kaydırma etkisi için */
+            padding: 0.5rem 0.5rem 0.5rem 0; 
+            margin-bottom: 0.25rem; 
+            margin-left: -0.5rem; 
+
+            display: flex;
+            align-items: center;
+        }
+        .mega-menu .dropdown-header i {
+            font-size: 1rem;
+            margin-right: 0.5rem;
+            color: var(--text-light);
+        }
+
+        /* Mega Menu Öğeleri (Linkler) - Daraltma */
+        .mega-menu .dropdown-item {
+            font-size: 0.95rem;
+            font-weight: 400;
+            color: var(--navbar-link-color);
+            /* Sol/Sağ paddingi sıfırladık veya çok azalttık */
+            padding: 0.35rem 0.25rem; 
+            /* H6 ile hizalanması için */
+            margin-left: -0.25rem; 
+            border-radius: 0.25rem;
+            transition: background-color 0.15s, color 0.15s;
+            white-space: nowrap; 
+        }
+
+        /* Mega Menu Öğesi Hover Durumu */
+        .mega-menu .dropdown-item:hover {
+            color: var(--navbar-link-color);
+            background-color: var(--mega-menu-link-hover-bg);
+        }
+        .mega-menu .dropdown-item:hover i {
+            color: var(--primary-color);
+        }

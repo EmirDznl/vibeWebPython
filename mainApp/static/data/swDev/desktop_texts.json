@@ -1,0 +1,170 @@
+{
+  "tr": {
+    "title": "Masaüstü Uygulama Geliştirme",
+    "hero": {
+      "icon": "bi-display-fill",
+      "title": "Masaüstü Gücü:",
+      "subtitle": "Yüksek Performanslı Windows Uygulamaları",
+      "desc1": "Kritik iş akışlarınız ve endüstriyel çözümleriniz için Windows ortamına özel, yerel performans sunan ve donanım entegrasyonu gerektiren masaüstü uygulamaları geliştiriyoruz.",
+      "highlight": "Hız, Hassasiyet ve Direkt Entegrasyon İçin Masaüstü Yazılım.",
+      "button": "Masaüstü Projenizi Konuşalım",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "Masaüstü Uygulamalarında Bizi Ayıran 3 Kritik Özellik",
+      "cards": [
+        {
+          "icon": "bi-cpu-fill",
+          "title": "Donanım ve Çevre Birimi Entegrasyonu",
+          "desc": "Barkod okuyucular, RFID, üretim makinaları ve tartım cihazları gibi fiziksel donanımlarla direkt iletişim kuran yazılımlar geliştiriyoruz."
+        },
+        {
+          "icon": "bi-speedometer2",
+          "title": "Maksimum Yerel Performans",
+          "desc": "Web tabanlı çözümlere göre daha hızlı ve akıcı bir deneyim için CPU ve belleği en verimli kullanan uygulamalar üretiyoruz."
+        },
+        {
+          "icon": "bi-shield-fill-check",
+          "title": "Gelişmiş Güvenlik ve Yetkilendirme",
+          "desc": "Uygulamayı çalıştıracak cihazları ve kullanıcıları kısıtlayarak, veri güvenliğini ve erişim kontrolünü en üst seviyede sağlıyoruz."
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Masaüstü Yazılımlarımızla Çözüm Sunduğumuz Alanlar",
+      "cards": [
+        {
+          "icon": "bi-house-door-fill",
+          "title": "Özel Entegrasyon Ara Yüzleri",
+          "items": [
+            "ERP'ye direkt fatura/irsaliye girişi sağlayan özel formlar.",
+            "Yüksek hacimli veri aktarımı ve toplu işleme araçları."
+          ]
+        },
+        {
+          "icon": "bi-truck",
+          "title": "Depo ve Lojistik Yönetim Sistemleri",
+          "items": [
+            "Üretimden giriş ve sevkiyatta barkod okuma otomasyonları.",
+            "Sayım ve adresleme süreçlerinde anlık veri girişi."
+          ]
+        },
+        {
+          "icon": "bi-tools",
+          "title": "Endüstriyel Üretim Takip Yazılımları",
+          "items": [
+            "Makina/IoT sensör verilerini toplayan ve işleyen arayüzler.",
+            "Üretim emirlerinin anlık takibi ve barkod etiketleme."
+          ]
+        },
+        {
+          "icon": "bi-person-bounding-box",
+          "title": "Kiosk ve Dijital İmza Uygulamaları",
+          "items": [
+            "Ziyaretçi karşılama ve kayıt kioskları.",
+            "Onay süreçleri için dijital imza pedleri entegrasyonu."
+          ]
+        }
+      ],
+      "technologies": {
+        "title": "Kullandığımız Microsoft Teknolojileri",
+        "desc": "Windows platformunun tüm gücünü kullanmak için .NET Framework/Core (WPF/WinForms) ve C# ile uygulamalar geliştiriyoruz.",
+        "icons": [
+          {"icon": "bi-windows", "title": ".NET / Windows"},
+          {"icon": "bi-filetype-cs", "title": "C#"},
+          {"icon": "bi-motherboard-fill", "title": "Donanım Entegrasyonu"}
+        ]
+      }
+    },
+    "cta": {
+      "title": "İşletmenizin İhtiyaç Duyduğu Özelleşmiş Yazılımı Geliştirelim.",
+      "desc": "Logo ERP'nizle konuşan, donanım entegrasyonlu masaüstü projeniz için ücretsiz danışmanlık talep edin.",
+      "button": "Çözüm Uzmanıyla Görüşün",
+      "link": "tel:+908502428423"
+    }
+  },
+   "en": {
+    "title": "Desktop Application Development",
+    "hero": {
+      "icon": "bi-display-fill",
+      "title": "Desktop Power:",
+      "subtitle": "High-Performance Windows Applications",
+      "desc1": "We develop desktop applications tailored for the Windows environment, delivering native performance and hardware integration for critical workflows and industrial solutions.",
+      "highlight": "Desktop Software for Speed, Precision, and Direct Integration.",
+      "button": "Let's Discuss Your Desktop Project",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "3 Critical Features That Set Us Apart in Desktop Applications",
+      "cards": [
+        {
+          "icon": "bi-cpu-fill",
+          "title": "Hardware and Peripheral Integration",
+          "desc": "We develop software that communicates directly with physical devices such as barcode scanners, RFID, production machines, and weighing devices."
+        },
+        {
+          "icon": "bi-speedometer2",
+          "title": "Maximum Native Performance",
+          "desc": "We produce applications that use CPU and memory efficiently, offering faster and smoother experiences compared to web-based solutions."
+        },
+        {
+          "icon": "bi-shield-fill-check",
+          "title": "Advanced Security and Authorization",
+          "desc": "By restricting devices and users running the application, we ensure top-level data security and access control."
+        }
+      ]
+    },
+    "solutions": {
+      "title": "Areas We Provide Solutions With Desktop Software",
+      "cards": [
+        {
+          "icon": "bi-house-door-fill",
+          "title": "Custom Integration Interfaces",
+          "items": [
+            "Special forms for direct invoice/delivery note entry into ERP.",
+            "High-volume data transfer and batch processing tools."
+          ]
+        },
+        {
+          "icon": "bi-truck",
+          "title": "Warehouse and Logistics Management Systems",
+          "items": [
+            "Barcode reading automation from production to shipping.",
+            "Real-time data entry during counting and addressing processes."
+          ]
+        },
+        {
+          "icon": "bi-tools",
+          "title": "Industrial Production Tracking Software",
+          "items": [
+            "Interfaces that collect and process machine/IoT sensor data.",
+            "Real-time tracking of production orders and barcode labeling."
+          ]
+        },
+        {
+          "icon": "bi-person-bounding-box",
+          "title": "Kiosk and Digital Signature Applications",
+          "items": [
+            "Visitor greeting and registration kiosks.",
+            "Integration of digital signature pads for approval processes."
+          ]
+        }
+      ],
+      "technologies": {
+        "title": "Microsoft Technologies We Use",
+        "desc": "We develop applications using .NET Framework/Core (WPF/WinForms) and C# to leverage the full power of the Windows platform.",
+        "icons": [
+          {"icon": "bi-windows", "title": ".NET / Windows"},
+          {"icon": "bi-filetype-cs", "title": "C#"},
+          {"icon": "bi-motherboard-fill", "title": "Hardware Integration"}
+        ]
+      }
+    },
+    "cta": {
+      "title": "Let's Develop the Customized Software Your Business Needs.",
+      "desc": "Request a free consultation for your desktop project with hardware integration that communicates with your Logo ERP.",
+      "button": "Consult with a Solution Expert",
+      "link": "tel:+908502428423"
+    }
+  }
+}

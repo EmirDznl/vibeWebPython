@@ -1,0 +1,68 @@
+{
+  "tr": {
+    "title": "Bordro Yönetimi",
+    "hero": {
+      "icon": "bi-person-lines-fill",
+      "title": "Karmaşayı Bitirin: Akıllı Bordro Yönetimi",
+      "desc": "Bordro, SGK ve vergi süreçlerinizi hatasız, yasalara tam uyumlu ve otomatik bir şekilde yönetin. İnsan kaynakları ekibinizin üzerindeki yükü hafifletin.",
+      "subtitle": "Neden Kurumsal Bordro Yazılımı?",
+      "subdesc": "Bordro süreçleri, mevzuatın sürekli değişmesi nedeniyle en yüksek hata ve risk taşıyan operasyonel alandır. Sistemimiz, yasal uyumluluğu garanti ederken, personelinize şeffaflık ve zamanında ödeme güvencesi sunar.",
+      "button": "Çözümümüzü Keşfet"
+    },
+    "benefits": [
+      {"icon": "bi-shield-lock-fill", "title": "Tam Yasal Uyum", "desc": "Güncel SGK, vergi ve iş kanunu değişikliklerine otomatik adaptasyon."},
+      {"icon": "bi-clock-history", "title": "Operasyonel Hız", "desc": "Bordro hesaplama süresini %80'e kadar azaltın, manuel hataları sıfırlayın."},
+      {"icon": "bi-file-bar-graph", "title": "Detaylı Raporlama", "desc": "Maliyet merkezlerine göre dağılım, kıdem yükümlülükleri ve bütçe raporları."},
+      {"icon": "bi-wallet2", "title": "Maliyet Kontrolü", "desc": "Gizli maliyetleri ortaya çıkarın ve personel harcamalarında stratejik kararlar alın."}
+    ],
+    "modules": [
+      {"icon": "bi-cash-stack", "title": "Bordro Hesaplama ve İcmal"},
+      {"icon": "bi-hospital-fill", "title": "SGK ve Resmi Kurum Bildirgeleri"},
+      {"icon": "bi-calendar-check-fill", "title": "Fazla Mesai ve İzin Yönetimi Entegrasyonu"},
+      {"icon": "bi-bank", "title": "Banka Transfer Listeleri ve Otomasyon"},
+      {"icon": "bi-person-badge-fill", "title": "E-Bordro ve Personel Bilgilendirme"}
+    ],
+    "roi": [
+      {"icon": "bi-currency-exchange", "title": "Maliyet Optimizasyonu", "desc": "Hata kaynaklı cezaları ve gereksiz fazla mesai ödemelerini otomatik denetimlerle en aza indirir. Muhasebe ekibinin bordroya harcadığı zamanı başka stratejik işlere aktararak iş gücü verimliliğini artırır."},
+      {"icon": "bi-bank2", "title": "Denetim Güvenilirliği", "desc": "Tüm bordro süreçlerini şeffaf ve izlenebilir hale getirir. Resmi denetimler veya iç sorgulamalar sırasında tüm verilerinize saniyeler içinde ulaşabilir, yasal yükümlülüklerinizi kolayca kanıtlarsınız."},
+      {"icon": "bi-hand-thumbs-up-fill", "title": "Çalışan Memnuniyeti", "desc": "Hatasız ve zamanında ödeme güvencesi sunar. Personelin mobil cihazından e-bordrosuna ve izin durumuna erişimi, İK'ya olan güveni ve genel çalışan moralini yükseltir."}
+    ],
+    "difference": [
+      {"icon": "bi-tools", "title": "Sürekli Mevzuat Güncellemesi (Garanti)", "desc": "Türkiye'deki iş kanunu ve SGK mevzuatında yaşanan en küçük değişiklikleri dahi 7/24 takip eden ve otomatik uygulayan tek Bordro çözümüyüz. Yıl sonu güncellemelerini beklemezsiniz, uyum sürekli sağlanır."},
+      {"icon": "bi-headset", "title": "Uzman Bordro Danışmanlığı", "desc": "Yazılım desteğinin ötesine geçiyoruz. Bordro ve İK mevzuatı konusunda uzmanlaşmış danışman ekibimiz, karmaşık bordro sorularınızda her zaman yanınızdadır. Sadece yazılım değil, çözüm ortağı alırsınız."}
+    ]
+  },
+  "en": {
+    "title": "Payroll Management",
+    "hero": {
+      "icon": "bi-person-lines-fill",
+      "title": "End Chaos: Smart Payroll Management",
+      "desc": "Manage your payroll, social security and tax processes flawlessly, fully compliant with the law, and automatically. Lighten the load on your HR team.",
+      "subtitle": "Why Corporate Payroll Software?",
+      "subdesc": "Payroll processes are the most error-prone operational area due to constantly changing regulations. Our system guarantees legal compliance while providing transparency and timely payment assurance to your staff.",
+      "button": "Discover Our Solution"
+    },
+    "benefits": [
+      {"icon": "bi-shield-lock-fill", "title": "Full Legal Compliance", "desc": "Automatic adaptation to updated social security, tax, and labor law changes."},
+      {"icon": "bi-clock-history", "title": "Operational Speed", "desc": "Reduce payroll calculation time by up to 80%, eliminate manual errors."},
+      {"icon": "bi-file-bar-graph", "title": "Detailed Reporting", "desc": "Cost center allocation, seniority obligations, and budget reports."},
+      {"icon": "bi-wallet2", "title": "Cost Control", "desc": "Reveal hidden costs and make strategic decisions on employee expenses."}
+    ],
+    "modules": [
+      {"icon": "bi-cash-stack", "title": "Payroll Calculation & Summary"},
+      {"icon": "bi-hospital-fill", "title": "Social Security & Official Reports"},
+      {"icon": "bi-calendar-check-fill", "title": "Overtime & Leave Management Integration"},
+      {"icon": "bi-bank", "title": "Bank Transfer Lists & Automation"},
+      {"icon": "bi-person-badge-fill", "title": "E-Payroll & Employee Information"}
+    ],
+    "roi": [
+      {"icon": "bi-currency-exchange", "title": "Cost Optimization", "desc": "Minimizes penalties from errors and unnecessary overtime payments via automatic audits. Frees HR time for strategic tasks, increasing workforce efficiency."},
+      {"icon": "bi-bank2", "title": "Audit Reliability", "desc": "Makes all payroll processes transparent and traceable. Access all data within seconds during official audits or internal queries, easily proving legal compliance."},
+      {"icon": "bi-hand-thumbs-up-fill", "title": "Employee Satisfaction", "desc": "Ensures error-free and timely payment. Employees can access e-payroll and leave info on mobile, boosting trust in HR and overall morale."}
+    ],
+    "difference": [
+      {"icon": "bi-tools", "title": "Continuous Legal Updates (Guaranteed)", "desc": "We are the only payroll solution that tracks and automatically applies even the smallest changes in Turkish labor law and social security regulations 24/7. Compliance is always maintained without waiting for year-end updates."},
+      {"icon": "bi-headset", "title": "Expert Payroll Consultancy", "desc": "Beyond software support, our expert consulting team in payroll and HR regulations is always available for your complex payroll questions. You gain not just software but a solution partner."}
+    ]
+  }
+}

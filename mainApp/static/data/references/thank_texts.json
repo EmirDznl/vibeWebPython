@@ -1,0 +1,16 @@
+{
+  "tr": {
+    "thank_page": {
+      "title": "Geribildiriminiz İçin Teşekkür Ederiz!",
+      "subtitle": "Değerli yorumunuz incelenmiş ve onaylandıktan sonra yayına alınacaktır.",
+      "back_button": "Referanslara Geri Dön"
+    }
+  },
+  "en": {
+    "thank_page": {
+      "title": "Thank You for Your Feedback!",
+      "subtitle": "Your valuable comment has been reviewed and will be published once approved.",
+      "back_button": "Back to References"
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{% load static %}
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <!-- Logo -->
+    <a
+      class="navbar-brand fw-bold text-primary"
+      href="{% static 'public/navbar/logo.svg' %}"
+    >
+      <img
+        src="{% static 'public/navbar/logo.svg' %}"
+        alt="MySite Logo"
+        height="40"
+      />
+    </a>
+
+    <!-- Hamburger Menü -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menü -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Ana Sayfa</a>
+        </li>
+
+        <!-- Ürünler Mega Dropdown -->
+        <li class="nav-item dropdown position-static">
+          <a
+            class="nav-link dropdown-toggle"
+            href="/products/"
+            id="productsDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Ürünler
+          </a>
+
+          <div
+            class="dropdown-menu mega-menu p-4 border-0 shadow-lg"
+            aria-labelledby="productsDropdown"
+          >
+            <div class="row g-4">
+              <!-- ERP Kurumsal -->
+              <div class="col-md-3">
+                <h6 class="dropdown-header">
+                  <i class="bi bi-building me-2"></i>ERP KURUMSAL
+                </h6>
+                <a class="dropdown-item" href="/products/micro/"
+                  ><i class="bi bi-person-badge me-1"></i>Mikro İşletmeler</a
+                >
+                <a class="dropdown-item" href="/products/mid/"
+                  ><i class="bi bi-person-badge me-1"></i>Orta Ölçekli
+                  İşletmeler</a
+                >
+                <a class="dropdown-item" href="/products/large/"
+                  ><i class="bi bi-person-badge me-1"></i>Büyük Ölçekli
+                  İşletmeler</a
+                >
+              </div>
+
+              <!-- İK & Bordro -->
+              <div class="col-md-3">
+                <h6 class="dropdown-header">
+                  <i class="bi bi-people-fill me-2"></i>İK & BORDRO
+                </h6>
+                <a class="dropdown-item" href="/products/payroll/"
+                  ><i class="bi bi-currency-dollar me-1"></i>Bordro Yönetimi</a
+                >
+                <a class="dropdown-item" href="/products/hr/"
+                  ><i class="bi bi-person-lines-fill me-1"></i>İK Yönetimi</a
+                >
+              </div>
+
+              <!-- İş Akış Yönetimi -->
+              <div class="col-md-3">
+                <h6 class="dropdown-header">
+                  <i class="bi bi-arrow-repeat me-2"></i>İŞ AKIŞ YÖNETİMİ
+                </h6>
+                <a class="dropdown-item" href="/products/logo-flow/"
+                  ><i class="bi bi-flow me-1"></i>Logo Flow</a
+                >
+              </div>
+
+              <!-- Depo & WMS -->
+              <div class="col-md-3">
+                <h6 class="dropdown-header">
+                  <i class="bi bi-box-seam me-2"></i>DEPO & WMS
+                </h6>
+                <a class="dropdown-item" href="/products/small-warehouse/"
+                  ><i class="bi bi-box me-1"></i>Küçük Ölçekli İşletmeler</a
+                >
+                <a class="dropdown-item" href="/products/mid-large-warehouse/"
+                  ><i class="bi bi-box me-1"></i>Orta & Büyük İşletmeler</a
+                >
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">Hakkımızda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/references/">Referanslar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact/">İletişim</a>
+        </li>
+      </ul>
+
+      <!-- CTA ve Dil Switch -->
+      <div class="d-flex align-items-center">
+        <a href="/teklif/" class="btn btn-primary me-3">Teklif Al</a>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="lang-toggle" {% if
+          LANGUAGE_CODE == 'en' %}checked{% endif %}>
+          <label class="form-check-label" for="lang-toggle">
+            {% if LANGUAGE_CODE == 'en' %} EN {% else %} TR {% endif %}
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mega Menu CSS -->
+<style>
+  /* Mega Menü */
+  .mega-menu {
+    left: 50% !important; /* Dropdown sol kenarını ortala */
+    transform: translateX(-50%); /* Kendi genişliğinin yarısı kadar kaydır */
+    top: 100%;
+    left: 0;
+    width: max-content; /* içeriğe göre genişler */
+    white-space: nowrap;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 1rem;
+  }
+  .dropdown-header i,
+  .dropdown-item i {
+    vertical-align: middle;
+  }
+
+  /* Responsive: mobilde full width */
+  @media (max-width: 992px) {
+    .mega-menu {
+      position: static;
+      width: 100%;
+      white-space: normal;
+    }
+  }
+</style>
+
+<!-- Dil switch JS -->
+<script>
+  document
+    .getElementById("lang-toggle")
+    .addEventListener("change", function () {
+      const currentLang = "{{ LANGUAGE_CODE }}";
+      const newLang = currentLang === "en" ? "tr" : "en";
+
+      const path = window.location.pathname;
+      let parts = path.split("/");
+
+      if (parts[1] === "en" || parts[1] === "tr") {
+        parts[1] = newLang;
+      } else {
+        parts.splice(1, 0, newLang);
+      }
+      window.location.href = parts.join("/");
+    });
+</script>
+
+<!-- Bootstrap Icons CDN -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+/>

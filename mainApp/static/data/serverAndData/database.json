@@ -1,0 +1,68 @@
+{
+  "tr": {
+    "title": "Veritabanı Bakım Hizmetleri",
+    "hero_heading": "Verilerinizin Güvencesi: Profesyonel Veritabanı Bakım Hizmetleri",
+    "hero_desc1": "İş süreçlerinizin kalbi olan SQL Server ve ERP veritabanınızın sürekli yüksek performansta ve güvenli çalışmasını sağlıyoruz.",
+    "hero_sub": "Kesinti Yok, Yavaşlama Yok, Veri Kaybı Yok.",
+    "hero_desc2": "Periyodik bakım, indeks optimizasyonu, güvenlik yamaları ve felaket kurtarma planları ile tam koruma altındasınız.",
+    "cta_btn": "Ücretsiz Performans Analizi Talep Edin",
+    "focus_title": "3 Temel Hizmet Odağımız",
+    "focus1": "Performans Optimizasyonu",
+    "focus1_desc": "SQL Sorgu incelemesi, Indeks Re-organizasyonu ve sunucu ayarlarının ERP sisteminize göre ince ayarı.",
+    "focus2": "Proaktif Güvenlik",
+    "focus2_desc": "Güncel güvenlik protokolleri, kullanıcı yetkilendirme denetimi ve şüpheli aktivite takibi.",
+    "focus3": "Yedekleme ve Kurtarma (DR)",
+    "focus3_desc": "Otomatik yedekleme testleri, Felaket Kurtarma (DR) senaryoları ve veri kaybı durumunda anında müdahale.",
+    "scope_title": "Bakım Kapsamında Neler Yapıyoruz?",
+    "scope1_title": "Periyodik Sağlık Kontrolü",
+    "scope1_list": [
+      "Veritabanı log ve disk alanlarının izlenmesi.",
+      "SQL sunucusu genel ayarlarının kontrolü ve optimizasyonu.",
+      "Bellek (RAM) ve işlemci (CPU) kullanımının analiz edilmesi."
+    ],
+    "scope2_title": "Detaylı Optimizasyon ve Onarım",
+    "scope2_list": [
+      "Parçalanmış (Fragmented) indekslerin yeniden düzenlenmesi (Re-index).",
+      "Veritabanı istatistiklerinin güncellenmesi ve plan önbelleğinin temizlenmesi.",
+      "Kritik ERP raporlarının hızlandırılması için Query (Sorgu) tespiti ve yeniden yazımı."
+    ],
+    "why_title": "Neden Dış Kaynak Kullanmalısınız?",
+    "why_desc": "Veritabanı yöneticisi (DBA) maliyetine katlanmadan, sadece ERP verilerine odaklanmış sertifikalı bir ekibin uzmanlığından faydalanın.",
+    "final_heading": "Veri Kaybı Riskini Sıfırlayın, Performansınızı Zirveye Taşıyın.",
+    "final_desc": "Veritabanınızın sağlığı için ücretsiz ön analiz talep edin ve farkı hemen görmeye başlayın.",
+    "cta_call": "Hemen Danışmanlık Alın"
+  },
+  "en": {
+    "title": "Database Maintenance Services",
+    "hero_heading": "Your Data's Assurance: Professional Database Maintenance Services",
+    "hero_desc1": "We ensure that your SQL Server and ERP database, the heart of your business processes, operate at peak performance and security.",
+    "hero_sub": "No Downtime, No Slowdowns, No Data Loss.",
+    "hero_desc2": "With periodic maintenance, index optimization, security patches, and disaster recovery plans, you are fully protected.",
+    "cta_btn": "Request Free Performance Analysis",
+    "focus_title": "Our 3 Core Service Focus Areas",
+    "focus1": "Performance Optimization",
+    "focus1_desc": "SQL Query review, Index Reorganization, and fine-tuning of server settings tailored to your ERP system.",
+    "focus2": "Proactive Security",
+    "focus2_desc": "Up-to-date security protocols, user authorization control, and suspicious activity monitoring.",
+    "focus3": "Backup and Recovery (DR)",
+    "focus3_desc": "Automated backup tests, Disaster Recovery (DR) scenarios, and immediate response in case of data loss.",
+    "scope_title": "What Do We Cover in Maintenance?",
+    "scope1_title": "Periodic Health Check",
+    "scope1_list": [
+      "Monitoring database logs and disk space.",
+      "Checking and optimizing SQL server general settings.",
+      "Analyzing Memory (RAM) and CPU usage."
+    ],
+    "scope2_title": "Detailed Optimization and Repair",
+    "scope2_list": [
+      "Rebuilding fragmented indexes (Re-index).",
+      "Updating database statistics and clearing plan cache.",
+      "Detecting and rewriting queries to speed up critical ERP reports."
+    ],
+    "why_title": "Why Should You Outsource?",
+    "why_desc": "Benefit from a certified team focused only on ERP data without bearing the cost of a full-time DBA.",
+    "final_heading": "Eliminate Data Loss Risks, Maximize Performance.",
+    "final_desc": "Request a free pre-analysis for your database’s health and start seeing the difference immediately.",
+    "cta_call": "Get Consultancy Now"
+  }
+}

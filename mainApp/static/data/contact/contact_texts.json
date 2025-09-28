@@ -1,0 +1,62 @@
+{
+  "tr": {
+    "title": "İletişim",
+    "hero": {
+      "icon": "bi-headset",
+      "title": "İletişime Geçin",
+      "desc": "Tecrübeli ekibimizle hızlıca iletişim kurun."
+    },
+    "form": {
+      "title": "Mesajınızı Bırakın",
+      "name_label": "Adınız Soyadınız:",
+      "email_label": "E-posta Adresiniz:",
+      "subject_label": "Konu:",
+      "subject_options": [
+        {"value": "Teklif", "label": "Teklif İsteği"},
+        {"value": "Destek", "label": "Destek Talebi"},
+        {"value": "Genel", "label": "Genel Soru"}
+      ],
+      "message_label": "Mesajınız:",
+      "submit_btn": "Gönder"
+    },
+    "corporate_info": {
+      "title": "Kurumsal Bilgilerimiz",
+      "desc": "Doğrudan bilgi almak isterseniz aşağıdaki iletişim kanallarımızı kullanabilirsiniz.",
+      "address": "Yeşil Bağlar Mh. Kaptan Sk. Metrowin Tower No:17/1 Ofis:17, Pendik / İstanbul",
+      "phone": "+90 (850) 242 84 23",
+      "email": "info@vibebilisim.com",
+      "working_hours": "Hafta İçi: 09:00 - 18:00",
+      "map_iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.696155990264!2d29.28822967650892!3d40.98592051664687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac1f32a762001%3A0xf639a04a57b2931a!2sMetrowin%20Tower!5e0!3m2!1str!2str!4v1727532057315!5m2!1str!2str"
+    }
+  },
+  "en": {
+    "title": "Contact",
+    "hero": {
+      "icon": "bi-headset",
+      "title": "Get in Touch",
+      "desc": "Quickly contact our experienced team."
+    },
+    "form": {
+      "title": "Leave Your Message",
+      "name_label": "Full Name:",
+      "email_label": "Email Address:",
+      "subject_label": "Subject:",
+      "subject_options": [
+        {"value": "Request", "label": "Request a Quote"},
+        {"value": "Support", "label": "Support Inquiry"},
+        {"value": "General", "label": "General Question"}
+      ],
+      "message_label": "Message:",
+      "submit_btn": "Send"
+    },
+    "corporate_info": {
+      "title": "Corporate Information",
+      "desc": "If you want to get information directly, you can use the following contact channels.",
+      "address": "Yeşil Bağlar Mh. Kaptan Sk. Metrowin Tower No:17/1 Office:17, Pendik / Istanbul",
+      "phone": "+90 (850) 242 84 23",
+      "email": "info@vibebilisim.com",
+      "working_hours": "Weekdays: 09:00 - 18:00",
+      "map_iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.696155990264!2d29.28822967650892!3d40.98592051664687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac1f32a762001%3A0xf639a04a57b2931a!2sMetrowin%20Tower!5e0!3m2!1str!2str!4v1727532057315!5m2!1str!2str"
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "tr": {
+    "title": "İş Akış Yönetimi Danışmanlığı",
+    "hero": {
+      "icon": "bi-shuffle",
+      "title": "Süreçlere Hükmedin: <span class='text-primary-custom'>İş Akış Yönetimi ve Otomasyon</span>",
+      "desc": "Manuel, kağıt tabanlı ve onay mekanizmaları karmaşık süreçlerinizi analiz ediyor, <strong>Logo Flow</strong> ve benzeri çözümlerle otomatikleştirerek hata oranını sıfırlıyoruz.",
+      "subtitle": "Hızlandırılmış Onaylar, Şeffaf Süreç Takibi, %100 Uyum.",
+      "btn_icon": "bi-send-check-fill",
+      "btn_text": "Süreç Analizi İçin Teklif Alın"
+    },
+    "section1": {
+      "title": "İş Akış Yönetiminin İşletmenize Katkıları",
+      "items": [
+        {
+          "icon": "bi-clock-fill",
+          "title": "Zaman ve Maliyet Tasarrufu",
+          "desc": "Onay sürelerini dakikalara indirir, fiziksel evrak, dosyalama ve baskı maliyetlerini tamamen ortadan kaldırır.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "icon": "bi-check-circle-fill",
+          "title": "Hata Oranını Sıfırlama",
+          "desc": "İnsan faktöründen kaynaklanan unutma, yanlış evrak işleme ve ERP'ye hatalı veri girişi risklerini minimize eder.",
+          "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+          "icon": "bi-journal-check",
+          "title": "Denetlenebilirlik ve Uyumluluk",
+          "desc": "Tüm süreç adımları ve onay tarihçesi kayıt altında tutulur, regülatif ve iç denetimlere tam uyum sağlanır.",
+          "animate": "animate__fadeInRight"
+        }
+      ]
+    },
+    "section2": {
+      "title": "İş Akışı Otomasyon Sürecimiz",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Mevcut Süreç Haritalama",
+          "desc": "Tüm departmanlardaki evrak ve onay süreçlerinin <strong>(satın alma, izin, masraf vb.)</strong> tespiti ve BPMN diyagramına dönüştürülmesi.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "number": "2",
+          "title": "Logo Flow Tasarımı ve Entegrasyon",
+          "desc": "Logo Flow üzerinde, belirlenen kurallar ve yetkilendirmelerle süreçlerin dijital ortamda sıfırdan tasarlanması ve ERP ile entegrasyon ayarları.",
+          "animate": "animate__fadeInRight"
+        },
+        {
+          "number": "3",
+          "title": "Mobil ve Web Arayüz Geliştirme",
+          "desc": "Kullanıcıların süreçleri mobil cihazlardan veya web üzerinden kolayca başlatması, takip etmesi ve onaylaması için arayüzlerin oluşturulması.",
+          "animate": "animate__fadeInLeft animate__delay-0-2s"
+        },
+        {
+          "number": "4",
+          "title": "Canlıya Geçiş ve Performans İzleme",
+          "desc": "Kullanıcı eğitimleri, pilot uygulamalar ve canlıya geçiş sonrası süreç performans (onay bekleme süresi, darboğazlar) analizlerinin yapılması.",
+          "animate": "animate__fadeInRight animate__delay-0-2s"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Özel Uzmanlığımız: Logo Flow ve ERP Uyumluğu",
+      "icon": "bi-arrow-repeat",
+      "subtitle": "Logo ERP Verileriyle Otomatik Tetikleme",
+      "desc": "Sadece onay süreçlerini değil, aynı zamanda ERP'den gelen veriye dayalı (örneğin; <strong>stok 100 altına düştüğünde otomatik satın alma süreci başlatma</strong>) akıllı otomasyonları kuruyoruz.",
+      "extra": "<strong>İzin, Avans, Satın Alma Teklifi, Masraf Formu</strong> gibi tüm kurumsal süreçlerinizi dijitalleştiriyoruz."
+    },
+    "cta": {
+      "title": "Kağıt Yığınlarından Kurtulun. Süreçlerinizi Kontrol Altına Alın.",
+      "desc": "Logo Flow kurulumu, süreç haritalaması ve otomasyon danışmanlığı hakkında daha fazla bilgi almak için bizi arayın.",
+      "btn_icon": "bi-telephone-fill",
+      "btn_text": "Logo Flow Uzmanıyla Görüşün"
+    }
+  },
+  "en": {
+    "title": "Workflow Management Consulting",
+    "hero": {
+      "icon": "bi-shuffle",
+      "title": "Take Control of Processes: <span class='text-primary-custom'>Workflow Management & Automation</span>",
+      "desc": "We analyze your manual, paper-based and complex approval processes and automate them with solutions like <strong>Logo Flow</strong>, minimizing errors.",
+      "subtitle": "Accelerated Approvals, Transparent Process Tracking, 100% Compliance.",
+      "btn_icon": "bi-send-check-fill",
+      "btn_text": "Request a Process Analysis"
+    },
+    "section1": {
+      "title": "Benefits of Workflow Management for Your Business",
+      "items": [
+        {
+          "icon": "bi-clock-fill",
+          "title": "Time & Cost Savings",
+          "desc": "Reduces approval times to minutes and eliminates costs for physical paperwork, filing, and printing.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "icon": "bi-check-circle-fill",
+          "title": "Error Minimization",
+          "desc": "Minimizes risks from human error, forgotten tasks, wrong document handling, and incorrect ERP data entry.",
+          "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+          "icon": "bi-journal-check",
+          "title": "Auditability & Compliance",
+          "desc": "All process steps and approval history are recorded, ensuring full regulatory and internal audit compliance.",
+          "animate": "animate__fadeInRight"
+        }
+      ]
+    },
+    "section2": {
+      "title": "Our Workflow Automation Process",
+      "steps": [
+        {
+          "number": "1",
+          "title": "Current Process Mapping",
+          "desc": "Identifying all document and approval processes in departments (purchase, leave, expense, etc.) and converting them into BPMN diagrams.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "number": "2",
+          "title": "Logo Flow Design & Integration",
+          "desc": "Designing processes from scratch in Logo Flow with defined rules and permissions and configuring ERP integration.",
+          "animate": "animate__fadeInRight"
+        },
+        {
+          "number": "3",
+          "title": "Mobile & Web Interface Development",
+          "desc": "Creating interfaces so users can easily initiate, track, and approve processes via mobile devices or web.",
+          "animate": "animate__fadeInLeft animate__delay-0-2s"
+        },
+        {
+          "number": "4",
+          "title": "Go-Live & Performance Monitoring",
+          "desc": "User trainings, pilot implementations, and post go-live performance analysis (approval waiting time, bottlenecks).",
+          "animate": "animate__fadeInRight animate__delay-0-2s"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Our Special Expertise: Logo Flow & ERP Alignment",
+      "icon": "bi-arrow-repeat",
+      "subtitle": "Automatic Triggering with Logo ERP Data",
+      "desc": "We implement smart automations based on ERP data, e.g., <strong>automatic purchase process triggered when stock falls below 100</strong>.",
+      "extra": "Digitizing all corporate processes such as <strong>Leave, Advance, Purchase Request, Expense Form</strong>."
+    },
+    "cta": {
+      "title": "Eliminate Paper Piles. Take Control of Your Processes.",
+      "desc": "Call us to learn more about Logo Flow implementation, process mapping, and automation consulting.",
+      "btn_icon": "bi-telephone-fill",
+      "btn_text": "Talk to a Logo Flow Expert"
+    }
+  }
+}

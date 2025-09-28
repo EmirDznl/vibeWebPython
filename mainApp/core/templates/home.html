@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ content.title }}{% endblock title %}
+
+{% block extra_head %}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="{% static 'pages/core/core.css' %}">
+  
+{% endblock extra_head %}
+
+{% block content %}
+
+
+<section class="hero-section mt-4" >
+  <div class="container custom-container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6">
+        <!-- Başlık: Dark Mode Uyumlu -->
+        <h1 class="fw-bold mb-4 text-dark-mode-aware">{{ content.hero.title }}</h1>
+        <!-- Açıklama: Text-Muted temaya uyumlu hale getirildi -->
+        <p class="lead mb-4 text-muted">{{ content.hero.desc }}</p>
+        <div class="d-flex gap-3">
+          <a href="#hizmetler" class="btn btn-primary btn-lg">{{ content.hero.services_btn }}</a>
+          <a href="#iletisim" class="btn btn-outline-primary btn-lg">{{ content.hero.contact_btn }}</a>
+        </div>
+      </div>
+      <div class="col-lg-6 text-center">
+        <!-- Resim: Gölge temaya uyumlu hale getirildi -->
+        <img src="{% static 'public/imgs/'|add:content.hero.image %}" class="img-fluid rounded shadow-lg" alt="{{ content.hero.title }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include "components/pages/home/corousel.html" %}
+
+<!-- QUICK SERVICES -->
+<section class="py-5">
+  <div class="container custom-container">
+    <div class="row g-4 text-center">
+      {% for service in content.quick_services %}
+      <div class="col-md-3 col-6">
+        <div class="service-card">
+          <!-- İkon Rengi: Primary Color -->
+          <i class="bi {{ service.icon }} service-icon"></i>
+          <!-- Başlık: Dark Mode Uyumlu -->
+          <h5 class="fw-bold text-dark-mode-aware">{{ service.title }}</h5>
+          <!-- Açıklama: Text-Muted temaya uyumlu hale getirildi -->
+          <p class="text-muted">{{ service.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES (bg-white yerine bg-content kullanıldı) -->
+<section id="hizmetler" class="py-5 bg-content">
+  <div class="container custom-container">
+    <!-- Başlık: Primary Color -->
+    <h2 class="text-center fw-bold text-primary mb-5" style="color: var(--primary-color) !important;">{{ content.hero.services_btn }}</h2>
+    <div class="row g-4">
+      {% for service in content.services %}
+      <div class="col-md-4">
+        <div class="service-card text-start">
+          <img src="{% static 'public/ico/'|add:service.icon %}" class="mb-3" width="50" alt="{{ service.title }} Icon">
+          <!-- Başlık: Dark Mode Uyumlu -->
+          <h5 class="fw-bold text-dark-mode-aware">{{ service.title }}</h5>
+          <!-- Açıklama: Text-Muted temaya uyumlu hale getirildi -->
+          <p class="text-muted">{{ service.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- SECTORS -->
+<section id="sektorler" class="py-5">
+  <div class="container custom-container">
+    <!-- Başlık: Primary Color -->
+    <h2 class="text-center fw-bold text-primary mb-5" style="color: var(--primary-color) !important;">Sektörel Çözümler</h2>
+    <div class="row g-4">
+      {% for sector in content.sectors %}
+      <div class="col-md-4">
+        <div class="service-card text-center">
+          <!-- İkon Rengi: Primary Color -->
+          <i class="bi {{ sector.icon }} service-icon"></i>
+          <!-- Başlık: Dark Mode Uyumlu -->
+          <h5 class="fw-bold text-dark-mode-aware">{{ sector.title }}</h5>
+          <!-- Açıklama: Text-Muted temaya uyumlu hale getirildi -->
+          <p class="text-muted">{{ sector.desc }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="hakkimizda" class="py-5">
+  <div class="container custom-container">
+    <div class="row align-items-center g-5">
+      <div class="col-md-6">
+        <!-- Başlık: Primary Color -->
+        <h3 class="fw-bold text-primary mb-3" style="color: var(--primary-color) !important;">{{ content.about.title }}</h3>
+        <!-- Metinler: Text-Muted temaya uyumlu hale getirildi -->
+        <p class="text-muted">{{ content.about.desc }}</p>
+        <ul class="text-muted list-unstyled">
+          {% for item in content.about.list %}
+          <li><i class="bi bi-check-circle-fill me-2 text-primary" style="color: var(--primary-color) !important;"></i>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-md-6 text-center">
+        <!-- Resim: Gölge temaya uyumlu hale getirildi -->
+        <img src="{% static 'public/imgs/'|add:content.about.image %}" class="img-fluid rounded shadow-lg w-50" alt="{{ content.about.title }}">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT (bg-white yerine bg-content kullanıldı) -->
+<section id="iletisim" class="py-5 bg-content">
+  <div class="container custom-container">
+    <!-- Başlık: Primary Color -->
+    <h2 class="text-center fw-bold text-primary mb-5" style="color: var(--primary-color) !important;">{{ content.contact.title }}</h2>
+    <div class="row g-5">
+      <div class="col-md-6">
+        <!-- Form elemanları Dark Mode uyumlu olmalı -->
+        <form>
+          <div class="mb-3">
+            <label class="form-label text-dark-mode-aware">{{ content.contact.form.name_label }}</label>
+            <input type="text" class="form-control" style="background-color: var(--body-bg); color: var(--text-dark); border-color: var(--text-light);" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label text-dark-mode-aware">{{ content.contact.form.email_label }}</label>
+            <input type="email" class="form-control" style="background-color: var(--body-bg); color: var(--text-dark); border-color: var(--text-light);" required>
+          </div>
+          <div class="mb-3">
+            <label class="form-label text-dark-mode-aware">{{ content.contact.form.message_label }}</label>
+            <textarea class="form-control" rows="5" style="background-color: var(--body-bg); color: var(--text-dark); border-color: var(--text-light);" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">{{ content.contact.form.submit_btn }}</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <!-- Başlık: Dark Mode Uyumlu -->
+        <h5 class="fw-bold text-dark-mode-aware">İletişim Bilgilerimiz</h5>
+        <!-- Metinler: Text-Muted temaya uyumlu hale getirildi -->
+        <p class="text-muted">{{ content.contact.info.address }}</p>
+        <p class="text-muted">{{ content.contact.info.phone }}</p>
+        <p class="text-muted">{{ content.contact.info.email }}</p>
+        <!-- Harita iframe'i -->
+        <iframe src="{{ content.contact.info.map_iframe }}" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" class="rounded shadow-lg"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+{% endblock content %}

@@ -1,0 +1,131 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Orta Ölçekli İşletmeler İçin Kurumsal ERP Çözümleri",
+      "subtitle": "Operasyonel karmaşayı çözün, tüm birimlerinizi entegre edin ve stratejik büyüme için doğru verilere ulaşın. İşinizi bir sonraki seviyeye taşıyın.",
+      "button": "Çözüm Detaylarını Keşfet"
+    },
+    "features": [
+      {
+        "icon": "bi-lightning-charge-fill",
+        "title": "Tüm Birim Entegrasyonu",
+        "desc": "Satış, Muhasebe, Üretim ve İK süreçlerinizi tek bir platformda kesintisiz birleştirin."
+      },
+      {
+        "icon": "bi-tools",
+        "title": "Esnek Özelleştirme",
+        "desc": "Sektöre ve şirket içi süreçlere özel derinlemesine adaptasyon ve modifikasyon imkanı."
+      },
+      {
+        "icon": "bi-graph-up-arrow",
+        "title": "Detaylı İş Analitiği",
+        "desc": "Gelişmiş raporlama ve BI araçları ile kârlılık, verimlilik ve bütçe takibini üst düzeyde yönetin."
+      },
+      {
+        "icon": "bi-headset",
+        "title": "Kurumsal Destek",
+        "desc": "Geniş uzman kadromuzla canlı ve yerinde destek ile operasyonel sürekliliği garantileyin."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-currency-dollar", "title": "Kapsamlı Finans ve Bütçe"},
+      {"icon": "bi-bezier", "title": "Tedarik Zinciri Yönetimi (SCM)"},
+      {"icon": "bi-boxes", "title": "İleri Düzey Üretim Planlama (MRP)"},
+      {"icon": "bi-people-fill", "title": "İK ve Yetenek Yönetimi"},
+      {"icon": "bi-person-workspace", "title": "Servis ve Bakım Yönetimi"}
+    ],
+    "blogs": [
+      {
+        "img": "https://picsum.photos/400/200?random=25",
+        "badge": "#Üretim & SCM",
+        "title": "Bölgesel Tekstil Devinde Tedarik Zinciri %35 Hızlandı",
+        "desc": "Türkiye'nin önde gelen orta ölçekli bir **tekstil üreticisi**, ERP entegrasyonu sayesinde hammadde alımından depo yönetimine kadar tüm süreçlerde kesintisiz bir akış sağladı.",
+        "link": "https://www.tekstilhaber.com/ornek-firmanin-erp-basarisi"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=26",
+        "badge": "#Finans & Analitik",
+        "title": "Yöresel Gıda Zinciri Yıllık Maliyetlerde %12 Tasarruf Etti",
+        "desc": "Birden fazla şubesi olan **yöresel bir gıda zinciri**, bulut tabanlı finansal analitik modülü ile şube bazlı kârlılık ve envanter takibini tek ekranda toplayarak ciddi maliyet avantajı yakaladı.",
+        "link": "https://www.ekonomigundem.com/gida-zinciri-erp-ile-buyudu"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=27",
+        "badge": "#İK & E-Dönüşüm",
+        "title": "Teknoloji Firması, İK Süreçlerini ve E-Fatura'yı Otomatikleştirdi",
+        "desc": "Hızla büyüyen bir **teknoloji danışmanlığı firması**, tüm bordro ve izin süreçlerini dijitalleştirdi, aynı zamanda e-fatura/e-arşiv entegrasyonu ile faturalama süresini dakikalara indirdi.",
+        "link": "https://www.teknolojihaber.com/danismanlik-sirketi-dijital"
+      }
+    ],
+    "cta": {
+      "title": "Kurumsal Yapınızı Güçlendirin",
+      "desc": "İşletmenizi stratejik kararlarla yöneteceğiniz tam entegre çözüme bugün geçiş yapın.",
+      "button": "Uzmanımızla Görüşün"
+    }
+  },
+
+  "en": {
+    "hero": {
+      "title": "Corporate ERP Solutions for Medium-Sized Businesses",
+      "subtitle": "Resolve operational complexity, integrate all your units, and access the right data for strategic growth. Take your business to the next level.",
+      "button": "Discover Solution Details"
+    },
+    "features": [
+      {
+        "icon": "bi-lightning-charge-fill",
+        "title": "Full Unit Integration",
+        "desc": "Integrate Sales, Accounting, Production, and HR processes seamlessly on a single platform."
+      },
+      {
+        "icon": "bi-tools",
+        "title": "Flexible Customization",
+        "desc": "Deep adaptation and modification possibilities tailored to your industry and internal processes."
+      },
+      {
+        "icon": "bi-graph-up-arrow",
+        "title": "Advanced Business Analytics",
+        "desc": "Manage profitability, efficiency, and budget tracking at the highest level with advanced reporting and BI tools."
+      },
+      {
+        "icon": "bi-headset",
+        "title": "Corporate Support",
+        "desc": "Ensure operational continuity with live and on-site support from our extensive expert team."
+      }
+    ],
+    "modules": [
+      {"icon": "bi-currency-dollar", "title": "Comprehensive Finance & Budget"},
+      {"icon": "bi-bezier", "title": "Supply Chain Management (SCM)"},
+      {"icon": "bi-boxes", "title": "Advanced Production Planning (MRP)"},
+      {"icon": "bi-people-fill", "title": "HR & Talent Management"},
+      {"icon": "bi-person-workspace", "title": "Service & Maintenance Management"}
+    ],
+    "blogs": [
+      {
+        "img": "https://picsum.photos/400/200?random=25",
+        "badge": "#Production & SCM",
+        "title": "Regional Textile Giant Speeds Up Supply Chain by 35%",
+        "desc": "One of Turkey's leading medium-sized **textile manufacturers** ensured seamless workflow from raw material procurement to warehouse management thanks to ERP integration.",
+        "link": "https://www.tekstilhaber.com/ornek-firmanin-erp-basarisi"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=26",
+        "badge": "#Finance & Analytics",
+        "title": "Local Food Chain Saves 12% Annually on Costs",
+        "desc": "A multi-branch **local food chain** leveraged cloud-based financial analytics to monitor branch-level profitability and inventory on a single screen, achieving significant cost savings.",
+        "link": "https://www.ekonomigundem.com/gida-zinciri-erp-ile-buyudu"
+      },
+      {
+        "img": "https://picsum.photos/400/200?random=27",
+        "badge": "#HR & E-Transformation",
+        "title": "Tech Firm Automates HR Processes and E-Invoicing",
+        "desc": "A rapidly growing **technology consultancy firm** digitized all payroll and leave processes while reducing invoicing time to minutes with e-invoice/e-archive integration.",
+        "link": "https://www.teknolojihaber.com/danismanlik-sirketi-dijital"
+      }
+    ],
+    "cta": {
+      "title": "Strengthen Your Corporate Structure",
+      "desc": "Move your business today to a fully integrated solution where you can manage it with strategic decisions.",
+      "button": "Talk to Our Expert"
+    }
+  }
+}

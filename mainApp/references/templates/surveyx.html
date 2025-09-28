@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+
+
+
+{% block title %}{% trans "Müşteri yorumu" %}{% endblock %}
+
+{% block content %}
+
+<h2>{% trans "Hizmet hakkıdnaki yorumunuz" %}</h2>
+<form method="post">
+    {% csrf_token %}
+    <p>
+      <label for="{{ form.customer_code.id_for_label }}">Trafınıza iletilen kod</label>
+      {{ form.customer_code }}
+    </p>
+    <p>
+      <label for="{{ form.comment.id_for_label }}">yorumunuz</label>
+      {{ form.comment }}
+    </p>
+    <button type="submit">gönder</button>
+</form>
+
+{% endblock %}
+

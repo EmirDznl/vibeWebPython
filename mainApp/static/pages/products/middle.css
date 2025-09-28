@@ -1,0 +1,84 @@
+:root {
+  /* Aydınlık Mod Renkleri (Yeni Mat Gri-Mavi Ton) */
+  --primary-color: #3498db; /* Mat Mavi (Ana Vurgu) */
+  --secondary-color: #1abc9c; /* Mat Turkuaz/Yeşil (İkincil Vurgu) */
+  --text-dark: #2c3e50; 
+  --text-light: #7f8c8d; 
+  --body-bg: #eff1f3; /* ANA ARKA PLAN: Yeni Mat Tonunuz */
+  --content-bg: #ffffff; /* KARTLAR/HERO İÇİN HAFİF BEYAZ */
+  --shadow-color: rgba(0, 0, 0, 0.08); /* Hafif belirgin gölge */
+  --hover-bg: rgba(52, 152, 219, 0.1); 
+  --transition-speed: 0.5s;
+}
+
+/* Karanlık Mod Renkleri (AYNI KALDI) */
+.dark-mode {
+  --text-dark: #ecf0f1; 
+  --text-light: #bdc3c7; 
+  --body-bg: #2c3e50; 
+  --content-bg: #34495e; 
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --hover-bg: rgba(26, 188, 156, 0.1); 
+}
+
+/* GENEL GEÇİŞLER (TRANSITION) */
+body, .navbar, .hero-section, .feature-card, .scope-item, .cta-section, .blog-card, h1, h2, h3, h5, h6, p, .nav-link, .dropdown-header {
+    transition: color var(--transition-speed), background-color var(--transition-speed), box-shadow var(--transition-speed);
+}
+
+/* --- TEMA UYGULAMASI --- */
+body { background-color: var(--body-bg); color: var(--text-dark); }
+.navbar { background-color: var(--content-bg) !important; }
+.hero-section { 
+    background-color: var(--content-bg) !important; 
+    box-shadow: 0 4px 20px var(--shadow-color); 
+    padding: 6rem 0 !important; 
+    border-radius: 15px;
+}
+.mega-menu, .feature-card, .scope-item, .cta-section, .blog-card { 
+    background-color: var(--content-bg) !important; 
+}
+
+h1, h2, h3, h5, h6 { color: var(--text-dark) !important; }
+.lead, .text-muted, .small { color: var(--text-light) !important; }
+
+/* Vurgu Renkleri */
+.hero-section i { color: var(--primary-color) !important; }
+.feature-card i { color: var(--primary-color) !important; }
+.feature-card:hover i { color: var(--secondary-color) !important; }
+.scope-item i { color: var(--primary-color) !important; }
+
+/* ======================================= */
+/* 2. DÜZEN VE İKON BÜYÜKLÜĞÜ GÜNCELLEMELERİ */
+/* ======================================= */
+
+/* İKON BÜYÜKLÜĞÜ (AYNI) */
+.hero-section i { font-size: 5rem !important; } 
+.feature-card i { font-size: 3rem !important; } 
+.scope-item i { font-size: 1.8rem !important; } 
+
+/* Diğer Kart Stilleri (AYNI) */
+.feature-card { 
+    border: none; border-radius: 12px; transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    border-left: 5px solid var(--primary-color);
+}
+.feature-card:hover { box-shadow: 0 8px 30px rgba(52, 152, 219, 0.1); transform: translateY(-8px); }
+.scope-item { padding: 1rem; border-radius: 8px; border-left: 4px solid var(--secondary-color); }
+
+/* Blog/Başarı Hikayeleri Kartları (AYNI) */
+.blog-card {
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.4s;
+    box-shadow: 0 4px 10px var(--shadow-color);
+    height: 100%;
+}
+.blog-card:hover {
+    box-shadow: 0 8px 25px rgba(52, 152, 219, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Dark Mode Toggle (AYNI) */
+#dark-mode-toggle { margin-left: 1rem; cursor: pointer; font-size: 1.5rem; color: var(--primary-color); }

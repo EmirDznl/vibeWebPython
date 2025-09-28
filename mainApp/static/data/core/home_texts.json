@@ -1,0 +1,106 @@
+{
+  "tr": {
+    "title": "Ana Sayfa",
+    "hero": {
+      "icon": "bi-laptop",
+      "title": "Dijital Dönüşümde Gücünüz",
+      "desc": "Kurumsal yazılım, ERP, e-Dönüşüm, iş akışı yönetimi ve iş süreçlerinde uzman ekibimizle; teknoloji, verimlilik ve entegrasyon çözümleri sunuyoruz.",
+      "services_btn": "Hizmetlerimiz",
+      "contact_btn": "Bize Ulaşın",
+      "image": "home_vision.png"
+    },
+    "quick_services": [
+      {"title": "ERP", "desc": "Kurumsal Kaynak Planlama", "icon": "bi-grid"},
+      {"title": "e-Dönüşüm", "desc": "e-Fatura, e-Arşiv, e-İrsaliye", "icon": "bi-file-earmark-text"},
+      {"title": "Otomasyon", "desc": "Entegrasyon & Saha Çözümleri", "icon": "bi-plug"},
+      {"title": "BPM", "desc": "İş Akış Yönetimi", "icon": "bi-people"}
+    ],
+    "services": [
+      {"title": "ERP Danışmanlığı", "desc": "Logo ERP ve iş zekası çözümleriyle işletmenizin dijital dönüşümüne liderlik ediyoruz.", "icon": "consultanting.png"},
+      {"title": "e-Dönüşüm", "desc": "e-Fatura, e-İrsaliye, e-Arşiv ve e-Defter süreçlerinde uçtan uca entegrasyon.", "icon": "etrans.png"},
+      {"title": "Otomasyon & Entegrasyon", "desc": "İş akış yönetimi ve özel entegrasyon projeleriyle süreçlerinizi hızlandırıyoruz.", "icon": "integration.png"}
+    ],
+    "sectors": [
+      {"title": "Gıda", "desc": "Üretimden sevkiyata izlenebilirlik ve entegrasyon odaklı çözümler.", "icon": "bi-basket"},
+      {"title": "Üretim", "desc": "Planlama, MRP ve maliyet yönetimiyle verimli üretim süreçleri.", "icon": "bi-gear"},
+      {"title": "Hizmet", "desc": "Proje bazlı takip, sözleşme ve faturalama yönetimi.", "icon": "bi-briefcase"}
+    ],
+    "about": {
+      "title": "Hakkımızda",
+      "desc": "Vibe Bilişim, 15+ yıl deneyimli, farklı ölçeklerde firmalara dijital dönüşüm, danışmanlık ve entegrasyon hizmetleri sunan bağımsız bir teknoloji şirketidir.",
+      "list": [
+        "Sektörel ERP ve özel yazılım projeleri",
+        "İş süreçlerinde otomasyon ve entegrasyon",
+        "Kurumsal e-dönüşüm ve eğitim"
+      ],
+      "image": "about.png"
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "form": {
+        "name_label": "Adınız",
+        "email_label": "E-Posta",
+        "message_label": "Mesajınız",
+        "submit_btn": "Gönder"
+      },
+      "info": {
+        "address": "İstanbul, Türkiye",
+        "phone": "+90 555 555 55 55",
+        "email": "info@vibe.com",
+        "map_iframe": "https://maps.google.com/maps?q=Istanbul&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      }
+    }
+  },
+  "en": {
+    "title": "Home",
+    "hero": {
+      "icon": "bi-laptop",
+      "title": "Your Power in Digital Transformation",
+      "desc": "With our expert team specialized in corporate software, ERP, e-Transformation, workflow management, and business processes; we provide technology, efficiency, and integration solutions.",
+      "services_btn": "Our Services",
+      "contact_btn": "Contact Us",
+      "image": "home_vision.png"
+    },
+    "quick_services": [
+      {"title": "ERP", "desc": "Enterprise Resource Planning", "icon": "bi-grid"},
+      {"title": "e-Transformation", "desc": "e-Invoice, e-Archive, e-Dispatch", "icon": "bi-file-earmark-text"},
+      {"title": "Automation", "desc": "Integration & Field Solutions", "icon": "bi-plug"},
+      {"title": "BPM", "desc": "Business Process Management", "icon": "bi-people"}
+    ],
+    "services": [
+      {"title": "ERP Consulting", "desc": "We lead your business digital transformation with Logo ERP and business intelligence solutions.", "icon": "consultanting.png"},
+      {"title": "e-Transformation", "desc": "End-to-end integration for e-Invoice, e-Dispatch, e-Archive and e-Ledger processes.", "icon": "etrans.png"},
+      {"title": "Automation & Integration", "desc": "We accelerate your processes with workflow management and custom integration projects.", "icon": "integration.png"}
+    ],
+    "sectors": [
+      {"title": "Food", "desc": "Traceability and integration-focused solutions from production to delivery.", "icon": "bi-basket"},
+      {"title": "Manufacturing", "desc": "Efficient production processes with planning, MRP, and cost management.", "icon": "bi-gear"},
+      {"title": "Service", "desc": "Project-based tracking, contract, and invoicing management.", "icon": "bi-briefcase"}
+    ],
+    "about": {
+      "title": "About Us",
+      "desc": "Vibe Bilişim is an independent technology company with 15+ years of experience providing digital transformation, consulting, and integration services to companies of various sizes.",
+      "list": [
+        "Sector-specific ERP and custom software projects",
+        "Automation and integration in business processes",
+        "Corporate e-transformation and training"
+      ],
+      "image": "about.png"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "form": {
+        "name_label": "Name",
+        "email_label": "Email",
+        "message_label": "Message",
+        "submit_btn": "Send"
+      },
+      "info": {
+        "address": "Istanbul, Turkey",
+        "phone": "+90 555 555 55 55",
+        "email": "info@vibe.com",
+        "map_iframe": "https://maps.google.com/maps?q=Istanbul&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      }
+    }
+  }
+}

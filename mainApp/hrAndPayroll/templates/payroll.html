@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{ content.title }}{% endblock %}
+
+{% block extra_head %}
+<meta name="description" content="{{ content.hero.desc }}">
+<link rel="stylesheet" href="{% static 'pages/eTransformation/crm.css' %}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+
+<header class="row justify-content-center text-center mb-5 animate__animated animate__fadeInDown hero-section"
+    style="background-color: var(--content-bg); box-shadow: 0 4px 20px var(--shadow-color); padding: 6rem 0; border-radius: 15px;">
+    <div class="col-lg-10">
+        <i class="bi {{ content.hero.icon }} mb-4" style="font-size: 5rem;"></i>
+        <h1 class="mt-3">{{ content.hero.title }}</h1>
+        <p class="lead mt-3">{{ content.hero.desc }}</p>
+        <h3 class="mt-5" style="color: var(--primary-color) !important;">{{ content.hero.subtitle }}</h3>
+        <p class="lead mt-3">{{ content.hero.subdesc }}</p>
+        <a href="/bordro-detay/" class="btn btn-primary-custom mt-4 animate__animated animate__pulse animate__delay-1s">
+            <i class="bi bi-clipboard-check-fill me-2"></i> <h5>{{ content.hero.button }}</h5>
+        </a>
+    </div>
+</header>
+
+<section class="py-5">
+<h2 class="text-center mb-5">Ana Faydalar ve Avantajlar</h2>
+<div class="row g-4">
+    {% for benefit in content.benefits %}
+    <div class="col-md-6 col-lg-3 animate__animated animate__fadeInLeft">
+        <div class="feature-card p-4 h-100"
+             style="background-color: var(--content-bg); border: none; border-radius: 12px; 
+                    box-shadow: 0 4px 10px var(--shadow-color);
+                    border-left: 5px solid var(--primary-color); 
+                    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);"
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.15)'"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 10px var(--shadow-color)'">
+            <i class="bi {{ benefit.icon }}" style="font-size: 3rem;"></i>
+            <h5 class="fw-bold">{{ benefit.title }}</h5>
+            <p class="small mb-0">{{ benefit.desc }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+
+<!-- Modüller -->
+<section class="py-5">
+<h2 class="text-center mb-5">Ana Modüller ve Fonksiyonlar</h2>
+<div class="row justify-content-center g-3">
+    {% for module in content.modules %}
+    <div class="col-sm-6 col-md-4 col-lg-4 animate__animated animate__fadeInUp">
+        <div class="scope-item-card d-flex align-items-center p-3"
+             style="background-color: var(--content-bg); border-radius: 8px; border-left: 4px solid var(--primary-color); 
+                    box-shadow: 0 4px 6px var(--shadow-color); transition: all 0.3s;"
+             onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 6px 12px rgba(0, 0, 0, 0.1)'"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 6px var(--shadow-color)'">
+            <i class="bi {{ module.icon }} me-3" style="font-size: 2rem;"></i>
+            <div><h6 class="mb-0 fw-bold">{{ module.title }}</h6></div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+
+<!-- ROI -->
+<section class="py-5" style="background-color: var(--body-bg);">
+<h2 class="text-center mb-5" style="color: var(--primary-color) !important;">Yatırımınızın Geri Dönüşü (ROI)</h2>
+<div class="row g-4 justify-content-center">
+    {% for item in content.roi %}
+    <div class="col-md-6 col-lg-4 animate__animated animate__zoomIn">
+        <div class="feature-card p-4 h-100 text-center"
+             style="background-color: var(--content-bg); border: none; border-radius: 12px; 
+                    box-shadow: 0 4px 10px var(--shadow-color);
+                    border-left: 5px solid var(--primary-color); 
+                    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);"
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.15)'"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 10px var(--shadow-color)'">
+            <i class="bi {{ item.icon }}" style="font-size: 3rem;"></i>
+            <h5 class="fw-bold mt-3">{{ item.title }}</h5>
+            <p class="small mb-0">{{ item.desc }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+
+<!-- Farkımız -->
+<section class="py-5">
+<h2 class="text-center mb-5">Sizi Bir Adım Öne Taşıyan Farkımız</h2>
+<div class="row g-4 justify-content-center">
+    {% for item in content.difference %}
+    <div class="col-md-6 col-lg-6 animate__animated animate__fadeInUpBig">
+        <div class="feature-card p-4 h-100"
+             style="background-color: var(--content-bg); border: none; border-radius: 12px; 
+                    box-shadow: 0 4px 10px var(--shadow-color);
+                    border-left: 5px solid var(--primary-color); 
+                    transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);"
+             onmouseover="this.style.transform='translateY(-5px)'; this.style.boxShadow='0 10px 20px rgba(0, 0, 0, 0.15)'"
+             onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 10px var(--shadow-color)'">
+            <i class="bi {{ item.icon }}" style="font-size: 3rem;"></i>
+            <h5 class="fw-bold mt-3">{{ item.title }}</h5>
+            <p class="small mb-0">{{ item.desc }}</p>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+</section>
+
+</div>
+
+{% endblock %}

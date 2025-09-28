@@ -1,0 +1,116 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Başarılı Uygulama Garantisi: ERP Proje Yönetimi Modülü",
+      "subtitle": "Karmaşık ERP geçişlerinizi, entegrasyonlarınızı ve yazılım projelerinizi tek bir platformda yönetin. Projelerinizi zamanında ve bütçesinde tamamlayın.",
+      "highlight": "Riskleri Yönetin, Başarıyı Takip Edin.",
+      "button": "Proje Başlatma Kılavuzunu İndirin"
+    },
+    "features": [
+      {
+        "icon": "bi-kanban",
+        "title": "Görsel İş Akışı",
+        "desc": "Kanban, Gantt veya Liste görünümünden birini seçerek görevlerin durumunu anlık izleyin. Sürükle-bırak kolaylığı."
+      },
+      {
+        "icon": "bi-calendar-event",
+        "title": "Zaman Çizelgesi ve Kilometre Taşları",
+        "desc": "Proje takvimini netleştirin. Kritik teslim tarihlerini belirleyin ve otomatik hatırlatmalarla hedefleri tutturun."
+      },
+      {
+        "icon": "bi-person-workspace",
+        "title": "Kaynak ve Kapasite Yönetimi",
+        "desc": "Ekip üyelerinin hangi projelerde ne kadar meşgul olduğunu görün. Aşırı yüklenmeyi engelleyin."
+      }
+    ],
+    "integration": {
+      "title": "Entegrasyonlar ve Merkezi İş Birliği",
+      "desc": "Tüm dokümanlarınızı, iletişim kayıtlarınızı ve projeye özgü finansal verileri tek bir yerde toplayarak dağınıklığı bitirin.",
+      "risks": [
+        {"title": "Finansal Entegrasyon Aşaması", "level": "Yüksek Risk", "badge": "badge-warning-custom"},
+        {"title": "Personel Eğitimi", "level": "Düşük Risk", "badge": "badge-success-custom"},
+        {"title": "Veri Taşıma (Migration)", "level": "Kritik", "badge": "badge-danger-custom"}
+      ],
+      "note": "Riskler, tanımlanan gecikme ve bütçe aşım limitlerine göre otomatik olarak hesaplanır."
+    },
+    "success_keys": [
+      {
+        "icon": "bi-check-circle-fill",
+        "title": "Gereksinim Takibi",
+        "desc": "Projenin başlangıcından kapanışına kadar tüm gereksinimleri (özelleştirmeleri) izleyin, kapsam kaymasını önleyin."
+      },
+      {
+        "icon": "bi-currency-dollar",
+        "title": "Bütçe Yönetimi",
+        "desc": "Harcanan saatleri, malzeme maliyetlerini ve ekip ücretlerini projeye özel bütçelerle karşılaştırın."
+      },
+      {
+        "icon": "bi-file-earmark-check-fill",
+        "title": "Otomatik Raporlama",
+        "desc": "Yönetim kuruluna veya müşteriye sunulacak ilerleme ve durum raporlarını tek tıkla otomatik oluşturun."
+      }
+    ],
+    "cta": {
+      "title": "Projelerinizi Şansa Bırakmayın, Uzmanlıkla Yönetin.",
+      "desc": "ERP proje yönetim modülümüzün esnekliğini ve kontrol gücünü yakından deneyimleyin.",
+      "button": "Özel Demo Talebi Oluşturun"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Successful Implementation Guarantee: ERP Project Management Module",
+      "subtitle": "Manage your complex ERP migrations, integrations, and software projects on a single platform. Complete projects on time and on budget.",
+      "highlight": "Manage Risks, Track Success.",
+      "button": "Download Project Start Guide"
+    },
+    "features": [
+      {
+        "icon": "bi-kanban",
+        "title": "Visual Workflow",
+        "desc": "Choose Kanban, Gantt, or List view to monitor task status in real-time. Drag-and-drop simplicity."
+      },
+      {
+        "icon": "bi-calendar-event",
+        "title": "Timeline & Milestones",
+        "desc": "Clarify project schedules. Set critical deadlines and meet targets with automatic reminders."
+      },
+      {
+        "icon": "bi-person-workspace",
+        "title": "Resource & Capacity Management",
+        "desc": "See how busy team members are on each project. Prevent overloading."
+      }
+    ],
+    "integration": {
+      "title": "Integrations and Central Collaboration",
+      "desc": "End the clutter by consolidating all documents, communication records, and project-specific financial data in one place.",
+      "risks": [
+        {"title": "Financial Integration Phase", "level": "High Risk", "badge": "badge-warning-custom"},
+        {"title": "Staff Training", "level": "Low Risk", "badge": "badge-success-custom"},
+        {"title": "Data Migration", "level": "Critical", "badge": "badge-danger-custom"}
+      ],
+      "note": "Risks are automatically calculated based on defined delay and budget overrun limits."
+    },
+    "success_keys": [
+      {
+        "icon": "bi-check-circle-fill",
+        "title": "Requirement Tracking",
+        "desc": "Track all requirements (customizations) from project start to closure to prevent scope creep."
+      },
+      {
+        "icon": "bi-currency-dollar",
+        "title": "Budget Management",
+        "desc": "Compare hours spent, material costs, and team salaries against project-specific budgets."
+      },
+      {
+        "icon": "bi-file-earmark-check-fill",
+        "title": "Automated Reporting",
+        "desc": "Automatically generate progress and status reports for management or clients with one click."
+      }
+    ],
+    "cta": {
+      "title": "Don't Leave Your Projects to Chance, Manage Them with Expertise.",
+      "desc": "Experience the flexibility and control of our ERP project management module up close.",
+      "button": "Request a Custom Demo"
+    }
+  }
+}

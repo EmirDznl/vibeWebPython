@@ -1,0 +1,94 @@
+{
+  "tr": {
+    "title": "ERP & Kurumsal Yazılım Eğitimleri",
+    "hero": {
+      "icon": "bi-mortarboard-fill",
+      "title": "Yetkinliğinizi Artırın: <span class='text-primary-custom'>ERP ve Kurumsal Yazılım Eğitimleri</span>",
+      "desc": "Uyguladığımız her yazılımın, her entegrasyonun ve her çözümün arkasında duruyor; ekiplerinizin bu sistemleri en verimli şekilde kullanması için uygulamalı eğitimler sunuyoruz.",
+      "subtitle": "Eğitimli Kullanıcı = Maksimum Verim.",
+      "btn_icon": "bi-book-half",
+      "btn_text": "Eğitim Kataloğumuzu İnceleyin"
+    },
+    "section1": {
+      "title": "Eğitimlerimizde Bizi Farklı Kılanlar",
+      "items": [
+        {
+          "icon": "bi-person-video2",
+          "title": "Uygulamalı ve Senaryo Bazlı",
+          "desc": "Sadece teorik bilgi değil, şirketinize özel **gerçek iş senaryoları** üzerinden uygulamalı öğrenme metotları kullanıyoruz.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "icon": "bi-check-all",
+          "title": "Kurulum Sonrası Destek",
+          "desc": "Yeni sisteminize geçişin hemen ardından, kullanıcıların **adaptasyon sürecini** hızlandıracak yerinde veya çevrimiçi destek sağlıyoruz.",
+          "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+          "icon": "bi-puzzle-fill",
+          "title": "Özelleştirilmiş İçerik",
+          "desc": "Eğitim içeriklerini, personelinizin **görev tanımı ve yetki seviyesine** (Operasyonel, Yönetici, Finans) göre özelleştiriyoruz.",
+          "animate": "animate__fadeInRight"
+        }
+      ]
+    },
+    "section2": {
+      "title": "Eğitim Kataloğumuzdaki Temel Alanlar",
+      "modules": [
+        {
+          "icon": "bi-cash-stack",
+          "title": "Logo ERP Çözümleri Eğitimleri",
+          "desc": "<strong>Logo Tiger 3, Bordro Plus</strong> ve tüm **Finans, Stok, Satış, Satın Alma** modülleri için uygulamalı kullanıcı eğitimleri.",
+          "animate": "animate__fadeInLeft"
+        },
+        {
+          "icon": "bi-arrow-repeat",
+          "title": "İş Akış Yönetimi (Logo Flow) Eğitimleri",
+          "desc": "**Logo Flow** sistemi üzerinden izin, masraf, avans gibi süreçleri başlatma, onaylama ve süreç takibi eğitimleri.",
+          "animate": "animate__fadeInRight"
+        },
+        {
+          "icon": "bi-code-square",
+          "title": "Özel Yazılım Projeleri Eğitimleri",
+          "desc": "Yeni geliştirilen **Mobil Uygulamalar**, **Web Portalları** ve **Masaüstü uygulamalarının** son kullanıcı ve yönetici eğitimleri.",
+          "animate": "animate__fadeInLeft animate__delay-0-2s"
+        },
+        {
+          "icon": "bi-diagram-3",
+          "title": "API ve Raporlama Eğitimi",
+          "desc": "Geliştirilen **Kurumsal API Servislerinin** kullanımı ve **İş Zekası (BI)** araçlarıyla raporlama eğitimleri.",
+          "animate": "animate__fadeInRight animate__delay-0-2s"
+        }
+      ]
+    },
+    "section3": {
+      "title": "Tercih Edebileceğiniz Eğitim Modelleri",
+      "methods": [
+        {
+          "icon": "bi-building-fill",
+          "title": "Yerinde Kurumsal Eğitim",
+          "desc": "Eğitimi, kendi sistemleriniz ve ortamınızda, tüm ekibinizin katılımıyla ofisinizde gerçekleştiriyoruz.",
+          "animate": "animate__fadeInUp"
+        },
+        {
+          "icon": "bi-display-fill",
+          "title": "Uzaktan (Online) Canlı Eğitim",
+          "desc": "Esnek planlama ile tüm lokasyonlardaki çalışanlarınızın katılmasını sağlayan interaktif çevrimiçi oturumlar.",
+          "animate": "animate__fadeInUp animate__delay-0-2s"
+        },
+        {
+          "icon": "bi-laptop-fill",
+          "title": "Hibrit (Karma) Model",
+          "desc": "Temel teorik bilgileri çevrimiçi, uygulamalı atölye çalışmalarını ise yüz yüze birleştirerek verimlilik sağlar.",
+          "animate": "animate__fadeInUp animate__delay-0-4s"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ekiplerinizi Dijital Dünyaya Hazırlayın.",
+      "desc": "İhtiyaçlarınıza özel bir eğitim programı ve fiyat teklifi almak için eğitim danışmanlarımızla hemen iletişime geçin.",
+      "btn_icon": "bi-calendar-check-fill",
+      "btn_text": "Eğitim Takvimi Hakkında Bilgi Alın"
+    }
+  }
+}

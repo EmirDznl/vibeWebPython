@@ -1,0 +1,158 @@
+        /* ------------------------------------------------------------------- */
+        /* TEMEL CSS DEĞİŞKENLERİ */
+        /* ------------------------------------------------------------------- */
+        :root {
+            /* LIGHT MODE */
+            --primary-color: #3498db; 
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+            --body-bg: #eff1f3;
+            --content-bg: #ffffff;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+        }
+
+        /* Dark Mode Tanımı */
+        .dark-mode {
+            /* DARK MODE */
+            --primary-color: #5dade2; 
+            --text-dark: #ecf0f1;
+            --text-light: #bdc3c7;
+            --body-bg: #2c3e50;
+            --content-bg: #212b36;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* SAYFA GENELİ VE BİLEŞEN STİLLERİ */
+        /* ------------------------------------------------------------------- */
+        body {
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+            transition: background-color 0.3s, color 0.3s;
+        }
+        h1, h2, h5, h6 {
+            color: var(--text-dark) !important;
+        }
+        .text-primary-custom {
+             color: var(--primary-color) !important;
+        }
+
+        /* Vurgu İkon Stilleri (Sadece Primary Color) */
+        .icon-vurgu {
+            color: var(--primary-color);
+            font-size: 3rem;
+            display: inline-block;
+            transition: all 0.3s;
+        }
+        .icon-vurgu-hero {
+            color: var(--primary-color);
+            font-size: 5rem;
+            display: block;
+            margin-bottom: 1rem;
+        }
+
+        /* CTA Düğmesi Stilleri */
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white; 
+            transition: all 0.25s ease-in-out;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary-custom:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px var(--primary-color), 0 0 5px var(--primary-color); 
+            opacity: 1; 
+            filter: brightness(1.1);
+        }
+
+        /* Card ve Bölüm Stilleri */
+        .hero-section {
+            background-color: var(--content-bg);
+            box-shadow: 0 4px 20px var(--shadow-color);
+            padding: 6rem 0; 
+            border-radius: 15px;
+        }
+        .bi-focus-card {
+            background-color: var(--content-bg);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            transition: all 0.3s;
+            border-top: 5px solid var(--primary-color); 
+        }
+        .bi-focus-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.1);
+        }
+        .feature-card {
+            background-color: var(--content-bg);
+            border-radius: 8px;
+            border-left: 4px solid var(--primary-color); 
+            box-shadow: 0 4px 6px var(--shadow-color); 
+            transition: all 0.3s;
+        }
+        .feature-card:hover {
+            transform: translateY(-3px); 
+        }
+        
+        /* Dark Mode Bileşen Uyumu */
+        .dark-mode .hero-section, 
+        .dark-mode .bi-focus-card,
+        .dark-mode .feature-card {
+            background-color: var(--content-bg) !important; 
+            box-shadow: 0 4px 10px var(--shadow-color) !important; 
+        }
+        .dark-mode .bi-focus-card {
+             border-top: 5px solid var(--primary-color) !important;
+        }
+        .dark-mode .feature-card {
+             border-left: 4px solid var(--primary-color) !important;
+        }
+        .dark-mode .list-group-item {
+             color: var(--text-dark) !important;
+        }
+        
+        /* ------------------------------------------------------------------- */
+        /* MODÜL LİSTESİ ÖZEL STİLİ */
+        /* ------------------------------------------------------------------- */
+        .module-list-item {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background-color: var(--content-bg);
+            box-shadow: 0 2px 5px var(--shadow-color);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.2s;
+        }
+        .module-list-item:hover {
+            background-color: #f7f9fa; /* Hafif vurgu */
+            transform: translateX(5px);
+        }
+        .dark-mode .module-list-item:hover {
+            background-color: #2c3e50; 
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* SABİT ÜST NAVIGASYON */
+        /* ------------------------------------------------------------------- */
+        #topNavbar {
+            background-color: var(--content-bg) !important;
+            box-shadow: 0 2px 10px var(--shadow-color) !important;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            z-index: 1050; 
+        }
+        #topNavbar a, #topNavbar button {
+            color: var(--text-dark) !important;
+            transition: color 0.3s;
+        }
+        .btn.p-0.me-2 {
+            border-right: 1px solid var(--text-light); 
+            padding-right: 1rem !important;
+        }
+        .container {
+            padding-top: 80px; 
+        }

@@ -1,0 +1,57 @@
+{% load static %}
+
+
+<div style="overflow:hidden; width:100%; max-width:800px; margin:0 auto; border:1px solid #ccc; border-radius:10px; padding:10px;">
+  <div id="carousel-track" style="display:flex; width:max-content;"></div>
+</div>
+
+<script>
+  const references = [
+    { id: 1, name: "elemental", logoUrl: "{% static 'public/referenceCompanies/elemental.jpg' %}" },
+    { id: 2, name: "Dailyshot", logoUrl: "{% static 'public/referenceCompanies/dailyshot.jpg' %}" },
+    { id: 3, name: "Idenfit", logoUrl: "{% static 'public/referenceCompanies/idenfit.jpg' %}" },
+    { id: 4, name: "Orvital", logoUrl: "{% static 'public/referenceCompanies/orvital.jpg' %}" },
+    { id: 5, name: "YT Lojistik", logoUrl: "{% static 'public/referenceCompanies/ytlojistik.jpg' %}" },
+    { id: 6, name: "Acun Medya", logoUrl: "{% static 'public/referenceCompanies/acun.jpeg' %}" },
+    { id: 7, name: "Ferre", logoUrl: "https://placehold.co/120x50?text=Ferre" },
+    { id: 8, name: "Çetinkaya", logoUrl: "{% static 'public/referenceCompanies/cetinkaya.jpeg' %}" },
+  ];
+
+  const track = document.getElementById("carousel-track");
+
+  const allRefs = [...references, ...references];
+
+  allRefs.forEach(ref => {
+    const card = document.createElement("div");
+    card.style.minWidth = "150px";
+    card.style.marginRight = "10px";
+    card.style.display = "flex";
+    card.style.justifyContent = "center";
+    card.style.alignItems = "center";
+    card.style.border = "1px solid #ccc";
+    card.style.borderRadius = "10px";
+    card.style.backgroundColor = "#f5f5f5";
+    card.style.height = "70px";
+
+    const img = document.createElement("img");
+    img.src = ref.logoUrl;
+    img.alt = ref.name;
+    img.style.maxWidth = "100%";
+    img.style.maxHeight = "100%";
+    img.style.objectFit = "contain";
+
+    card.appendChild(img);
+    track.appendChild(card);
+  });
+
+  // Sürekli yavaş kaydırma
+  let position = 0;
+  function animate() {
+    position -= 1.5; // hız, px cinsinden (daha küçük = daha yavaş)
+    if(Math.abs(position) >= track.scrollWidth / 2) position = 0; // loop
+    track.style.transform = `translateX(${position}px)`;
+    requestAnimationFrame(animate);
+  }
+
+  animate();
+</script>

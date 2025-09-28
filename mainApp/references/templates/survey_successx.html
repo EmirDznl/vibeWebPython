@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+
+
+{% block title %}{% trans "teşekkürler" %}{% endblock %}
+
+
+{% block content %}
+
+<h2>{% trans "geribildirim için teşekkürler" %}</h2>
+<a href="{% url 'approved_surveys' %}">{% trans "geri dön" %}</a></body>
+{% endblock %}

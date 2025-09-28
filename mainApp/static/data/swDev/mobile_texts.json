@@ -1,0 +1,102 @@
+{
+  "tr": {
+    "title": "Mobil Uygulama Geliştirme",
+    "hero": {
+      "icon": "bi-phone-vibrate-fill",
+      "title": "Mobil Dönüşüm:",
+      "subtitle": "İşinizi Cebinize Taşıyoruz",
+      "desc1": "Sadece bir uygulama değil, Logo ERP sistemlerinizle %100 entegre çalışan, kurumsal mobilite çözümleri üretiyoruz. Sahada satıştan depo yönetimine, tüm süreçleriniz anlık veriyle aksın.",
+      "highlight": "Hızlı, Entegre, Kullanıcı Odaklı Mobil Çözümler.",
+      "button": "Mobil Proje Fikrinizi Bizimle Paylaşın",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "Bizi Rakiplerimizden Ayıran 3 Temel Güç",
+      "cards": [
+        {
+          "icon": "bi-arrow-left-right",
+          "title": "Kurumsal Entegrasyon Uzmanlığı",
+          "desc": "Sadece mobil teknolojiyi değil, Logo Tiger/Go ürünlerinin API ve Veritabanı yapısını derinlemesine biliyoruz. Bu sayede %100 hatasız entegrasyon sağlıyoruz."
+        },
+        {
+          "icon": "bi-person-fill-gear",
+          "title": "Sektörel UX/UI Odak",
+          "desc": "Uygulamalarımızda sadece estetiğe değil, sahadaki personelin hızlı ve tek elle işlem yapabilmesine odaklanan arayüzler tasarlıyoruz."
+        },
+        {
+          "icon": "bi-plug-fill",
+          "title": "Çevrimdışı Çalışma Kabiliyeti",
+          "desc": "İnternetin olmadığı depo, saha veya uzak noktalarda dahi verileri yerel olarak saklayıp, bağlantı geldiğinde otomatik senkronizasyon sağlıyoruz."
+        }
+      ]
+    },
+    "approach": {
+      "title": "Mobil Geliştirme Yaklaşımımız",
+      "steps": [
+        {"icon": "bi-rocket-takeoff-fill", "title": "Adım 1: İhtiyaç Analizi ve Prototipleme", "desc": "Saha ziyaretleri ve toplantılarla gerçek kullanıcı hikayelerini toplarız. Hızlıca interaktif prototipler oluşturarak onayınızı alırız."},
+        {"icon": "bi-code-slash", "title": "Adım 2: Çevik Geliştirme ve Entegrasyon", "desc": "Haftalık sprintler ve sürekli geri bildirimle projeyi ilerletiriz. Mobil uygulama, ERP API'si üzerinden canlı veri akışıyla geliştirilir."},
+        {"icon": "bi-check2-square", "title": "Adım 3: Test ve Yayınlama", "desc": "Beta testleri ve performans/güvenlik sızma testleri tamamlandıktan sonra uygulamayı Apple Store ve Google Play'de yayınlarız."},
+        {"icon": "bi-gear-fill", "title": "Adım 4: Sürekli Destek ve Bakım", "desc": "İşletim sistemi güncellemelerine (iOS/Android) tam uyumluluk, hata düzeltmeleri ve yeni özellik geliştirmeleri için sürekli destek sağlarız."}
+      ],
+      "technologies": {
+        "title": "Kullandığımız Teknolojiler",
+        "desc": "Native (Swift/Kotlin) ve Cross-Platform (React Native/Flutter) teknolojilerini projenizin ihtiyacına göre esnekçe kullanıyoruz.",
+        "icons": [
+          {"icon": "bi-apple", "title": "iOS/Swift"},
+          {"icon": "bi-android", "title": "Android/Kotlin"},
+          {"icon": "bi-alt", "title": "Cross-Platform Frameworks"}
+        ]
+      }
+    },
+    "cta": {
+      "title": "Mobil Uygulamanızla İş Süreçlerinize Hız Katın.",
+      "desc": "Logo ERP entegrasyonlu mobil projeniz için uzman ekibimizle hemen tanışın.",
+      "button": "Ücretsiz Danışmanlık Alın",
+      "link": "tel:+908502428423"
+    }
+  },
+  "en": {
+    "title": "Mobile Application Development",
+    "hero": {
+      "icon": "bi-phone-vibrate-fill",
+      "title": "Mobile Transformation:",
+      "subtitle": "We Bring Your Business to Your Pocket",
+      "desc1": "Not just an app, but enterprise mobility solutions fully integrated with your Logo ERP systems. From field sales to warehouse management, let your processes flow with real-time data.",
+      "highlight": "Fast, Integrated, User-Centric Mobile Solutions.",
+      "button": "Share Your Mobile Project Idea",
+      "link": "mailto:info@vibebilisim.com"
+    },
+    "features": {
+      "title": "3 Key Strengths That Set Us Apart",
+      "cards": [
+        {"icon": "bi-arrow-left-right", "title": "Enterprise Integration Expertise", "desc": "We know not only mobile technology but also the API and database structure of Logo Tiger/Go products in depth, ensuring 100% error-free integration."},
+        {"icon": "bi-person-fill-gear", "title": "Industry-Focused UX/UI", "desc": "Our interfaces focus on fast and one-handed operation for field personnel, not just aesthetics."},
+        {"icon": "bi-plug-fill", "title": "Offline Capability", "desc": "Even in warehouses, field or remote locations without internet, data is stored locally and automatically synchronized once online."}
+      ]
+    },
+    "approach": {
+      "title": "Our Mobile Development Approach",
+      "steps": [
+        {"icon": "bi-rocket-takeoff-fill", "title": "Step 1: Requirement Analysis & Prototyping", "desc": "We collect real user stories through site visits and meetings, quickly create interactive prototypes, and get your approval."},
+        {"icon": "bi-code-slash", "title": "Step 2: Agile Development & Integration", "desc": "We advance the project with weekly sprints and continuous feedback. The mobile app is developed with live data flow via ERP API."},
+        {"icon": "bi-check2-square", "title": "Step 3: Testing & Launch", "desc": "After beta tests and performance/security penetration tests, we publish the app on Apple Store and Google Play."},
+        {"icon": "bi-gear-fill", "title": "Step 4: Ongoing Support & Maintenance", "desc": "We provide continuous support for OS updates (iOS/Android), bug fixes, and new feature development."}
+      ],
+      "technologies": {
+        "title": "Technologies We Use",
+        "desc": "We flexibly use Native (Swift/Kotlin) and Cross-Platform (React Native/Flutter) technologies according to your project needs.",
+        "icons": [
+          {"icon": "bi-apple", "title": "iOS/Swift"},
+          {"icon": "bi-android", "title": "Android/Kotlin"},
+          {"icon": "bi-alt", "title": "Cross-Platform Frameworks"}
+        ]
+      }
+    },
+    "cta": {
+      "title": "Accelerate Your Business Processes With Your Mobile App.",
+      "desc": "Meet our expert team for your Logo ERP integrated mobile project today.",
+      "button": "Get Free Consultation",
+      "link": "tel:+908502428423"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}{% trans "Müşteri Yorumu" %}{% endblock %}
+
+{% block extra_head %}
+<style>
+    /* -------------------------------------- */
+    /* Light Mode (Varsayılan) Paletiniz */
+    /* -------------------------------------- */
+    :root {
+        --primary-color: #3498db;
+        --text-dark: #2c3e50;
+        --text-light: #7f8c8d;
+        --body-bg: #eff1f3;
+        --content-bg: #ffffff;
+        --shadow-color: rgba(0, 0, 0, 0.08);
+    }
+
+    /* -------------------------------------- */
+    /* Dark Mode Paletiniz */
+    /* -------------------------------------- */
+    .dark-mode {
+        --primary-color: #5dade2;
+        --text-dark: #ecf0f1;
+        --text-light: #bdc3c7;
+        --body-bg: #2c3e50;
+        --content-bg: #212b36;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+    }
+
+    /* Genel Sayfa ve Bileşen Stilleri */
+    body {
+        background-color: var(--body-bg);
+        color: var(--text-dark);
+        transition: background-color 0.5s, color 0.5s;
+    }
+    .text-primary-custom {
+        color: var(--primary-color) !important;
+    }
+
+    /* Buton Stili (Tema uyumlu) */
+    .btn-primary-custom {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: #fff;
+        transition: background-color .3s, border-color .3s, transform .2s;
+    }
+    .btn-primary-custom:hover {
+        background-color: #2980b9; 
+        border-color: #2980b9;
+        transform: translateY(-2px);
+    }
+    
+    /* Input/Textarea Stilleri için Dark Mode uyumu */
+    .form-control {
+        background-color: var(--content-bg);
+        color: var(--text-dark);
+        border: 1px solid var(--text-light);
+        transition: all 0.3s;
+    }
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.25rem rgba(52, 152, 219, 0.25); /* Primary renkli mat focus */
+    }
+
+    /* -------------------------------------- */
+    /* Dark Mode Toggle Butonu Stili */
+    /* -------------------------------------- */
+    #darkModeToggle {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1050;
+        background-color: var(--content-bg);
+        color: var(--text-dark);
+        border: 1px solid var(--text-light);
+        padding: 10px 15px;
+        border-radius: 50px;
+        cursor: pointer;
+        box-shadow: 0 4px 8px var(--shadow-color);
+        transition: all 0.3s;
+    }
+    #darkModeToggle:hover {
+        background-color: var(--primary-color);
+        color: #fff;
+    }
+
+    /* -------------------------------------- */
+    /* highlight-form-card Stili (İstenen Stil) */
+    /* -------------------------------------- */
+    .highlight-form-card {
+        background-color: var(--content-bg);
+        border-radius: 15px;
+        /* Daha belirgin gölge */
+        box-shadow: 0 15px 35px var(--shadow-color) !important; 
+        /* Kalın birincil renkli çerçeve */
+        border: 2px solid var(--primary-color) !important; 
+        transition: transform 0.3s, box-shadow 0.3s;
+        padding: 40px;
+    }
+    .highlight-form-card:hover {
+         transform: translateY(-5px);
+         box-shadow: 0 20px 40px var(--shadow-color) !important;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="highlight-form-card p-5 animate__animated animate__zoomIn">
+                
+                <h2 class="text-center mb-4 fw-bold" style="color: var(--primary-color);">{% trans "Hizmet Hakkındaki Yorumunuz" %}</h2>
+                <p class="text-center mb-4" style="color: var(--text-light);">{% trans "Lütfen tarafınıza iletilen doğrulama kodu ile giriş yapınız." %}</p>
+
+                <form method="post">
+                    {% csrf_token %}
+                    
+                    <div class="mb-4">
+                        <label for="{{ form.customer_code.id_for_label }}" class="form-label fw-bold" style="color: var(--text-dark);">{% trans "Tarafınıza İletilen Kod" %}</label>
+                        {{ form.customer_code }}
+                        {% for error in form.customer_code.errors %}
+                            <div class="text-danger small mt-1">{{ error }}</div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="{{ form.comment.id_for_label }}" class="form-label fw-bold" style="color: var(--text-dark);">{% trans "Yorumunuz" %}</label>
+                        {{ form.comment }}
+                        {% for error in form.comment.errors %}
+                            <div class="text-danger small mt-1">{{ error }}</div>
+                        {% endfor %}
+                    </div>
+                    
+                    <div class="text-center mt-5">
+                        <button type="submit" class="btn btn-primary-custom btn-lg w-100">
+                             <i class="bi bi-send-fill me-2"></i> {% trans "Gönder" %}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

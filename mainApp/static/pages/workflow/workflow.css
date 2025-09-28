@@ -1,0 +1,107 @@
+ 
+        :root {
+            /* Light Mode */
+            --primary-color: #3498db;
+            --text-dark: #2c3e50;
+            --text-light: #7f8c8d;
+            --body-bg: #eff1f3;
+            --content-bg: #ffffff;
+            --shadow-color: rgba(0, 0, 0, 0.08);
+        }
+
+        /* Dark Mode Tanımı */
+        .dark-mode {
+            /* Dark Mode Değerleri */
+            --primary-color: #5dade2;
+            --text-dark: #ecf0f1;
+            --text-light: #bdc3c7;
+            --body-bg: #2c3e50;
+            --content-bg: #212b36;
+            --shadow-color: rgba(0, 0, 0, 0.3);
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+        }
+
+        /* Sayfa Geneli Stilleri */
+        body {
+            background-color: var(--body-bg);
+            color: var(--text-dark);
+        }
+        h1, h2, h5, h6 {
+            color: var(--text-dark);
+        }
+        i {
+            color: var(--primary-color);
+        }
+        .btn-primary-custom {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white; 
+        }
+        .btn-primary-custom:hover {
+            opacity: 0.9;
+        }
+
+        /* ------------------------------------------------------------------- */
+        /* DARK MODE VE ANİMASYON GEÇİŞ KURALLARI */
+        /* ------------------------------------------------------------------- */
+        .dark-mode .hero-section, 
+        .dark-mode .feature-card,
+        .dark-mode .workflow-step {
+            background-color: var(--content-bg) !important; 
+            box-shadow: 0 4px 10px var(--shadow-color) !important; 
+            border: none !important;
+        }
+
+        .dark-mode .feature-card {
+            border-left: 5px solid var(--primary-color) !important;
+        }
+        
+        .dark-mode .feature-card:hover {
+            transform: translateY(-5px) !important;
+            box-shadow: 0 10px 20px var(--shadow-color) !important;
+        }
+
+        .dark-mode h1, .dark-mode h2, .dark-mode h5, .dark-mode h6 {
+            color: var(--text-dark) !important; 
+        }
+
+        /* Yeni Akış Adımı Stili */
+        .workflow-step {
+            background-color: var(--content-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            padding: 30px;
+            transition: all 0.3s;
+            position: relative;
+        }
+        .workflow-step:hover {
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+            transform: translateY(-3px);
+        }
+        
+        /* Akış Çizgisi */
+        .workflow-line {
+            position: relative;
+            height: 3px;
+            background-color: var(--primary-color);
+            margin: 0 10%;
+            top: 50px; 
+            z-index: 0;
+        }
+        .dark-mode .workflow-line {
+             background-color: var(--primary-color);
+        }
+
+        /* Dark Mode Switch Stili (Bootstrap 5 Switch) */
+        .theme-switch {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background-color: var(--content-bg);
+            padding: 10px 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px var(--shadow-color);
+            border: 1px solid var(--text-light);
+        }

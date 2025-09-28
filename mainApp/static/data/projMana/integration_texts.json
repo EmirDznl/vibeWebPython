@@ -1,0 +1,106 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Sorunsuz Veri Akışı: Entegrasyon Yönetimi ve API Çözümleri",
+      "subtitle": "Farklı sistemlerinizi Logo/ERP altyapınızla tek bir merkezde birleştirin. Veri tekrarını ve manuel işlemleri ortadan kaldırarak hız kazanın.",
+      "highlight": "E-Ticaret'ten Lojistiğe, Tam Kontrol.",
+      "button": "Ücretsiz Entegrasyon Analizi Talep Edin"
+    },
+    "scenarios": [
+      {
+        "icon": "bi-basket-fill",
+        "title": "E-Ticaret Entegrasyonu",
+        "desc": "Stok, sipariş, fiyat ve müşteri verilerinin e-ticaret siteleri ile (WooCommerce, Shopify vb.) senkronizasyonu."
+      },
+      {
+        "icon": "bi-truck",
+        "title": "Lojistik ve Kargo",
+        "desc": "Sevkiyat bilgileri, takip numaraları ve teslimat durumlarının kargo/lojistik firmaları ile otomatik paylaşımı."
+      },
+      {
+        "icon": "bi-credit-card",
+        "title": "Finansal Sistemler",
+        "desc": "Banka hesap hareketleri, POS ve sanal POS entegrasyonları ile tahsilatların anlık takibi."
+      }
+    ],
+    "steps": [
+      {
+        "number": "1",
+        "title": "İhtiyaç Analizi",
+        "desc": "Mevcut sistemleriniz, veri akış yönleri ve entegrasyonun iş akışınıza etkisi detaylıca analiz edilir."
+      },
+      {
+        "number": "2",
+        "title": "API/Veri Şeması Tasarımı",
+        "desc": "Entegre edilecek sistemlerin API'leri belirlenir, veri haritalama ve dönüşüm kuralları oluşturulur."
+      },
+      {
+        "number": "3",
+        "title": "Geliştirme ve Test",
+        "desc": "Kodlama yapılır, tüm senaryolar test ortamında simüle edilir ve veri bütünlüğü kontrol edilir."
+      },
+      {
+        "number": "4",
+        "title": "Canlı Yayın ve İzleme",
+        "desc": "Canlı ortama geçiş yapılır ve entegrasyonun performansı sürekli izlenerek raporlanır."
+      }
+    ],
+    "cta": {
+      "title": "Veri Silolarını Yıkın, İş Akışınızı Akıcı Hale Getirin.",
+      "desc": "Sistemlerinizin uyum içinde çalışması için uzman entegrasyon çözümlerimizi keşfedin.",
+      "button": "Entegrasyon Uzmanımızla Görüşün"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Seamless Data Flow: Integration Management & API Solutions",
+      "subtitle": "Connect your different systems with your Logo/ERP infrastructure at a single hub. Eliminate data duplication and manual operations for speed.",
+      "highlight": "From E-Commerce to Logistics, Full Control.",
+      "button": "Request a Free Integration Analysis"
+    },
+    "scenarios": [
+      {
+        "icon": "bi-basket-fill",
+        "title": "E-Commerce Integration",
+        "desc": "Synchronization of stock, orders, prices, and customer data with e-commerce platforms (WooCommerce, Shopify, etc.)."
+      },
+      {
+        "icon": "bi-truck",
+        "title": "Logistics & Shipping",
+        "desc": "Automatic sharing of shipment info, tracking numbers, and delivery status with logistics/shipping companies."
+      },
+      {
+        "icon": "bi-credit-card",
+        "title": "Financial Systems",
+        "desc": "Real-time tracking of bank account movements, POS, and virtual POS collections."
+      }
+    ],
+    "steps": [
+      {
+        "number": "1",
+        "title": "Needs Analysis",
+        "desc": "Analyze current systems, data flow directions, and the integration's impact on workflow."
+      },
+      {
+        "number": "2",
+        "title": "API/Data Schema Design",
+        "desc": "Determine APIs of systems to be integrated, create mapping and transformation rules."
+      },
+      {
+        "number": "3",
+        "title": "Development & Testing",
+        "desc": "Code is developed, all scenarios simulated in test environment, and data integrity verified."
+      },
+      {
+        "number": "4",
+        "title": "Go Live & Monitoring",
+        "desc": "Move to live environment and continuously monitor and report integration performance."
+      }
+    ],
+    "cta": {
+      "title": "Break Data Silos, Make Your Workflow Smooth.",
+      "desc": "Discover our expert integration solutions to ensure your systems work in harmony.",
+      "button": "Talk to Our Integration Expert"
+    }
+  }
+}

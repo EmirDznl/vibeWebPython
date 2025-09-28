@@ -1,0 +1,90 @@
+{% load static %}
+{% load i18n %}
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+    <!-- Logo -->
+<a class="navbar-brand fw-bold text-primary" href="{% static 'public/navbar/logo.svg' %}">
+    <img src="{% static 'public/navbar/logo.svg' %}" alt="MySite Logo" height="40">
+</a>
+    <!-- Hamburger Menü -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menü -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" href="/">{% trans "Ana Sayfa" %}</a>
+        </li>
+
+        <!-- Ürünler Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/products/" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {% trans "Ürünler" %}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+            <li><a class="dropdown-item" href="/products/micro/">{% trans "Mikro İşletmeler" %}</a></li>
+            <li><a class="dropdown-item" href="/products/mid/">{% trans "Orta Ölçekli İşletmeler" %}</a></li>
+            <li><a class="dropdown-item" href="/products/large/">{% trans "Büyük Ölçekli İşletmeler" %}</a></li>
+          </ul>
+        </li>
+
+        <!-- Hizmetler Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="/services/" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {% trans "Hizmetler" %}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+            <li><a class="dropdown-item" href="/services/erp/">{% trans "ERP Proje Yönetimi" %}</a></li>
+            <li><a class="dropdown-item" href="/services/software/">{% trans "Yazılım Projelendirme" %}</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/about/">{% trans "Hakkımızda" %}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/references/">{% trans "Referanslar" %}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact/">{% trans "İletişim" %}</a>
+        </li>
+      </ul>
+
+      <!-- CTA ve Dil Switch -->
+      <div class="d-flex align-items-center">
+        <a href="/teklif/" class="btn btn-primary me-3">{% trans "Teklif Al" %}</a>
+
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="lang-toggle" {% if LANGUAGE_CODE == 'en' %}checked{% endif %}>
+          <label class="form-check-label" for="lang-toggle">
+            {% if LANGUAGE_CODE == 'en' %} EN {% else %} TR {% endif %}
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<script>
+document.getElementById("lang-toggle").addEventListener("change", function() {
+    const currentLang = "{{ LANGUAGE_CODE }}";
+    const newLang = (currentLang === "en") ? "tr" : "en";
+
+    const path = window.location.pathname;
+    let parts = path.split("/");
+
+    if (parts[1] === "en" || parts[1] === "tr") {
+        parts[1] = newLang;
+    } else {
+        parts.splice(1, 0, newLang);
+    }
+    window.location.href = parts.join("/");
+});
+</script>

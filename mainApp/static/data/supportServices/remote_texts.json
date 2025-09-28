@@ -1,0 +1,136 @@
+{
+  "tr": {
+    "title": "Uzaktan Destek Hizmetleri",
+    "hero": {
+      "icon": "bi-headset",
+      "title": "Kesintisiz İş Akışı:",
+      "subtitle": "Hızlı Uzaktan Destek Hizmetleri",
+      "desc1": "Sisteminizde karşılaştığınız tüm sorunlara, gelişmiş ve güvenli uzaktan bağlantı araçlarımızla anında müdahale ediyoruz.",
+      "highlight": "Çözüm Bir Tık Uzağınızda.",
+      "desc2": "Bekleme süresini en aza indiren çağrı yönetim sistemimiz ve uzman ekibimizle, iş sürekliliğinizi garantileyin.",
+      "button": "Hemen Destek Hattını Ara: +90 (850) 242 84 23"
+    },
+    "benefits": {
+      "title": "Neden Uzaktan Desteği Seçmelisiniz?",
+      "cards": [
+        {
+          "icon": "bi-speedometer",
+          "title": "Anında Müdahale",
+          "desc": "Yerinde servis beklemenize gerek kalmadan, dakikalar içinde sorununuzla ilgileniyoruz."
+        },
+        {
+          "icon": "bi-lock-fill",
+          "title": "Yüksek Güvenlik",
+          "desc": "Kullandığımız kurumsal uzaktan bağlantı yazılımları, veri gizliliğinizi ve güvenliğinizi korur."
+        },
+        {
+          "icon": "bi-currency-dollar",
+          "title": "Maliyet Avantajı",
+          "desc": "Seyahat ve lojistik maliyetlerini ortadan kaldırarak daha uygun fiyatlı çözümler sunarız."
+        }
+      ]
+    },
+    "contact_channels": {
+      "title": "Bize Hangi Kanallardan Ulaşabilirsiniz?",
+      "cards": [
+        {
+          "icon": "bi-telephone-inbound-fill",
+          "title": "Acil Destek Hattı",
+          "info": "+90 (850) 242 84 23",
+          "desc": "En hızlı çözüm için bizi doğrudan arayın. Uzmanımız anında bağlantı ID'si verecektir.",
+          "button": "Hemen Ara",
+          "link": "tel:+908502428423"
+        },
+        {
+          "icon": "bi-envelope-fill",
+          "title": "E-posta ile Talep",
+          "info": "destek@vibebilisim.com",
+          "desc": "Detaylı sorun bildirimleri ve ekran görüntüleri için e-posta gönderin. Biletiniz otomatik oluşturulur.",
+          "button": "E-posta Gönder",
+          "link": "mailto:destek@vibebilisim.com"
+        },
+        {
+          "icon": "bi-person-workspace",
+          "title": "Online Destek Portalı",
+          "info": "Portal.VibeBilisim.com",
+          "desc": "Geçmiş biletlerinizi takip edin, bilgi bankamıza erişin ve yeni bir destek kaydı oluşturun.",
+          "button": "Portala Git",
+          "link": "/destek-portali-linki"
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vibe Bilişim Farkı: Hızlı, Güvenilir, Uzman.",
+      "desc": "Siz işinize odaklanın, teknik aksaklıkları çözmek için biz her kanaldan buradayız.",
+      "button": "7/24 Destek Hattı",
+      "link": "tel:+908502428423"
+    }
+  },
+  "en": {
+    "title": "Remote Support Services",
+    "hero": {
+      "icon": "bi-headset",
+      "title": "Uninterrupted Workflow:",
+      "subtitle": "Fast Remote Support Services",
+      "desc1": "We intervene immediately to all issues on your system via advanced and secure remote connection tools.",
+      "highlight": "Solution Just a Click Away.",
+      "desc2": "With our call management system minimizing wait time and our expert team, ensure your business continuity.",
+      "button": "Call Support Now: +90 (850) 242 84 23"
+    },
+    "benefits": {
+      "title": "Why Choose Remote Support?",
+      "cards": [
+        {
+          "icon": "bi-speedometer",
+          "title": "Immediate Intervention",
+          "desc": "We address your issue within minutes without waiting for on-site service."
+        },
+        {
+          "icon": "bi-lock-fill",
+          "title": "High Security",
+          "desc": "Our corporate remote connection software ensures data privacy and security."
+        },
+        {
+          "icon": "bi-currency-dollar",
+          "title": "Cost Advantage",
+          "desc": "Eliminate travel and logistics costs to provide more affordable solutions."
+        }
+      ]
+    },
+    "contact_channels": {
+      "title": "How Can You Reach Us?",
+      "cards": [
+        {
+          "icon": "bi-telephone-inbound-fill",
+          "title": "Emergency Support Line",
+          "info": "+90 (850) 242 84 23",
+          "desc": "Call us directly for the fastest solution. Our expert will provide an instant connection ID.",
+          "button": "Call Now",
+          "link": "tel:+908502428423"
+        },
+        {
+          "icon": "bi-envelope-fill",
+          "title": "Request via Email",
+          "info": "destek@vibebilisim.com",
+          "desc": "Send an email with detailed problem reports and screenshots. Your ticket will be automatically created.",
+          "button": "Send Email",
+          "link": "mailto:destek@vibebilisim.com"
+        },
+        {
+          "icon": "bi-person-workspace",
+          "title": "Online Support Portal",
+          "info": "Portal.VibeBilisim.com",
+          "desc": "Track past tickets, access our knowledge base, and create a new support request.",
+          "button": "Go to Portal",
+          "link": "/destek-portali-linki"
+        }
+      ]
+    },
+    "cta": {
+      "title": "The Vibe Bilisim Difference: Fast, Reliable, Expert.",
+      "desc": "Focus on your business, we are here on every channel to resolve technical issues.",
+      "button": "24/7 Support Line",
+      "link": "tel:+908502428423"
+    }
+  }
+}

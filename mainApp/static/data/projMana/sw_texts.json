@@ -1,0 +1,124 @@
+{
+  "tr": {
+    "hero": {
+      "title": "Doğru Başlangıç, Yüksek Başarı: Yazılım Projelendirme",
+      "subtitle": "Sistem seçimi, süreç analizi ve detaylı gereksinim belirleme ile yazılım yatırımınızın temelini sağlam atın.",
+      "highlight": "Kaosu Bitirin, Vizyonu Netleştirin.",
+      "button": "Ücretsiz Ön Analiz Talep Edin"
+    },
+    "process": [
+      {
+        "icon": "bi-search",
+        "title": "1. Detaylı Süreç Analizi",
+        "desc": "Mevcut iş akışlarınızı haritalandırır, darboğazları ve otomasyon gereksinimlerini tespit ederiz."
+      },
+      {
+        "icon": "bi-list-check",
+        "title": "2. Gereksinim Belirleme (Kapsam)",
+        "desc": "Fonksiyonel ve teknik gereksinimleri netleştirir, kapsam dışı kalacak alanları tanımlarız."
+      },
+      {
+        "icon": "bi-bar-chart-fill",
+        "title": "3. Proje Yolu ve Raporlama",
+        "desc": "Gerçekçi bir zaman çizelgesi, maliyet tahmini ve risk yönetim planı oluşturup raporlarız."
+      }
+    ],
+    "outputs": [
+      {
+        "title": "Süreç Haritaları (As-Is / To-Be)",
+        "badge": "Teslim Edildi"
+      },
+      {
+        "title": "Risk ve Fırsat Analizi",
+        "badge": "Teslim Edildi"
+      },
+      {
+        "title": "Tedarikçi Seçim Kriterleri",
+        "badge": "Onay Bekleniyor"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "bi-x-octagon-fill",
+        "title": "Kapsam Kaymasını Önleme",
+        "desc": "\"Ne istediğini bilmeme\" sorununu baştan çözerek bütçe aşımını ve gecikmeleri minimuma indirin."
+      },
+      {
+        "icon": "bi-clock-fill",
+        "title": "Hızlı Karar Alma",
+        "desc": "Doğru veriye dayalı karşılaştırmalı analizler ile yazılım seçimi sürecini hızlandırın."
+      },
+      {
+        "icon": "bi-hand-thumbs-up-fill",
+        "title": "Kullanıcı Benimseme",
+        "desc": "Süreçlere en başından dahil edilen son kullanıcıların yeni sisteme adaptasyonunu kolaylaştırın."
+      }
+    ],
+    "cta": {
+      "title": "Yatırımınızı Şansa Bırakmayın.",
+      "desc": "Projenizi uluslararası standartlara uygun bir metodoloji ile başlatmak için hemen uzmanlarımızla iletişime geçin.",
+      "button": "Proje Danışmanıyla Görüşün"
+    }
+  },
+  "en": {
+    "hero": {
+      "title": "Right Start, High Success: Software Planning",
+      "subtitle": "Lay a solid foundation for your software investment with system selection, process analysis, and detailed requirement definition.",
+      "highlight": "End Chaos, Clarify Vision.",
+      "button": "Request Free Pre-Analysis"
+    },
+    "process": [
+      {
+        "icon": "bi-search",
+        "title": "1. Detailed Process Analysis",
+        "desc": "We map current workflows and identify bottlenecks and automation requirements."
+      },
+      {
+        "icon": "bi-list-check",
+        "title": "2. Requirement Definition (Scope)",
+        "desc": "Functional and technical requirements are clarified, and out-of-scope areas defined."
+      },
+      {
+        "icon": "bi-bar-chart-fill",
+        "title": "3. Project Path & Reporting",
+        "desc": "A realistic timeline, cost estimate, and risk management plan are created and reported."
+      }
+    ],
+    "outputs": [
+      {
+        "title": "Process Maps (As-Is / To-Be)",
+        "badge": "Delivered"
+      },
+      {
+        "title": "Risk & Opportunity Analysis",
+        "badge": "Delivered"
+      },
+      {
+        "title": "Supplier Selection Criteria",
+        "badge": "Pending Approval"
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "bi-x-octagon-fill",
+        "title": "Prevent Scope Creep",
+        "desc": "Solve the \"not knowing what you want\" problem upfront to minimize budget overruns and delays."
+      },
+      {
+        "icon": "bi-clock-fill",
+        "title": "Fast Decision Making",
+        "desc": "Accelerate software selection with data-driven comparative analyses."
+      },
+      {
+        "icon": "bi-hand-thumbs-up-fill",
+        "title": "User Adoption",
+        "desc": "Ensure end-users involved from the start adapt easily to the new system."
+      }
+    ],
+    "cta": {
+      "title": "Don't Leave Your Investment to Chance.",
+      "desc": "Start your project with an internationally standard methodology by contacting our experts immediately.",
+      "button": "Talk to Project Consultant"
+    }
+  }
+}
